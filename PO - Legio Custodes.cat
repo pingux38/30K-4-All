@@ -33,12 +33,6 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="491c-acac-4a65-9b23"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Guardian Spear" hidden="false" type="selectionEntry" targetId="9e55-ae31-3ba6-d720" id="19be-91c9-41b0-8055">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="19a0-d1c5-4044-8094"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b0fa-0816-4676-b852"/>
-              </constraints>
-            </entryLink>
             <entryLink name="Misericord" hidden="false" type="selectionEntry" targetId="c17e-8004-3f25-e502" id="766e-abac-46bb-9ad3">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="80b9-59ce-47c6-a246"/>
@@ -55,6 +49,13 @@
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9935-17d1-46ff-b98f"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fc0e-3f96-4579-9113"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Shield-Hosts of the Legio Custodes" hidden="false" id="8e7e-55bb-387f-832b" type="selectionEntryGroup" targetId="43b3-7ac2-696a-e0c0"/>
+            <entryLink import="true" name="Melta Bomb" hidden="false" id="4ddb-edc6-84f8-33e2" type="selectionEntry" targetId="e55d-d31b-46a9-aeb6">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a369-5ef1-331b-37a0" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f45-4d22-1fcb-edf4" includeChildSelections="false"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -75,11 +76,8 @@
                   </constraints>
                 </entryLink>
               </entryLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0422-a533-4891-b4a1"/>
-              </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="The Host-Master may replace his Guardian Spear with one of the following options:" id="c598-dacf-409a-ab6b">
+            <selectionEntryGroup name="May replace his Guardian Spear with one of the following options:" id="c598-dacf-409a-ab6b" defaultSelectionEntryId="19be-91c9-41b0-8055">
               <entryLinks>
                 <entryLink name="Sentinel Warblade" hidden="false" type="selectionEntry" targetId="0c34-7afc-bced-140f" id="0e78-846f-46c8-9d29">
                   <constraints>
@@ -147,9 +145,15 @@
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4ec7-574b-4d89-a099"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Guardian Spear" hidden="false" id="19be-91c9-41b0-8055" type="selectionEntry" targetId="9e55-ae31-3ba6-d720">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b0fa-0816-4676-b852"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ddd1-87e6-4005-81b8"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="55ca-4f3a-1863-70f9" includeChildSelections="false"/>
               </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -157,10 +161,8 @@
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="e8a9-a7d9-42fc-a316" name="Infantry" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="ffa2-0201-4626-92b4" name="Character" primary="false"/>
             <categoryLink targetId="59a4-7b61-600a-c457" id="b9ac-20f6-4d14-8048" name="Skirmish" primary="false"/>
+            <categoryLink targetId="4f07-3d45-4f28-a0c6" id="a3b7-3388-79d8-2d3" primary="false" name="Independent Character"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Melta Bombs
-	 Checked under Melta Bombs</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -173,11 +175,25 @@ Could not find wargear Melta Bombs
         <infoLink name="Relentless" hidden="false" type="rule" targetId="7adf-ac9a-5035-522d" id="b208-907e-42be-818a"/>
         <infoLink name="Stubborn" hidden="false" type="rule" targetId="7989-1f2c-a43d-82ae" id="3861-8ff9-4941-a05f"/>
         <infoLink name="Loyalist" hidden="false" type="rule" targetId="d1de-a45d-2b9b-c878" id="17ee-b3fe-43cf-ab1f"/>
-        <infoLink name="Support Squad" hidden="false" type="rule" targetId="768e-56d6-ca52-24ae" id="1ea5-2950-43dc-a375"/>
+        <infoLink name="Support Squad" hidden="false" type="rule" targetId="768e-56d6-ca52-24ae" id="1ea5-2950-43dc-a375">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="d4f2-6da5-b6de-06ec" shared="true"/>
+                    <condition type="equalTo" value="1" field="selections" scope="c9d0-c3e7-4175-a227" childId="9a8f-3be6-f74c-243b" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
       </infoLinks>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Independent Character
-Could not find rule: Master of the Shield Hosts</comment>
+      <comment>DONE</comment>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="d2b7-bcdb-6ee4-b42a" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry name="Custodian Agamatii Shield Captain" type="unit" id="4b7d-b45e-4a10-adec" page="61" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
@@ -330,15 +346,17 @@ Could not find rule: Master of the Shield Hosts</comment>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="492a-db35-4ae3-8862" name="Character" primary="false"/>
             <categoryLink targetId="4303-1348-cce4-9501" id="8990-8326-43a2-9cec" name="Antigrav" primary="false"/>
             <categoryLink targetId="59a4-7b61-600a-c457" id="dd63-50e9-4221-8859" name="Skirmish" primary="false"/>
+            <categoryLink targetId="4f07-3d45-4f28-a0c6" id="424d-f935-7d71-b6ed" primary="false" name="Independent Character"/>
+            <categoryLink targetId="6d79-a3e4-381f-7b0f" id="9630-f36c-4586-99d3" primary="false" name="Cavalry Unit-type:"/>
           </categoryLinks>
           <comment>!BSC Errors from 20240406-1603
 Could not find wargear Misericordia
-	 Checked under Misericordia
+Checked under Misericordia
 Could not find wargear Melta Bombs
-	 Checked under Melta Bombs
+Checked under Melta Bombs
 Could not find wargear Custodes Gyrfalcon Jetbike
-	 Checked under Custodes Gyrfalcon Jetbike
-Could not find type or subtype &apos;Cavalry&apos;</comment>
+Checked under Custodes Gyrfalcon Jetbike
+</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -360,8 +378,6 @@ Could not find type or subtype &apos;Cavalry&apos;</comment>
         <infoLink name="Outflank" hidden="false" type="rule" targetId="bfbf-e75c-49a2-0285" id="3d31-ce58-4936-9a07"/>
         <infoLink name="Loyalist" hidden="false" type="rule" targetId="d1de-a45d-2b9b-c878" id="7238-a024-42bb-a588"/>
       </infoLinks>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Independent Character</comment>
     </selectionEntry>
     <selectionEntry name="Custodian Vertoii Shield Captain" type="unit" id="466a-3759-4ec7-8464" page="62" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
@@ -719,6 +735,7 @@ Could not find rule: Independent Character</comment>
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="396e-9033-4e89-971f" name="Infantry" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="486f-cd6f-4d21-a536" name="Character" primary="false"/>
             <categoryLink targetId="59a4-7b61-600a-c457" id="5089-e48d-4533-af82" name="Skirmish" primary="false"/>
+            <categoryLink targetId="4f07-3d45-4f28-a0c6" id="1d02-14a2-12c6-da43" primary="false" name="Independent Character"/>
           </categoryLinks>
           <comment>!BSC Errors from 20240406-1603
 Could not find wargear Balistus Grenade Launcher
@@ -748,8 +765,6 @@ Could not find wargear Allarus Terminator Armour
         <infoLink name="Stubborn" hidden="false" type="rule" targetId="7989-1f2c-a43d-82ae" id="0649-c7e2-4bf5-9563"/>
         <infoLink name="Loyalist" hidden="false" type="rule" targetId="d1de-a45d-2b9b-c878" id="0f83-9a89-4d87-be4d"/>
       </infoLinks>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Independent Character</comment>
     </selectionEntry>
     <selectionEntry name="Custodian Aquilus Shield Captain" type="unit" id="3cbf-3566-43db-af30" page="64" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
@@ -2098,10 +2113,291 @@ Could not find wargear in Any Custodes Grav-Spartan may exchange its Two Sponson
         <infoLink name="Gravitic Repulsion" hidden="false" type="rule" targetId="2ada-cadc-4fa5-a3bf" id="aa5e-62f4-4271-a0ee"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Honoured Ancient" hidden="false" id="7215-4683-c2c5-bd27">
+      <profiles>
+        <profile name="Honoured Ancient" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="8269-ca7f-cc42-33bf" publicationId="f856-58d6-ef02-7d3e" page="55">
+          <characteristics>
+            <characteristic name="Description" hidden="false" id="7df9-908d-2b88-7cd8" typeId="347e-ee4a-764f-6be3">A model upgraded to be an Honoured Ancient is equipped with an Iron Halo and gains the Eternal Warrior Special Rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Eternal Warrior" hidden="false" id="fb32-2ed6-fe59-7aa4" type="rule" targetId="000b-fe96-31f8-c0ad"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Iron Halo" hidden="false" id="20df-39a4-5c95-d9eb" type="selectionEntry" targetId="b081-bf3c-f43d-4bd5">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="121b-c346-25fc-93e7" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b5a-f483-bbf7-b954" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Tenebris Praetoria" hidden="false" id="584f-1760-6ef0-5c43">
+      <profiles>
+        <profile name="Tenebris Praetoria" hidden="false" id="a761-d450-6763-22e3" publicationId="892-6266-f55f-1b9d" page="310" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Whenever targeted by a Shooting Attack, the range between an attacking unit and a unit including one or more models with a Tenebris Praetoria is considered to be 6&quot; further than the actual range between the two units – enemy units with the Night Vision Special Rule, weapons with the Template Special Rule and models with the Primarch Unit Type ignore this effect. In addition, when attacked by a weapon with the Barrage Special Rule, a unit including one or more models with a Tenebris Praetoria is always treated as though it was out of line of sight when scattering any attacks.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>
     <catalogueLink id="5f24-4626-0547-71c3" name="Panoptica Library" targetId="69b7-3f60-9f7f-8ce5" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="5f24-4242-71c3-0547" name="Mech Library" targetId="7265-8b7a-50ae-51ec" type="catalogue" importRootEntries="true"/>
     <catalogueLink type="catalogue" name="Imperium Library" id="e844-fb97-9b3f-62a7" targetId="4ab9-6c13-4d80-2f7d"/>
   </catalogueLinks>
+  <sharedRules>
+    <rule name="Chamber of the Hykanatoi" hidden="false" id="9653-4707-9adc-e64d" publicationId="892-6266-f55f-1b9d" page="54">
+      <description>Effects:
+● Custodian Host-Masters are a 0-2 selection option in a Detachment using this Chamber, instead of a 0-1 selection as normal. 
+● Custodian Guard Squads, Sentinel Guard Squads, and Hetaeron Guard Squads selected as part of a Detachment using this Chamber gain the Counter-Attack (1) and Crusader Special Rules while holding or contesting an Objective Marker. If the mission being used does not use Objective Markers, then this benefit has no effect.
+
+
+Limitations:
+● If, at the start of your player turn, you control less Objective Markers than your opponent, then friendly models with the Legio Custodes Special Rule selected as part of a Detachment using this Chamber may only claim the benefits of the Nemesis Special Rule against enemy units that are Controlling or Contesting an Objective Marker until the start of your next player turn. If the mission being used does not use Objective Markers, then this restriction has no effect.
+● A Detachment using this Chamber must include at least one Custodian Host-Master.
+● A detachment using this Chamber may not include more units with the Vehicle and Dreadnought Unit Type than units without the Vehicle or Dreadnought Unit Type</description>
+    </rule>
+    <rule name="Chamber of the Kataphraktoi" hidden="false" id="f5ad-3786-721e-cd39" publicationId="892-6266-f55f-1b9d" page="55">
+      <description>Effects:
+● A Detachment using this Chamber may select Custodian Venatari Squads as Troops choices, and all Custodian Venetari Squads selected as Troops choices gain the Line Unit Sub-type.
+● A Detachment using this Chamber may select Agamatus Jetbike Squadrons and Dawneagle Jetbike Squadrons as non-compulsory Troops choices.
+● If the army’s warlord is drawn from a detachment using this Chamber, then they must use the Kataphraktoi Charger Warlord Trait instead of the Golden Exemplar Warlord Trait, and are unable to select any other Warlord Trait.
+
+Limitations:
+● A Detachment using this chamber must select a Custodian Vertoi Shield Captain, Custodian Agamatii Shield Captain, or a Custodian Venataris Shield Captain as its compulsory HQ.
+● A Detachment using this Chamber may not include any models equipped with Aquilon Terminator Armour or Allarus Terminator Armour.
+● A Detachment using this chamber may not select any Heavy Support choices that do not have the Antigrav Unit Sub-type.
+● A Detachment using this chamber may not select any Dedicated Transports that do not have the Antigrav Unit Sub-type.</description>
+    </rule>
+    <rule name="Wrath of the Tharanatoi" hidden="false" id="ff3c-871b-fde6-2ac2" publicationId="892-6266-f55f-1b9d" page="54">
+      <description>All Melee Attacks made by a model with this Warlord Trait gain the Concussive (1) and Wrecker Special Rules.
+Furthermore, the first Reaction made in each Game Turn by this Warlord and any unit he has joined does not use up a point of the Controlling Player’s Reaction Allotment.</description>
+    </rule>
+    <rule name="Chamber of the Tharanatoi" hidden="false" id="da7c-e08b-334-e799" publicationId="892-6266-f55f-1b9d" page="54">
+      <description>Effects:
+● A Detachment using this Chamber may select Aquilon Terminator Squads and Allarus Terminator Squads as Troops choices.
+● Allarus Terminator Squads and Aquilon Terminator Squads selected as Compulsory Troops and composed of no more than 5 models can purchase the Deep Strike special rule for +20 points per model.
+● Allarii Shield Captains and Aquilus Shield Captains included in a Detachment using this Chamber may purchase the Deep Strike special rule for +30 points each.
+● If the army’s Warlord is drawn from a Detachment using this Chamber, then they must use the 
+Wrath of the Tharanatoi Warlord Trait instead of the Golden Exemplar Warlord Trait, and are unable to select any other Warlord Trait.
+
+Limitations:
+● A Detachment using this chamber must select a Custodian Alarii Shield Captain or a Custodian Aquilus Shield Captain as its compulsory HQ.
+● A Detachment using this chamber must select either Allarus Terminator Squads and/or Aquilon Terminator Squads as its Compulsory Troops choices. Each Compulsory Troops choice selected in a Detachment using this Chamber is worth an additional +1 Victory Point when destroyed by an Opposing Player.
+● A Detachment using this Chamber may not select any models with the Cavalry unit type.
+● A Detachment using this Chamber may only select a single Fast Attack choice.</description>
+    </rule>
+    <rule name="Chamber of the Moritoi" hidden="false" id="de91-4395-31e-2b6" publicationId="892-6266-f55f-1b9d" page="55">
+      <description>Effects:
+● Contemptor-Achillus Dreadnoughts and Contemptor-Galatus Dreadnoughts may be taken as Troops choices in a Detachment using this Chamber.
+● Sagittarum Guard Squads may be taken as Troops choices in a Detachment using this Chamber. All Sagittarum Guard Squads in a Detachment using this Chamber gain the Line Unit Sub-type.
+● A single Contemptor-Achillus Dreadnought or Contemptor-Galatus Dreadnought may be selected as this Detachment’s Compulsory HQ choice. If this option is chosen, then that model must be upgraded to an Honoured Ancient at a cost of +30 points, and additionally this model must be the army’s Warlord. The model must select the Ancient of War Warlord Trait, and is unable to select any other Warlord Trait.
+
+Limitations:
+● Compulsory Troops Choices in a Detachment using this Chamber must be composed of either Contemptor-Achillus Dreadnoughts or Contemptor-Galatus Dreadnoughts in any combination.
+● Any model with the Dreadnought Unit Type selected in a Detachment using this Chamber is worth an additional +1 Victory Point when destroyed by an Opposing Player.
+● A Detachment using this Chamber may not select more Fast Attack and Heavy Support choices combined than Troops choices.
+● A Detachment using this Chamber can never roll to Seize the Initiative. 
+● An army whose primary Detachment uses this Chamber cannot select Fortification choices or a Lord of War Optional Detachment.</description>
+    </rule>
+    <rule name="Ancient of War" hidden="false" id="ed07-a5b8-2368-366" publicationId="892-6266-f55f-1b9d" page="55">
+      <description>All models with the Dreadnought Unit Type in a Detachment including a model with this Warlord Trait gain the It Will Not Die (5+) Special Rule.
+Furthermore, the first Reaction made in each Game Turn by this Warlord and any unit he has joined does not use up a point of the Controlling Player’s Reaction Allotment.</description>
+    </rule>
+  </sharedRules>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Shield-Hosts of the Legio Custodes" hidden="false" id="43b3-7ac2-696a-e0c0" defaultSelectionEntryId="9a8f-3be6-f74c-243b">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Aquilan Shield" hidden="true" id="9a8f-3be6-f74c-243b">
+          <rules>
+            <rule name="For the Future of All Mankind" hidden="false" id="e678-15b8-723c-2d8d" publicationId="892-6266-f55f-1b9d" page="56">
+              <description>A model with the Aquilan Shield Shield-Host may only be selected in an army that includes an Allied Detachment. If a model with this Shield-Host is selected as part of an Allied Detachment, the model loses the Support Squad Special Rule.</description>
+            </rule>
+            <rule name="Auric Guardians" hidden="false" id="f791-8d22-266e-b67b" publicationId="892-6266-f55f-1b9d" page="56">
+              <description>Whilst a unit containing at least one model with this Special Rule is within 3” of a friendly model with the Infantry Unit Type and the Independent Character Special Rule, and without the Legio Custodes Special Rule, whenever a Wound is allocated to that model (even those caused by the Precision Strikes (X), Precision Shots (X), or Sniper Special Rules), it must instead be allocated to a model from this unit instead as long as they would otherwise have been a valid target.</description>
+            </rule>
+          </rules>
+          <entryLinks>
+            <entryLink import="true" name="Praesidium Shield" hidden="false" id="6be5-9910-c53f-ed06" type="selectionEntry" targetId="2d37-88a3-4fc6-8770">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="586-6f62-c7c1-f77f" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ab6-96c2-b34a-4d24" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="6760-151a-71eb-ab15" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="d4f2-6da5-b6de-06ec" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Dread Host" hidden="false" id="4e55-81d4-8b5e-b9f0">
+          <rules>
+            <rule name="Moiraides Strike" hidden="false" id="4cfd-12cf-8dac-f4ef">
+              <description>A model with this Special Rule, and any unit they join during Deployment, gains the Deep Strike and Crusader Special Rules, and must be assigned to a Deep Strike Assault.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink name="Crusader" hidden="false" id="aa30-eeb7-de6e-bbd" type="rule" targetId="c705-0829-75f6-a785"/>
+            <infoLink name="Deep Strike" hidden="false" id="572a-5300-b9fc-6276" type="rule" targetId="f1e1-986f-c783-ca9e"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Tenebris Praetoria" hidden="false" id="ec5b-fa15-b46c-7e60" type="selectionEntry" targetId="584f-1760-6ef0-5c43">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="746e-a09e-f26c-4ec5" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b571-9eb8-c690-736f" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="e194-e2bd-a4aa-bd3b" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Shadow Keepers" hidden="false" id="e78e-2276-e3ba-125">
+          <rules>
+            <rule name="Walkers in the Shadow" hidden="false" id="4eab-9add-9538-304f" publicationId="892-6266-f55f-1b9d" page="57">
+              <description>An army containing a model with this Special Rule may not include an Allied Detachment. In addition, a model with this Special Rule may not be included in an Allied Detachment.</description>
+            </rule>
+            <rule name="Vaults of Rython" hidden="false" id="4ae8-282-7c98-76cd" publicationId="892-6266-f55f-1b9d" page="57">
+              <description>A model with this Special Rule may select a Custodian Guard Squad as a Retinue. A unit selected in this manner is considered a ‘Retinue Squad’ and the model with the Master of the Shield-Hosts Special Rule is referred to as the Retinue Squad’s Leader for the purposes of this Special Rule. The Retinue Squad does not use up a Force Organisation slot and is considered part of the same unit as the model selected as its Leader. The Retinue Squad must be deployed with the model selected as its Leader deployed as part of the unit and the Leader may not voluntarily leave the Retinue Squad during play.
+A Custodian Guard Squad selected in this manner must exchange their Guardian Spears for Tempest Spears, at a cost of +10 points per model.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink name="Preferred Enemy (X)" hidden="false" id="c670-e75f-33f6-3bb7" type="rule" targetId="37ab-d4db-891a-de8c">
+              <modifiers>
+                <modifier type="set" value="Preferred Enemy (Characters)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Tempest Spear - Melee" hidden="false" id="edbd-3dd7-9e1f-6dd1" type="selectionEntry" targetId="865f-9d65-400c-8924">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="14fb-1d35-e227-1adf" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="805e-34cd-3f51-2a6c" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Tempest Spear - Shooting" hidden="false" id="bc45-136a-d8ce-ffd7" type="selectionEntry" targetId="9482-86af-4ea8-940a">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5702-f971-7099-c563" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="64a2-4bac-56d1-5ea4" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Auric Shackles" hidden="false" id="ea97-e65b-2d70-a4da" type="selectionEntry" targetId="8559-d3fa-4707-9f08">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a269-b3de-d0ca-e6a6" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7a75-52a2-c2c2-c423" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="f115-854f-b446-fab5" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="d4f2-6da5-b6de-06ec" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Solar Watch" hidden="false" id="e934-796a-7ad0-b8ab">
+          <rules>
+            <rule name="Shining Fleet" hidden="false" id="f77c-cfb8-8575-23d4" publicationId="892-6266-f55f-1b9d" page="57">
+              <description>A Detachment that includes a model with this Special Rule must have more of the units within it with the Infantry Unit Type start the game embarked in a Transport than units which do not. Note that for the purposes of this Special Rule, models with the Independent Character Special Rule are not counted.</description>
+            </rule>
+            <rule name="Taloned Onslaught" hidden="false" id="d3cb-5d14-7993-21f1">
+              <description>A model with this Special Rule, and any unit they have joined, gain the Pathfinder, Move Through Cover, and Fleet (1) Special Rules, for as long as the model with the Taloned Onslaught Special Rule is part of that unit.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink name="Pathfinder" hidden="false" id="1b94-a8f8-171e-8c0e" type="rule" targetId="ec97-7aa8-49f5-b298"/>
+            <infoLink name="Move Through Cover" hidden="false" id="be4b-c8d1-403b-dd38" type="rule" targetId="2b6f-bfec-759e-1746"/>
+            <infoLink name="Fleet (X)" hidden="false" id="f04-7dc3-f28d-27ca" type="rule" targetId="ddc9-0b4b-78da-bbd2">
+              <modifiers>
+                <modifier type="set" value="Fleet (1)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="5993-e9d4-1f7f-5852" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Emissaries Imperatus" hidden="false" id="96de-ee72-b8e8-c041">
+          <infoLinks>
+            <infoLink name="Fearless" hidden="false" id="cd03-d166-6a0d-ed6" type="rule" targetId="b48c-d7e1-2a83-2f5b"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Vexillum Imperatus" hidden="false" id="60b4-c53c-dd14-bfad" type="selectionEntry" targetId="0100-befa-4236-9b0f">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ca35-1bc8-3fec-554a" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cfdf-f13f-a926-844d" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="1ac3-3e55-627a-d415" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5826-e933-8d60-23e4" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9c3a-745a-ba69-8c6d" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Chambers of the Golden Host" hidden="false" id="ab0a-9890-60c1-8b66">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Hykanatoi" hidden="false" id="4776-81dc-5c7-684c">
+          <infoLinks>
+            <infoLink name="CotGH: Hykanatoi" hidden="false" id="c999-5765-38d9-8571" type="rule" targetId="9653-4707-9adc-e64d"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Tharanatoi" hidden="false" id="6063-595e-5a53-3dd6">
+          <infoLinks>
+            <infoLink name="CotGH: Tharanatoi" hidden="false" id="c2d9-297c-664c-27" type="rule" targetId="da7c-e08b-334-e799"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Kataphraktoi" hidden="false" id="65-3f8d-2acc-110c">
+          <infoLinks>
+            <infoLink name="CotGH: Kataphraktoi" hidden="false" id="1624-9068-ee44-d0e4" type="rule" targetId="f5ad-3786-721e-cd39"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Moritoi" hidden="false" id="ccda-14ba-4f17-160b">
+          <infoLinks>
+            <infoLink name="CotGH: Moritoi" hidden="false" id="d32c-8ddd-add1-7b20" type="rule" targetId="de91-4395-31e-2b6"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="d4f2-6da5-b6de-06ec" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
 </catalogue>
