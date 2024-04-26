@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="2f2b-1f31-c455-1776" name="LI - Custodes" revision="2021" battleScribeVersion="2.03" library="false" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2001" type="catalogue">
-  <categoryEntries>
-    <categoryEntry id="ccca-a9de-0cd9-f8be" name="Legio Custodes" hidden="false">
-      <infoLinks>
-        <infoLink id="9300-b317-6b65-c72a" name="Legio Custodes" targetId="6998-b328-c080-5341" type="rule"/>
-      </infoLinks>
-    </categoryEntry>
-  </categoryEntries>
   <entryLinks>
     <entryLink id="8abb-00fb-4157-9177" name="Legio Custodes" hidden="false" collective="false" import="false" targetId="e0d0-c905-b01e-fc15" type="selectionEntry">
       <modifiers>
@@ -1698,59 +1691,6 @@
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bf7c-a1e1-f983-987e" name="Coronus Grav-carrier" publicationId="15a4-fc68-502d-48a9" page="27" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="7502-6263-cda0-e719" name="Coronus Grav-carrier" hidden="false" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
-          <characteristics>
-            <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Transport, Antigrav)</characteristic>
-            <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">16</characteristic>
-            <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">5</characteristic>
-            <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">13</characteristic>
-            <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">12</characteristic>
-            <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">10</characteristic>
-            <characteristic name="HP" typeId="a76c-83b1-602f-9e62">5</characteristic>
-            <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">18</characteristic>
-            <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">Rear</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="543c-1036-74fb-7367" name="Legio Custodes" hidden="false" targetId="6998-b328-c080-5341" type="rule"/>
-        <infoLink id="c66d-7d92-ddc2-0bba" name="Power of the Machine Spirit" hidden="false" targetId="5a93-13e0-809d-782a" type="rule"/>
-        <infoLink id="8c00-6831-484e-bb9b" name="Deep Strike" hidden="false" targetId="f1e1-986f-c783-ca9e" type="rule"/>
-        <infoLink id="54db-b273-c5d9-59d7" name="Outflank" hidden="false" targetId="bfbf-e75c-49a2-0285" type="rule"/>
-        <infoLink id="9a1f-2ea1-3a9c-b829" name="Loyalist" hidden="false" targetId="d1de-a45d-2b9b-c878" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="09ec-fc5e-3f34-aeb8" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
-        <categoryLink id="b673-5b47-1b69-42ed" name="Legio Custodes" hidden="false" targetId="ccca-a9de-0cd9-f8be" primary="false"/>
-        <categoryLink id="4776-46fc-0598-b8ab" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
-        <categoryLink id="96fe-fdac-52e7-ff96" name="Transport Sub-type" hidden="false" targetId="7b0a-a743-a8da-3a39" primary="false"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="5827-b8f8-6167-7700" name="Twin Lastrum Bolt Cannon" hidden="false" collective="false" import="true" targetId="5eb8-dd6c-05ee-17d5" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99ed-eac1-aa5d-66e0" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f968-8b52-95f9-e558" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="c6a0-f96f-701c-eb7a" name="Twin-Linked Arachnus Blaze Cannon" hidden="false" collective="false" import="true" targetId="b052-d281-1269-9408" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d53b-dfe7-751c-87ad" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0820-d804-5f9c-3b61" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="789d-fc72-e302-d952" name="Flare Shield" hidden="false" collective="false" import="true" targetId="0e77-6285-22bb-1534" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a26-11d0-af5e-9ce2" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13e0-7911-f1dd-35dd" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="180"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="f6b3-1e25-1353-0a50" name="Agamatus Jetbike Squadron" publicationId="15a4-fc68-502d-48a9" page="28" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="6058-7d4b-c3b3-749a" name="Chosen Warriors" hidden="false" targetId="13d1-9270-6539-08ed" type="rule"/>
@@ -2305,18 +2245,6 @@
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3ac5-b28c-104a-9de5" name="Magisterium Vexilla" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="649d-2ad0-6c4a-aaa5" name="Magisterium Vexilla" publicationId="15a4-fc68-502d-48a9" page="156" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
-          <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit that includes at least one model with a Magisterium vexilla may re-roll all failed Leadership tests and may add +1 to the score used to decide if any friendly unit with any models within 12&quot; of any Magisterium vexilla wins a combat in the Assault phase – a friendly unit may only benefit from a single Magisterium vexilla’s bonus in any given combat, regardless of how many are within range.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="df30-d357-3ee0-a102" name="Magisterium Vexilla" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="a0f3-6fee-1a46-8362" name="Magisterium Vexilla" hidden="false" targetId="649d-2ad0-6c4a-aaa5" type="profile"/>
@@ -2413,30 +2341,6 @@
         </infoLink>
         <infoLink id="50e6-bf83-2bdc-2445" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
         <infoLink id="a3c0-c554-95f8-f7ac" name="Instant Death" hidden="false" targetId="9e96-fff1-b916-d9a3" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="b052-d281-1269-9408" name="Twin-Linked Arachnus Blaze Cannon" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="3668-9402-7f65-ddd5" name="Twin-Linked Arachnus Blaze Cannon" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Lance, Exoshock (6+), Twin-linked</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="4c68-67f9-d64a-6664" name="Lance" hidden="false" targetId="3d6b-9e0b-56f0-8a1e" type="rule"/>
-        <infoLink id="566d-6a1e-fe24-e870" name="Exoshock (X)" hidden="false" targetId="69ca-318a-b47a-7a3c" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Exoshock (6+)"/>
-          </modifiers>
-        </infoLink>
-        <infoLink id="eb9f-a489-fc7d-d264" name="Twin-linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -2615,40 +2519,6 @@
       <infoLinks>
         <infoLink id="cf15-f08d-3593-a951" name="Deep Strike" hidden="false" targetId="f1e1-986f-c783-ca9e" type="rule"/>
       </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="2652-dd68-cc34-ba03" name="Gyrfalcon Jetbike" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="519c-618e-7039-25eb" name="Gyrfalcon Jetbike" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
-          <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Custodes Gyrfalcon jetbike has one Lastrum bolt cannon. In addition, a model with a Custodes Gyrfalcon jetbike that chooses to Run gains the Shrouded (5+) special rule until the start of the controlling player’s next turn.
-A model with the Infantry Unit Type that selects a Custodes Gyrfalcon jetbike as an upgrade must change its Unit Type to Cavalry (Antigrav, Skirmish), keeping any other Unit Sub-types it previously had, changes its Movement Characteristic to 16 and gains the Hammer of Wrath (1) and Deep Strike special rules.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="7ceb-4a3d-82aa-6b93" name="Deep Strike" hidden="false" targetId="f1e1-986f-c783-ca9e" type="rule"/>
-        <infoLink id="815a-9048-fb14-3975" name="Hammer of Wrath (X)" hidden="false" targetId="aec0-c3aa-1e4e-1779" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
-          </modifiers>
-        </infoLink>
-        <infoLink name="Skilled Rider" hidden="false" id="63f0-fd9c-15cc-3dce" type="rule" targetId="89cc-21e0-bee2-6a89"/>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="b077-e64b-5a66-7ed2" name="Aquilon Pattern Terminator Armour" publicationId="15a4-fc68-502d-48a9" page="152" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="ec4b-3bc4-a5ed-0078" name="Aquilon Pattern Terminator Armour" publicationId="15a4-fc68-502d-48a9" page="152" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
-          <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Aquilon pattern Terminator armour confers a 2+ Armour Save and a 4+ Invulnerable Save.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
@@ -3522,5 +3392,6 @@ Controlling Player’s Reaction Allotment.</characteristic>
     <catalogueLink id="e048-9e5e-507c-5bad" name="LI - Assassins and Agents" targetId="2dde-e269-90db-8d33" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="60d6-cab6-4580-b772" name="Mech Library" targetId="7265-8b7a-50ae-51ec" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="68w6-cab6-4580-b4256" name="Imperium Library" targetId="4ab9-6c13-4d80-2f7d" type="catalogue" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="[Imperatus] Custodes" id="9f9f-233d-b068-aee3" targetId="f65b-5341-4b66-c32f"/>
   </catalogueLinks>
 </catalogue>

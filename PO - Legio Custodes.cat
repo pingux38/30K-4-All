@@ -89,11 +89,6 @@
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c912-972f-4c1d-8a71"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Paragon Blade" hidden="false" type="selectionEntry" targetId="b581-7729-f3d6-d2fc" id="96f3-76e8-482a-aa1e">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cb2a-ff35-4c67-a430"/>
-                  </constraints>
-                </entryLink>
                 <entryLink name="Paragon Glaive" hidden="false" type="selectionEntry" targetId="a9fc-4298-7b35-8ef4" id="5aa5-30ca-4866-970f">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
@@ -148,6 +143,11 @@
                 <entryLink import="true" name="Guardian Spear" hidden="false" id="19be-91c9-41b0-8055" type="selectionEntry" targetId="9e55-ae31-3ba6-d720">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b0fa-0816-4676-b852"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Paragon Blade" hidden="false" id="59ba-84eb-6487-9568" type="selectionEntry" targetId="2ab9-0e45-405e-056b">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="98a5-9ee8-aeb3-ad37" includeChildSelections="false"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
@@ -206,7 +206,7 @@
       <selectionEntries>
         <selectionEntry type="model" name="Agamatii Shield Captain" id="6ccb-d4fa-49ba-bf51" page="61" publicationId="892-6266-f55f-1b9d">
           <profiles>
-            <profile id="0ff9-abc4-46c8-8838" name="Agamatii Shield Captain" typeId="4bb2-cb95-e6c8-5a21">
+            <profile id="0ff9-abc4-46c8-8838" name="Agamatii Shield Captain" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
               <characteristics>
                 <characteristic typeId="893e-2d76-8f04-44e5" name="Move">16</characteristic>
                 <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">6</characteristic>
@@ -227,16 +227,28 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="08fb-b3fb-4d22-9a9c"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Solarite Power Lance" hidden="false" type="selectionEntry" targetId="978d-b267-2025-dd15" id="2b38-8f90-4fac-a913">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="58c0-d6c6-45be-83a1"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d94e-07e6-4f37-b55a"/>
-              </constraints>
-            </entryLink>
             <entryLink name="Auric Battleplate" hidden="false" type="selectionEntry" targetId="4e8b-1f42-cea6-d3f4" id="fb33-79fb-40cb-9905">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6d53-0391-434e-a096"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dc32-30ac-4996-8528"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Melta Bomb" hidden="false" id="eca-abc3-aee8-1fa7" type="selectionEntry" targetId="e55d-d31b-46a9-aeb6">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e8b4-a35b-db82-bea8" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b058-6bd9-b9bd-7e47" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Misericord" hidden="false" id="ecda-53e9-52ad-d8f1" type="selectionEntry" targetId="73cb-1501-d39e-4f24">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f7d0-e6a3-d7bd-283a" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bc17-1808-a74-c858" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Gyrfalcon Jetbike" hidden="false" id="3be5-bc5f-8fae-dee5" type="selectionEntry" targetId="2652-dd68-cc34-ba03">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fe80-3a70-2820-2cb2" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="93eb-6de0-91be-c9cc" includeChildSelections="false"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -256,7 +268,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2240-012a-4749-b7c7"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="The Agamatii Shield Captain may replace his Solarite Power Lance with one of the following options:" id="4fbf-65a8-4332-99db">
+            <selectionEntryGroup name="May replace his Solarite Power Lance with one of the following options:" id="4fbf-65a8-4332-99db" defaultSelectionEntryId="2b38-8f90-4fac-a913">
               <entryLinks>
                 <entryLink name="Sentinel Warblade" hidden="false" type="selectionEntry" targetId="0c34-7afc-bced-140f" id="5168-c9b0-4b7b-9481">
                   <constraints>
@@ -266,11 +278,6 @@
                 <entryLink name="Guardian Axe" hidden="false" type="selectionEntry" targetId="3780-57f7-1eb8-0851" id="32e0-e674-466a-ad7b">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3948-a6da-4d70-8e42"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Paragon Blade" hidden="false" type="selectionEntry" targetId="b581-7729-f3d6-d2fc" id="257f-3662-49dd-acab">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="861b-be2d-4e38-b623"/>
                   </constraints>
                 </entryLink>
                 <entryLink name="Paragon Glaive" hidden="false" type="selectionEntry" targetId="a9fc-4298-7b35-8ef4" id="abcd-6af1-4253-a9cc">
@@ -313,12 +320,23 @@
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="994d-c351-45e5-ae36"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Solarite Power Lance" hidden="false" id="2b38-8f90-4fac-a913" type="selectionEntry" targetId="978d-b267-2025-dd15">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d94e-07e6-4f37-b55a"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Paragon Blade" hidden="false" id="4f56-28cb-66f8-54f4" type="selectionEntry" targetId="2ab9-0e45-405e-056b">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="626f-b986-4837-3c64" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dc6d-6905-4fca-b93f"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="35b3-e65c-11b2-ca7b" includeChildSelections="false"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="The Agamatii Shield Captain may replace his Custodes Gyrfalcon Jetbike’s Two Lastrum Bolt Cannon with one of the following options:" id="637c-ba01-4db4-b439">
+            <selectionEntryGroup name="May replace his Custodes Gyrfalcon Jetbike’s Two Lastrum Bolt Cannon with one of the following options:" id="637c-ba01-4db4-b439" defaultSelectionEntryId="3801-3d2d-b526-4588">
               <entryLinks>
                 <entryLink name="Adrathic Devastator" hidden="false" type="selectionEntry" targetId="86a7-4ba9-40dd-ada4" id="5ee9-6e9b-4a36-af9c">
                   <costs>
@@ -336,9 +354,15 @@
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2daa-3106-4c92-aa0a"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Lastrum Bolt Cannon" hidden="false" id="3801-3d2d-b526-4588" type="selectionEntry" targetId="5700-71dd-e321-4697">
+                  <modifiers>
+                    <modifier type="set" value="Two Lastrum Bolt Cannons" field="name"/>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2e31-35d9-438f-9c0b"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8dd6-5c7a-d228-a2fd" includeChildSelections="false"/>
               </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -349,14 +373,6 @@
             <categoryLink targetId="4f07-3d45-4f28-a0c6" id="424d-f935-7d71-b6ed" primary="false" name="Independent Character"/>
             <categoryLink targetId="6d79-a3e4-381f-7b0f" id="9630-f36c-4586-99d3" primary="false" name="Cavalry Unit-type:"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Misericordia
-Checked under Misericordia
-Could not find wargear Melta Bombs
-Checked under Melta Bombs
-Could not find wargear Custodes Gyrfalcon Jetbike
-Checked under Custodes Gyrfalcon Jetbike
-</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -378,6 +394,10 @@ Checked under Custodes Gyrfalcon Jetbike
         <infoLink name="Outflank" hidden="false" type="rule" targetId="bfbf-e75c-49a2-0285" id="3d31-ce58-4936-9a07"/>
         <infoLink name="Loyalist" hidden="false" type="rule" targetId="d1de-a45d-2b9b-c878" id="7238-a024-42bb-a588"/>
       </infoLinks>
+      <comment>DONE</comment>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="2e28-c859-e909-9b71" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry name="Custodian Vertoii Shield Captain" type="unit" id="466a-3759-4ec7-8464" page="62" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
@@ -390,7 +410,7 @@ Checked under Custodes Gyrfalcon Jetbike
       <selectionEntries>
         <selectionEntry type="model" name="Vertoii Shield Captain" id="6313-50de-4aa3-bb7c" page="62" publicationId="892-6266-f55f-1b9d">
           <profiles>
-            <profile id="d756-8e19-4d3b-8fa9" name="Vertoii Shield Captain" typeId="4bb2-cb95-e6c8-5a21">
+            <profile id="d756-8e19-4d3b-8fa9" name="Vertoii Shield Captain" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
               <characteristics>
                 <characteristic typeId="893e-2d76-8f04-44e5" name="Move">14</characteristic>
                 <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">6</characteristic>
@@ -411,12 +431,6 @@ Checked under Custodes Gyrfalcon Jetbike
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1d7e-8fad-4d38-854a"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Interceptor Lance" hidden="false" type="selectionEntry" targetId="7fa2-4575-49d4-9568" id="a78e-9923-4cea-8bab">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3619-ba60-4bc1-a7d1"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a99c-c907-4698-8380"/>
-              </constraints>
-            </entryLink>
             <entryLink name="Auric Battleplate" hidden="false" type="selectionEntry" targetId="4e8b-1f42-cea6-d3f4" id="33f0-bd49-46b1-990c">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5ec2-6e83-4d16-9fd7"/>
@@ -427,6 +441,18 @@ Checked under Custodes Gyrfalcon Jetbike
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6dce-cdd0-4d34-a957"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c1de-d88d-4ce5-80fb"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Melta Bomb" hidden="false" id="7e40-b138-76ea-68c" type="selectionEntry" targetId="e55d-d31b-46a9-aeb6">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6e1c-2597-cd0f-46bc" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2f85-1b6c-fe45-2d05" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Misericord" hidden="false" id="58de-65e2-d460-b78" type="selectionEntry" targetId="73cb-1501-d39e-4f24">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e4f4-d114-c816-e0cf" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7ba8-c10d-33c9-6273" includeChildSelections="false"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -446,7 +472,7 @@ Checked under Custodes Gyrfalcon Jetbike
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e58f-630b-49e1-82c3"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="The Vertoii Shield Captain may replace his Interceptor Lance with one of the following options:" id="5077-9877-4d47-8775">
+            <selectionEntryGroup name="May replace his Interceptor Lance with one of the following options:" id="5077-9877-4d47-8775" defaultSelectionEntryId="a78e-9923-4cea-8bab">
               <entryLinks>
                 <entryLink name="Sentinel Warblade" hidden="false" type="selectionEntry" targetId="0c34-7afc-bced-140f" id="8d26-d6cc-4a7b-aae2">
                   <constraints>
@@ -456,11 +482,6 @@ Checked under Custodes Gyrfalcon Jetbike
                 <entryLink name="Guardian Axe" hidden="false" type="selectionEntry" targetId="3780-57f7-1eb8-0851" id="a7af-96df-4b86-a32b">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="de4e-2fd1-4dc7-9813"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Paragon Blade" hidden="false" type="selectionEntry" targetId="b581-7729-f3d6-d2fc" id="e90a-f147-4e46-9e25">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2e9c-524e-4a33-a94d"/>
                   </constraints>
                 </entryLink>
                 <entryLink name="Paragon Glaive" hidden="false" type="selectionEntry" targetId="a9fc-4298-7b35-8ef4" id="65dc-9491-462e-bee2">
@@ -503,12 +524,23 @@ Checked under Custodes Gyrfalcon Jetbike
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b79d-a434-4fc8-80b8"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Interceptor Lance" hidden="false" id="a78e-9923-4cea-8bab" type="selectionEntry" targetId="7fa2-4575-49d4-9568">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a99c-c907-4698-8380"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Paragon Blade" hidden="false" id="5091-2641-d0a7-b0f7" type="selectionEntry" targetId="2ab9-0e45-405e-056b">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bfe5-22e9-7747-e7" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c6cc-0b03-4c8c-b542"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3a6a-9c47-37fb-75ff" includeChildSelections="false"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="The Vertoii Shield Captain may replace his Custodes Dawneagle Jetbike’s Two Lastrum Storm Bolters with one of the following options:" id="f6c9-dfb6-46cc-96cd">
+            <selectionEntryGroup name="May replace his Custodes Dawneagle Jetbike’s Two Lastrum Storm Bolters with one of the following options:" id="f6c9-dfb6-46cc-96cd" defaultSelectionEntryId="1c60-8b7f-8514-b8f2">
               <entryLinks>
                 <entryLink name="Twin-Linked Adrathic Devastator" hidden="false" type="selectionEntry" targetId="4e5a-43f5-605d-0f4f" id="6a38-fc36-49ab-8b12">
                   <costs>
@@ -518,9 +550,20 @@ Checked under Custodes Gyrfalcon Jetbike
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a754-2e61-49e1-bcbf"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Lastrum Bolt Cannon" hidden="false" id="1c60-8b7f-8514-b8f2" type="selectionEntry" targetId="5700-71dd-e321-4697">
+                  <modifiers>
+                    <modifier type="set" value="Two Lastrum Bolt Cannons" field="name"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Salvo Launcher" hidden="false" id="97b3-58c7-27d0-8078" type="selectionEntry" targetId="e919-f19a-8cb-4bf2">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c68a-552b-4876-b9d6"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="986-60f2-8a48-1a73" includeChildSelections="false"/>
               </constraints>
               <comment>!BSC Errors from 20240406-1603
 Could not find wargear Salvo Launcher
@@ -531,14 +574,9 @@ Could not find wargear Salvo Launcher
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="69d7-8be2-42cd-834b" name="Character" primary="false"/>
             <categoryLink targetId="4303-1348-cce4-9501" id="3ddb-37ff-42dd-8665" name="Antigrav" primary="false"/>
             <categoryLink targetId="59a4-7b61-600a-c457" id="1341-5b3f-4a2a-b543" name="Skirmish" primary="false"/>
+            <categoryLink targetId="4f07-3d45-4f28-a0c6" id="f662-f73a-edd7-7ea3" primary="false" name="Independent Character"/>
+            <categoryLink targetId="6d79-a3e4-381f-7b0f" id="6cb3-128d-897a-1505" primary="false" name="Cavalry Unit-type:"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Misericordia
-	 Checked under Misericordia
-Could not find wargear Melta Bombs
-	 Checked under Melta Bombs
-Could not find wargear in The Vertoii Shield Captain may replace his Custodes Dawneagle Jetbike’s Two Lastrum Storm Bolters with one of the following options:
-Could not find type or subtype &apos;Cavalry&apos;</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -560,8 +598,7 @@ Could not find type or subtype &apos;Cavalry&apos;</comment>
         <infoLink name="Outflank" hidden="false" type="rule" targetId="bfbf-e75c-49a2-0285" id="b22b-a626-4fc3-98fe"/>
         <infoLink name="Loyalist" hidden="false" type="rule" targetId="d1de-a45d-2b9b-c878" id="23b9-1ee7-474f-b3d2"/>
       </infoLinks>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Independent Character</comment>
+      <comment>DONE</comment>
     </selectionEntry>
     <selectionEntry name="Custodian Allarii Shield Captain" type="unit" id="8cd5-94f6-4dff-b64f" page="63" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
@@ -595,21 +632,33 @@ Could not find rule: Independent Character</comment>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e22b-db39-477b-aec7"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Guardian Spear" hidden="false" type="selectionEntry" targetId="9e55-ae31-3ba6-d720" id="e7af-388b-479e-b264">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="25b0-29d0-465b-b06e"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6231-12e3-4289-af50"/>
-              </constraints>
-            </entryLink>
             <entryLink name="Frag Grenades" hidden="false" type="selectionEntry" targetId="4fd8-9e1f-ae28-3004" id="3616-86af-45ae-ae98">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7341-c8f9-4939-8bba"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="65ae-0238-4899-b52f"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Melta Bomb" hidden="false" id="7956-db24-5cd8-120c" type="selectionEntry" targetId="e55d-d31b-46a9-aeb6">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a4af-adc-6b76-9245" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7e64-a0a5-f4e1-b33e" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Misericord" hidden="false" id="a91d-1558-dbb5-7b01" type="selectionEntry" targetId="73cb-1501-d39e-4f24">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="41f9-45e1-12fd-6c9" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f90-b304-7980-a453" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Allarus Terminator Armor" hidden="false" id="fdc9-de0a-fc3c-f529" type="selectionEntry" targetId="d784-f6e2-4b45-a71a">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5227-4c38-fd2d-12b8" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="67ee-6758-57ca-6a55" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="The Allarii Shield Captain may replace his Guardian Spear with one of the following options:" id="0108-6c4d-4977-a923">
+            <selectionEntryGroup name="May replace his Guardian Spear with one of the following options:" id="0108-6c4d-4977-a923" defaultSelectionEntryId="e7af-388b-479e-b264">
               <entryLinks>
                 <entryLink name="Sentinel Warblade" hidden="false" type="selectionEntry" targetId="0c34-7afc-bced-140f" id="63f5-1e4e-4a34-b91b">
                   <constraints>
@@ -619,11 +668,6 @@ Could not find rule: Independent Character</comment>
                 <entryLink name="Guardian Axe" hidden="false" type="selectionEntry" targetId="3780-57f7-1eb8-0851" id="140e-ec55-42a7-84ca">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e95d-1432-41f1-a352"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Paragon Blade" hidden="false" type="selectionEntry" targetId="b581-7729-f3d6-d2fc" id="ad42-300b-4073-802b">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="70f4-cf24-4650-8d12"/>
                   </constraints>
                 </entryLink>
                 <entryLink name="Paragon Glaive" hidden="false" type="selectionEntry" targetId="a9fc-4298-7b35-8ef4" id="a4a2-23b0-4ae8-9b4d">
@@ -674,12 +718,23 @@ Could not find rule: Independent Character</comment>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6014-1713-4c90-988a"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Guardian Spear" hidden="false" id="e7af-388b-479e-b264" type="selectionEntry" targetId="9e55-ae31-3ba6-d720">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="25b0-29d0-465b-b06e"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6231-12e3-4289-af50"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Paragon Blade" hidden="false" id="8766-127b-dde0-ab0c" type="selectionEntry" targetId="2ab9-0e45-405e-056b">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="808b-12e2-4f10-228d" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e586-3968-40d4-93d2"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="The Allarii Shield Captain may replace his Guardian Spear and Balistus Grenade Launcher with the following option:" id="69f9-cd71-4cc5-977c">
+            <selectionEntryGroup name="May replace his Guardian Spear and Balistus Grenade Launcher with the following option:" id="69f9-cd71-4cc5-977c">
               <entryLinks>
                 <entryLink name="Solarite Power Talon" hidden="false" type="selectionEntry" targetId="d9bd-74cb-097b-14de" id="800d-de8a-44a5-9ef4">
                   <costs>
@@ -696,8 +751,20 @@ Could not find rule: Independent Character</comment>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dfaf-346c-4400-945e"/>
               </constraints>
+              <modifiers>
+                <modifier type="set" value="0" field="dfaf-346c-4400-945e">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="a84e-785e-4f54-b2f5" childId="0108-6c4d-4977-a923" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="a84e-785e-4f54-b2f5" childId="2625-5fa9-476d-93d5" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
             </selectionEntryGroup>
-            <selectionEntryGroup name="The Allarii Shield Captain may replace his Balistus Grenade Launcher with one of the following options:" id="2625-5fa9-476d-93d5">
+            <selectionEntryGroup name="May replace his Balistus Grenade Launcher with one of the following options:" id="2625-5fa9-476d-93d5" defaultSelectionEntryId="ddc5-d235-d381-9013">
               <entryLinks>
                 <entryLink name="Praesidium Shield" hidden="false" type="selectionEntry" targetId="2d37-88a3-4fc6-8770" id="15d9-8e4f-45f6-999d">
                   <constraints>
@@ -725,6 +792,11 @@ Could not find rule: Independent Character</comment>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c3c0-491a-42eb-a354"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Balistus Grenade Launcher" hidden="false" id="ddc5-d235-d381-9013" type="selectionEntry" targetId="986e-e132-8555-11c">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9170-2cf7-db5a-cc2d" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ddba-1af3-4865-b53a"/>
@@ -737,15 +809,6 @@ Could not find rule: Independent Character</comment>
             <categoryLink targetId="59a4-7b61-600a-c457" id="5089-e48d-4533-af82" name="Skirmish" primary="false"/>
             <categoryLink targetId="4f07-3d45-4f28-a0c6" id="1d02-14a2-12c6-da43" primary="false" name="Independent Character"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Balistus Grenade Launcher
-	 Checked under Balistus Grenade Launcher
-Could not find wargear Melta Bombs
-	 Checked under Melta Bombs
-Could not find wargear Misericordia
-	 Checked under Misericordia
-Could not find wargear Allarus Terminator Armour
-	 Checked under Allarus Terminator Armour</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -765,6 +828,10 @@ Could not find wargear Allarus Terminator Armour
         <infoLink name="Stubborn" hidden="false" type="rule" targetId="7989-1f2c-a43d-82ae" id="0649-c7e2-4bf5-9563"/>
         <infoLink name="Loyalist" hidden="false" type="rule" targetId="d1de-a45d-2b9b-c878" id="0f83-9a89-4d87-be4d"/>
       </infoLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="e07e-ed20-2fe-257d" includeChildSelections="false"/>
+      </constraints>
+      <comment>DONE</comment>
     </selectionEntry>
     <selectionEntry name="Custodian Aquilus Shield Captain" type="unit" id="3cbf-3566-43db-af30" page="64" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
@@ -798,27 +865,33 @@ Could not find wargear Allarus Terminator Armour
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="07a8-bfc9-496b-bf70"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Lastrum Storm Bolter" hidden="false" type="selectionEntry" targetId="9724-e7e9-59b0-8c35" id="fd83-d4cb-4ca3-a45d">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ac99-7f3f-4d62-9fc5"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="630e-da63-4485-b0bc"/>
-              </constraints>
-            </entryLink>
-            <entryLink name="Solarite Power Gauntlet" hidden="false" type="selectionEntry" targetId="85f2-5b5a-1526-a121" id="0438-8ea8-42bb-a259">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1fcc-9733-4c34-a91d"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f775-2b15-4efb-aade"/>
-              </constraints>
-            </entryLink>
             <entryLink name="Frag Grenades" hidden="false" type="selectionEntry" targetId="4fd8-9e1f-ae28-3004" id="e730-3edb-45c4-9d7a">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d72c-a397-4f96-a52b"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="41e3-b935-4271-8005"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Misericord" hidden="false" id="9362-60e0-2ae9-86eb" type="selectionEntry" targetId="c17e-8004-3f25-e502">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d3d9-8ce3-734c-7b96" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c6ab-5368-8c74-a2b1" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Melta Bomb" hidden="false" id="2a05-59ce-fdcd-37b7" type="selectionEntry" targetId="e55d-d31b-46a9-aeb6">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ec03-1f3f-eac-1fe5" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e0d8-b41d-c90b-7e13" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Aquilon Pattern Terminator Armour" hidden="false" id="f10e-c32d-5986-d911" type="selectionEntry" targetId="b077-e64b-5a66-7ed2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e6c7-b0c6-8cee-a442" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d140-fb04-5b0-86f4" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="The Aquilus Shield Captain may replace his Solarite Power Gauntlet with one of the following options:" id="6d9b-ebf6-4be1-8933">
+            <selectionEntryGroup name="May replace his Solarite Power Gauntlet with one of the following options:" id="6d9b-ebf6-4be1-8933" defaultSelectionEntryId="0438-8ea8-42bb-a259">
               <entryLinks>
                 <entryLink name="Sentinel Warblade" hidden="false" type="selectionEntry" targetId="0c34-7afc-bced-140f" id="7cf6-3920-4466-888d">
                   <constraints>
@@ -828,11 +901,6 @@ Could not find wargear Allarus Terminator Armour
                 <entryLink name="Guardian Axe" hidden="false" type="selectionEntry" targetId="3780-57f7-1eb8-0851" id="049b-2aae-41d3-a107">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="59fe-ad68-4033-977a"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Paragon Blade" hidden="false" type="selectionEntry" targetId="b581-7729-f3d6-d2fc" id="7f28-49a3-4828-b0cf">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1649-2e50-4801-b0e3"/>
                   </constraints>
                 </entryLink>
                 <entryLink name="Paragon Glaive" hidden="false" type="selectionEntry" targetId="a9fc-4298-7b35-8ef4" id="1034-41f1-4ca6-954d">
@@ -855,12 +923,22 @@ Could not find wargear Allarus Terminator Armour
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="16fd-7a0e-4211-80ec"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Solarite Power Gauntlet" hidden="false" id="0438-8ea8-42bb-a259" type="selectionEntry" targetId="85f2-5b5a-1526-a121">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f775-2b15-4efb-aade"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Paragon Blade" hidden="false" id="c72c-5d39-fcf0-4bbe" type="selectionEntry" targetId="2ab9-0e45-405e-056b">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6625-1148-d071-ee40" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4ddc-8e54-4fc0-a17a"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="The Aquilus Shield Captain may replace his Lastrum Storm Bolter and Solarite Power Gauntlet with the following options:" id="dc6a-693e-43c3-baa8">
+            <selectionEntryGroup name="May replace his Lastrum Storm Bolter and Solarite Power Gauntlet with the following options:" id="dc6a-693e-43c3-baa8">
               <entryLinks>
                 <entryLink name="Solarite Power Talon" hidden="false" type="selectionEntry" targetId="d9bd-74cb-097b-14de" id="e882-650d-46e6-9674">
                   <modifiers>
@@ -882,8 +960,20 @@ Could not find wargear Allarus Terminator Armour
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d475-f43b-4774-ba76"/>
               </constraints>
+              <modifiers>
+                <modifier type="set" value="0" field="d475-f43b-4774-ba76">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="4b6a-0dbd-47b0-bc15" childId="6d9b-ebf6-4be1-8933" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="4b6a-0dbd-47b0-bc15" childId="6f8d-a8f1-4180-995d" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
             </selectionEntryGroup>
-            <selectionEntryGroup name="The Aquilus Shield Captain may replace his Lastrum Storm Bolter with one of the following options:" id="6f8d-a8f1-4180-995d">
+            <selectionEntryGroup name="May replace his Lastrum Storm Bolter with one of the following options:" id="6f8d-a8f1-4180-995d" defaultSelectionEntryId="fd83-d4cb-4ca3-a45d">
               <entryLinks>
                 <entryLink name="Solarite Power Talon" hidden="false" type="selectionEntry" targetId="d9bd-74cb-097b-14de" id="a28a-0d6e-4afd-bbac">
                   <constraints>
@@ -906,6 +996,11 @@ Could not find wargear Allarus Terminator Armour
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="738c-8d33-4398-bf87"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Lastrum Storm Bolter" hidden="false" id="fd83-d4cb-4ca3-a45d" type="selectionEntry" targetId="9724-e7e9-59b0-8c35">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="630e-da63-4485-b0bc"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b87d-ff03-473c-8c62"/>
@@ -917,14 +1012,8 @@ Could not find wargear Allarus Terminator Armour
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="9b8d-cb27-46d6-b9a7" name="Character" primary="false"/>
             <categoryLink targetId="59a4-7b61-600a-c457" id="02c2-d061-4e98-bb6a" name="Skirmish" primary="false"/>
             <categoryLink targetId="9231-183c-b97b-63f9" id="3ba8-6eb3-4e82-8433" name="Heavy" primary="false"/>
+            <categoryLink targetId="4f07-3d45-4f28-a0c6" id="c501-6c0-4556-e229" primary="false" name="Independent Character"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Aquilon Terminator Armour
-	 Checked under Aquilon Terminator Armour
-Could not find wargear Melta Bombs
-	 Checked under Melta Bombs
-Could not find wargear Misericordia
-	 Checked under Misericordia</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -938,8 +1027,10 @@ Could not find wargear Misericordia
         <infoLink name="Stubborn" hidden="false" type="rule" targetId="7989-1f2c-a43d-82ae" id="7f10-7f96-4d3c-b3e3"/>
         <infoLink name="Loyalist" hidden="false" type="rule" targetId="d1de-a45d-2b9b-c878" id="4c9c-61ad-4d9d-b549"/>
       </infoLinks>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Independent Character</comment>
+      <comment>DONE</comment>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="fd99-d836-b369-3118" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry name="Custodian Venataris Shield Captain" type="unit" id="f63b-3c42-40d6-96cb" page="65" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
@@ -973,12 +1064,6 @@ Could not find rule: Independent Character</comment>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="95bb-84ad-481c-9775"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Tarsus Buckler" hidden="false" type="selectionEntry" targetId="5c98-2aec-4cca-867f" id="7d3a-1117-490a-8979">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="65a6-f871-48a2-a68b"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="839c-c143-4b49-8416"/>
-              </constraints>
-            </entryLink>
             <entryLink name="Venatari Jump Harness" hidden="false" type="selectionEntry" targetId="7cf8-3f52-2876-60e9" id="4798-8e98-47df-bb0d">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a753-6a2c-4f13-842b"/>
@@ -997,17 +1082,36 @@ Could not find rule: Independent Character</comment>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d861-e542-407a-88e9"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Melta Bomb" hidden="false" id="32ca-2073-f502-5ae4" type="selectionEntry" targetId="e55d-d31b-46a9-aeb6">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e49-fcc9-757b-8d5b" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e876-1fcb-b00c-e26" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Misericord" hidden="false" id="2c28-e249-ba59-eb97" type="selectionEntry" targetId="73cb-1501-d39e-4f24">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9448-187e-7bad-1f39" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="93bf-2852-7d92-548" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="The Venataris Shield Captain may select the following option, in addition to his normal wargear:" id="fc0b-c5c3-45f0-909e">
+            <selectionEntryGroup name="May select the following option, in addition to his normal wargear:" id="fc0b-c5c3-45f0-909e">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c1c6-e57c-4f1f-b60d"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Kinetic Destroyer
-	 Checked under Kinetic Destroyer</comment>
+              <entryLinks>
+                <entryLink import="true" name="Kinetic Destoyer" hidden="false" id="78f0-8317-6d2-9400" type="selectionEntry" targetId="e525-c925-da58-c511">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b629-7b11-12aa-e646" includeChildSelections="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="The Venataris Shield Captain may replace his Tarsus Buckler with one of the following options:" id="d016-75fb-4631-bcf5">
+            <selectionEntryGroup name="May replace his Tarsus Buckler with one of the following options:" id="d016-75fb-4631-bcf5" defaultSelectionEntryId="7d3a-1117-490a-8979">
               <entryLinks>
                 <entryLink name="Sentinel Warblade" hidden="false" type="selectionEntry" targetId="0c34-7afc-bced-140f" id="45a3-b9df-4cfa-8c7f">
                   <constraints>
@@ -1017,11 +1121,6 @@ Could not find wargear Kinetic Destroyer
                 <entryLink name="Guardian Axe" hidden="false" type="selectionEntry" targetId="3780-57f7-1eb8-0851" id="c491-efdd-4841-9dea">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a3b1-a171-49d4-858a"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Paragon Blade" hidden="false" type="selectionEntry" targetId="b581-7729-f3d6-d2fc" id="5dfc-39f0-4fca-b141">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d5fe-4973-4072-a47f"/>
                   </constraints>
                 </entryLink>
                 <entryLink name="Paragon Glaive" hidden="false" type="selectionEntry" targetId="a9fc-4298-7b35-8ef4" id="746b-7e58-47bb-8582">
@@ -1064,16 +1163,26 @@ Could not find wargear Kinetic Destroyer
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8fb1-22c1-4232-af86"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Paragon Blade" hidden="false" id="8f47-d6ad-774c-b4cd" type="selectionEntry" targetId="2ab9-0e45-405e-056b">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c58f-ea2f-26e1-76ac" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Tarsus Buckler" hidden="false" id="7d3a-1117-490a-8979" type="selectionEntry" targetId="5c98-2aec-4cca-867f">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="839c-c143-4b49-8416"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9545-3a25-42d8-bc36"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="The Venataris Shield Captain may replace his Tarsus Buckler and Kinetic Destroyer with one of the following options:" id="c89c-0dcd-40c0-abef">
+            <selectionEntryGroup name="May replace his Tarsus Buckler and Kinetic Destroyer (Pts Included) with one of the following options:" id="c89c-0dcd-40c0-abef">
               <entryLinks>
                 <entryLink name="Solarite Power Talon" hidden="false" type="selectionEntry" targetId="d9bd-74cb-097b-14de" id="9341-9efa-4cba-a99b">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
                   </costs>
                   <modifiers>
                     <modifier type="set" field="name" value="Two Solarite Power Talons"/>
@@ -1084,35 +1193,41 @@ Could not find wargear Kinetic Destroyer
                 </entryLink>
                 <entryLink name="Meridian Swords" hidden="false" type="selectionEntry" targetId="695d-f7d5-6f32-1d3a" id="6c17-071f-449b-849e">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40"/>
                   </costs>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="13e2-8308-4efb-977d"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Venatari Lance" hidden="false" id="3b5e-a302-7584-526f" type="selectionEntry" targetId="592e-33dd-bc4c-b44e">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8438-2385-45cf-8844"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Venatarii Lance
-	 Checked under Venatarii Lance</comment>
+              <modifiers>
+                <modifier type="set" value="0" field="8438-2385-45cf-8844">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="24b1-d4d7-41cd-ac8a" childId="d016-75fb-4631-bcf5" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="24b1-d4d7-41cd-ac8a" childId="fc0b-c5c3-45f0-909e" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="a4aa-4a7d-40d7-8126" name="Infantry" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="fb66-76f6-4376-85c8" name="Character" primary="false"/>
             <categoryLink targetId="59a4-7b61-600a-c457" id="1917-2933-4a68-96cf" name="Skirmish" primary="false"/>
+            <categoryLink targetId="4f07-3d45-4f28-a0c6" id="40d8-e3c1-3728-74b3" primary="false" name="Independent Character"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Kinetic Destroyer
-	 Checked under Kinetic Destroyer
-Could not find wargear Misericordia
-	 Checked under Misericordia
-Could not find wargear Melta Bombs
-	 Checked under Melta Bombs
-Could not find wargear in The Venataris Shield Captain may select the following option, in addition to his normal wargear:
-Could not find wargear in The Venataris Shield Captain may replace his Tarsus Buckler and Kinetic Destroyer with one of the following options:</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -1132,8 +1247,10 @@ Could not find wargear in The Venataris Shield Captain may replace his Tarsus Bu
           </modifiers>
         </infoLink>
       </infoLinks>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Independent Character</comment>
+      <comment>DONE</comment>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="d619-1e57-3260-3759" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry name="Allarus Terminator Squad" type="unit" id="1d06-28fe-4a53-8aa0" page="68" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
@@ -1173,9 +1290,27 @@ Could not find rule: Independent Character</comment>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fc32-b71c-4f4e-b12e"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Melta Bomb" hidden="false" id="7fcf-824b-1a92-838" type="selectionEntry" targetId="e55d-d31b-46a9-aeb6">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b073-fd85-20c3-c7a6" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4d82-c2bd-8ea0-f8fe" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Misericord" hidden="false" id="c387-a3ff-8a6f-1d16" type="selectionEntry" targetId="73cb-1501-d39e-4f24">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a42f-a86-d38e-5df6" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ea68-2d4e-51e8-7f89" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Allarus Terminator Armor" hidden="false" id="704f-e20e-8ba0-dd1b" type="selectionEntry" targetId="d784-f6e2-4b45-a71a">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b040-541d-9887-6767" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e9e3-7333-69fe-2da9" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Any model in the unit may exchange their Guardian Spear with one of the following options:" id="3ade-3405-494d-bc0d">
+            <selectionEntryGroup name="Any model in the unit may exchange their Guardian Spear with one of the following options:" id="3ade-3405-494d-bc0d" defaultSelectionEntryId="c446-2256-4d6f-8276">
               <entryLinks>
                 <entryLink name="Guardian Spear" hidden="false" type="selectionEntry" targetId="9e55-ae31-3ba6-d720" id="c446-2256-4d6f-8276">
                   <constraints>
@@ -1195,6 +1330,11 @@ Could not find rule: Independent Character</comment>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e3f6-f199-4d74-b157"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Pyrithite Spear" hidden="false" id="4536-be86-be2c-2648" type="selectionEntry" targetId="4620-e360-7dd2-f908">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2270-c064-4b76-93af"/>
@@ -1202,8 +1342,46 @@ Could not find rule: Independent Character</comment>
               <comment>!BSC Errors from 20240406-1603
 Could not find wargear Pytherite Spear
 	 Checked under Pytherite Spear</comment>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="One model in the unit may exchange their Guardian Spear for:" id="d27b-ee44-fe4-8683" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="Magisterium Vexilla" hidden="false" id="70f6-bdaf-ba08-916d" type="selectionEntry" targetId="3ac5-b28c-104a-9de5">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ee5a-b585-e3f5-1650" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8f13-25d2-2bcb-7086" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Paragon Blade" hidden="false" id="90aa-7489-5693-bb11" type="selectionEntry" targetId="2ab9-0e45-405e-056b">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="649b-a462-dd02-5854" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Power Weapon" hidden="false" id="f79d-10bd-28df-4b38" type="selectionEntry" targetId="d2db-7598-f55f-86fe">
+                      <infoLinks>
+                        <infoLink name="Master-crafted" id="efd8-4269-1fa1-f759" hidden="false" type="rule" targetId="6de0-55b0-bf21-48b9"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="1d06-28fe-4a53-8aa0" childId="d27b-ee44-fe4-8683" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="a8c7-73a9-28ec-ba8a" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Any model in the unit may exchange their Balistus Grenade Launcher for one of the following options:" id="5392-094d-4faa-ad2d">
+            <selectionEntryGroup name="Any model in the unit may exchange their Balistus Grenade Launcher for one of the following options:" id="5392-094d-4faa-ad2d" defaultSelectionEntryId="8538-aacc-89b2-882d">
               <entryLinks>
                 <entryLink name="Lastrum Storm Bolter" hidden="false" type="selectionEntry" targetId="9724-e7e9-59b0-8c35" id="8e13-7d8a-44b7-b0ef">
                   <constraints>
@@ -1218,13 +1396,15 @@ Could not find wargear Pytherite Spear
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6634-ae4a-413a-b3a4"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Balistus Grenade Launcher" hidden="false" id="8538-aacc-89b2-882d" type="selectionEntry" targetId="986e-e132-8555-11c">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="feb6-4433-b384-54a0" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7e9f-3635-4a8c-bf00"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Balistus Grenade Launcher
-	 Checked under Balistus Grenade Launcher</comment>
             </selectionEntryGroup>
             <selectionEntryGroup name="Any model in the unit may exchange their Guardian Spear and Balistus Grenade Launcher for the following option:" id="a69f-706c-4244-a651">
               <entryLinks>
@@ -1243,6 +1423,18 @@ Could not find wargear Balistus Grenade Launcher
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="815d-b9ad-42c9-a457"/>
               </constraints>
+              <modifiers>
+                <modifier type="set" value="0" field="815d-b9ad-42c9-a457">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="4ba8-6e98-4119-bddd" childId="3ade-3405-494d-bc0d" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="4ba8-6e98-4119-bddd" childId="5392-094d-4faa-ad2d" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
@@ -1252,29 +1444,10 @@ Could not find wargear Balistus Grenade Launcher
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="80"/>
           </costs>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Melta Bombs
-	 Checked under Melta Bombs
-Could not find wargear Misericordia
-	 Checked under Misericordia
-Could not find wargear Allarus Terminator Armour
-	 Checked under Allarus Terminator Armour
-Could not find wargear in Any model in the unit may exchange their Guardian Spear with one of the following options:
-Could not find wargear in Any model in the unit may exchange their Balistus Grenade Launcher for one of the following options:</comment>
+          <comment>
+</comment>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="One model in the unit may exchange their Guardian Spear with one of the following options:" id="759f-9e39-444e-9c61">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="df9e-6ece-402a-9906"/>
-          </constraints>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Magisterium Vexilla &amp; Master-Crafted Power Weapon
-	 Checked under Magisterium Vexilla &amp; Master-Crafted Power Weapon
-Could not find wargear Magisterium Vexilla &amp; Paragon Blade
-	 Checked under Magisterium Vexilla &amp; Paragon Blade</comment>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <infoLinks>
         <infoLink name="Legio Custodes" hidden="false" type="rule" targetId="6998-b328-c080-5341" id="7b7c-046f-4e54-967e"/>
         <infoLink name="Bulky (X)" hidden="false" type="rule" targetId="676c-7b75-4b6f-9405" id="e65f-f406-47f3-b88f">
@@ -1293,11 +1466,52 @@ Could not find wargear Magisterium Vexilla &amp; Paragon Blade
         <infoLink name="Stubborn" hidden="false" type="rule" targetId="7989-1f2c-a43d-82ae" id="3e60-aa81-4337-b0b8"/>
         <infoLink name="Loyalist" hidden="false" type="rule" targetId="d1de-a45d-2b9b-c878" id="0d3c-8bfe-4053-b5e9"/>
       </infoLinks>
-      <comment>!BSC Errors from 20240406-1603
-Could not find wargear in One model in the unit may exchange their Guardian Spear with one of the following options:
-Could not find wargear in One model in the unit may exchange their Guardian Spear with one of the following options:
-Balistus Grenade Launcher is in two option lists for Allarus Terminator, you will need to combine them by hand.
-Guardian Spear is in two option lists for Allarus Terminator, you will need to combine them by hand.</comment>
+      <comment>DONE</comment>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="0) Dedicated Transport" id="5fc8-54fe-4c8d-10c8" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Custodian Land Raider Carrier Squadron" hidden="false" id="692f-b9dc-f708-dbfd" type="selectionEntry" targetId="6118-da03-4069-aa27">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="593-d233-664b-1448" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="greaterThan" value="3" field="selections" scope="1d06-28fe-4a53-8aa0" childId="4ba8-6e98-4119-bddd" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Custodian Land Raider Spartan Assault Tank" hidden="false" id="8c8c-8d93-d662-a07c" type="selectionEntry" targetId="bd80-b2da-457a-97c8">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6d55-a325-2f1a-172e" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="greaterThan" value="7" field="selections" scope="1d06-28fe-4a53-8aa0" childId="4ba8-6e98-4119-bddd" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Coronus Grav-carrier" hidden="false" id="e6cb-a32d-d8f3-9509" type="selectionEntry" targetId="bf7c-a1e1-f983-987e">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e662-3e1-934c-8950" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="greaterThan" value="4" field="selections" scope="1d06-28fe-4a53-8aa0" childId="4ba8-6e98-4119-bddd" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="98a1-a6e7-7b60-b9d0" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry name="Contemptor-Moritiax Dreadnought Talon" type="unit" id="d60c-b9aa-42c7-8f23" page="69" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
@@ -2132,6 +2346,7 @@ Could not find wargear in Any Custodes Grav-Spartan may exchange its Two Sponson
           </constraints>
         </entryLink>
       </entryLinks>
+      <comment>DONE</comment>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Tenebris Praetoria" hidden="false" id="584f-1760-6ef0-5c43">
       <profiles>
@@ -2141,6 +2356,196 @@ Could not find wargear in Any Custodes Grav-Spartan may exchange its Two Sponson
           </characteristics>
         </profile>
       </profiles>
+      <comment>DONE</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Salvo Launcher" hidden="false" id="e919-f19a-8cb-4bf2">
+      <profiles>
+        <profile name="Salvo Launcher (Melta Missile)" hidden="false" id="fbdb-e36c-2f57-609" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" id="b9f-f87b-4366-bb3e" hidden="false" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
+            <characteristic name="Strength" id="13fe-5ed6-62dd-4f07" hidden="false" typeId="24d9-b8e1-a355-2458">8</characteristic>
+            <characteristic name="AP" id="ca86-270c-cad6-febf" hidden="false" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+            <characteristic name="Type" id="bb5c-54ba-6119-5148" hidden="false" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Armourbane (Melta)</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Salvo Launcher (Flakburst Missile)" hidden="false" id="fd8-55cd-33f0-aff9" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" id="dad1-68fd-9aca-83d9" hidden="false" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+            <characteristic name="Strength" id="f467-8185-e19d-51b3" hidden="false" typeId="24d9-b8e1-a355-2458">7</characteristic>
+            <characteristic name="AP" id="3999-7b1d-807b-babf" hidden="false" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" id="8c96-7f30-5c20-cd9f" hidden="false" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Skyfire</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Skyfire" id="6a18-79ad-e001-3681" hidden="false" type="rule" targetId="f2bf-5daa-9f93-0b01"/>
+        <infoLink name="Armourbane (X)" id="4cc8-6d36-2293-df9" hidden="false" type="rule" targetId="cb59-f920-f071-7cd4">
+          <modifiers>
+            <modifier type="set" value="Armourbane (Melta)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <comment>DONE</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Gyrfalcon Jetbike" hidden="false" id="2652-dd68-cc34-ba03" collective="false">
+      <profiles>
+        <profile name="Gyrfalcon Jetbike" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="519c-618e-7039-25eb">
+          <characteristics>
+            <characteristic name="Description" id="6cce-6c32-e24b-2f3" hidden="false" typeId="347e-ee4a-764f-6be3">A Custodes Gyrfalcon jetbike has one Lastrum bolt cannon. In addition, a model with a Custodes Gyrfalcon jetbike that chooses to Run gains the Shrouded (5+) special rule until the start of the controlling player’s next turn.
+A model with the Infantry Unit Type that selects a Custodes Gyrfalcon jetbike as an upgrade must change its Unit Type to Cavalry (Antigrav, Skirmish), keeping any other Unit Sub-types it previously had, changes its Movement Characteristic to 16 and gains the Hammer of Wrath (1) and Deep Strike special rules.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deep Strike" id="7ceb-4a3d-82aa-6b93" hidden="false" targetId="f1e1-986f-c783-ca9e" type="rule"/>
+        <infoLink name="Hammer of Wrath (X)" id="815a-9048-fb14-3975" hidden="false" targetId="aec0-c3aa-1e4e-1779" type="rule">
+          <modifiers>
+            <modifier type="set" value="Hammer of Wrath (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Skilled Rider" id="63f0-fd9c-15cc-3dce" hidden="false" type="rule" targetId="89cc-21e0-bee2-6a89"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" id="8423-2429-ee06-b33b" hidden="false" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+      <comment>MOVED FROM LI - CUSTODES</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Aquilon Pattern Terminator Armour" hidden="false" id="b077-e64b-5a66-7ed2" publicationId="15a4-fc68-502d-48a9" page="152" collective="false">
+      <profiles>
+        <profile name="Aquilon Pattern Terminator Armour" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="ec4b-3bc4-a5ed-0078" publicationId="15a4-fc68-502d-48a9" page="152">
+          <characteristics>
+            <characteristic name="Description" id="47ad-7d8-e003-a347" hidden="false" typeId="347e-ee4a-764f-6be3">Aquilon pattern Terminator armour confers a 2+ Armour Save and a 4+ Invulnerable Save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" id="31cb-9f6-5d22-77fd" hidden="false" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+      <comment>MOVED FROM LI - CUSTODES</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Venatari Lance" hidden="false" id="592e-33dd-bc4c-b44e" collective="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7f32-517-7860-e5" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Venatari Lance (Shooting)" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="4f74-b87e-c354-283c" publicationId="15a4-fc68-502d-48a9" page="147">
+          <characteristics>
+            <characteristic name="Range" id="eae2-1447-af04-e9b0" hidden="false" typeId="95ba-cda7-b831-6066">12&quot;</characteristic>
+            <characteristic name="Strength" id="313b-f8b8-c33b-1bc" hidden="false" typeId="24d9-b8e1-a355-2458">7</characteristic>
+            <characteristic name="AP" id="f01c-3bd7-c80c-fc6" hidden="false" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" id="307e-8c5b-468c-6585" hidden="false" typeId="2f86-c8b4-b3b4-3ff9">Assault 3, Rending (6+)</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Venatari Lance (Melee)" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="4968-c196-c16b-2113" publicationId="15a4-fc68-502d-48a9" page="147">
+          <characteristics>
+            <characteristic name="Range" id="2148-9f4-8697-e40" hidden="false" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" id="5692-5955-659d-11fd" hidden="false" typeId="24d9-b8e1-a355-2458">+1</characteristic>
+            <characteristic name="AP" id="d59a-cf63-9e9e-9bc5" hidden="false" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+            <characteristic name="Type" id="4650-5a8-2f91-def0" hidden="false" typeId="2f86-c8b4-b3b4-3ff9">Melee, Two-handed</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Rending (X)" id="9f67-4e2c-8941-7d9b" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
+          <modifiers>
+            <modifier type="set" value="Rending (6+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Two-handed" id="62b1-20f5-8905-fc4c" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" id="ab0a-1441-60a9-1e60" hidden="false" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+      <comment>COPIED FROM LI - CUSTODES</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Magisterium Vexilla" hidden="false" id="3ac5-b28c-104a-9de5" collective="false">
+      <profiles>
+        <profile name="Magisterium Vexilla" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="649d-2ad0-6c4a-aaa5" publicationId="15a4-fc68-502d-48a9" page="156">
+          <characteristics>
+            <characteristic name="Description" id="ce6e-e8c8-5626-155b" hidden="false" typeId="347e-ee4a-764f-6be3">A unit that includes at least one model with a Magisterium vexilla may re-roll all failed Leadership tests and may add +1 to the score used to decide if any friendly unit with any models within 12&quot; of any Magisterium vexilla wins a combat in the Assault phase – a friendly unit may only benefit from a single Magisterium vexilla’s bonus in any given combat, regardless of how many are within range.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" id="7271-36d1-ef1e-6b5b" hidden="false" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+      <comment>MOVED FROM LI - CUSTODES</comment>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Coronus Grav-carrier" hidden="false" id="bf7c-a1e1-f983-987e" publicationId="15a4-fc68-502d-48a9" page="27" collective="false">
+      <profiles>
+        <profile name="Coronus Grav-carrier" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle" hidden="false" id="7502-6263-cda0-e719">
+          <characteristics>
+            <characteristic name="Unit Type" id="89f9-9ac5-7236-a711" hidden="false" typeId="e555-4aed-dfcc-c0b4">Vehicle (Transport, Antigrav)</characteristic>
+            <characteristic name="Move" id="b186-3bfe-e5ea-1fca" hidden="false" typeId="3614-4a2d-bffb-90e4">16</characteristic>
+            <characteristic name="BS" id="88de-8185-4863-c7e7" hidden="false" typeId="51fb-b7d9-aa59-863d">5</characteristic>
+            <characteristic name="Front" id="b52d-76c8-fe7b-bf24" hidden="false" typeId="0ef8-a648-01d0-08ee">13</characteristic>
+            <characteristic name="Side" id="ce2e-d1db-96c3-a489" hidden="false" typeId="f150-c0dc-c192-9cb3">12</characteristic>
+            <characteristic name="Rear" id="92e7-d827-51a1-c56c" hidden="false" typeId="8d4e-2aea-fffc-d556">10</characteristic>
+            <characteristic name="HP" id="511b-cd52-97ab-68ae" hidden="false" typeId="a76c-83b1-602f-9e62">5</characteristic>
+            <characteristic name="Transport Capacity" id="fb66-f2ec-3562-801" hidden="false" typeId="0c90-79e2-f768-e547">18</characteristic>
+            <characteristic name="Access Points" id="d272-668b-52c4-4350" hidden="false" typeId="e217-1b1e-9494-3e3e">Rear</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Legio Custodes" id="543c-1036-74fb-7367" hidden="false" targetId="6998-b328-c080-5341" type="rule"/>
+        <infoLink name="Power of the Machine Spirit" id="c66d-7d92-ddc2-0bba" hidden="false" targetId="5a93-13e0-809d-782a" type="rule"/>
+        <infoLink name="Deep Strike" id="8c00-6831-484e-bb9b" hidden="false" targetId="f1e1-986f-c783-ca9e" type="rule"/>
+        <infoLink name="Outflank" id="54db-b273-c5d9-59d7" hidden="false" targetId="bfbf-e75c-49a2-0285" type="rule"/>
+        <infoLink name="Loyalist" id="9a1f-2ea1-3a9c-b829" hidden="false" targetId="d1de-a45d-2b9b-c878" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Unit:" hidden="false" id="09ec-fc5e-3f34-aeb8" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink name="Vehicle:" hidden="false" id="4776-46fc-0598-b8ab" targetId="e2b6-b770-784c-9e95" primary="false"/>
+        <categoryLink name="Transport Sub-type:" hidden="false" id="96fe-fdac-52e7-ff96" targetId="7b0a-a743-a8da-3a39" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Twin Lastrum Bolt Cannon" hidden="false" id="5827-b8f8-6167-7700" collective="false" targetId="5eb8-dd6c-05ee-17d5" type="selectionEntry">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="99ed-eac1-aa5d-66e0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f968-8b52-95f9-e558" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Twin-Linked Arachnus Blaze Cannon" hidden="false" id="c6a0-f96f-701c-eb7a" collective="false" targetId="b052-d281-1269-9408" type="selectionEntry">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d53b-dfe7-751c-87ad" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0820-d804-5f9c-3b61" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Flare Shield" hidden="false" id="789d-fc72-e302-d952" collective="false" targetId="0e77-6285-22bb-1534" type="selectionEntry">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9a26-11d0-af5e-9ce2" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="13e0-7911-f1dd-35dd" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" id="c48d-b15c-195a-1d00" hidden="false" typeId="d2ee-04cb-5f8a-2642" value="180"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Twin-Linked Arachnus Blaze Cannon" hidden="false" id="b052-d281-1269-9408" collective="false">
+      <profiles>
+        <profile name="Twin-Linked Arachnus Blaze Cannon" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="3668-9402-7f65-ddd5">
+          <characteristics>
+            <characteristic name="Range" id="de2f-b46b-55d4-d7ec" hidden="false" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
+            <characteristic name="Strength" id="2483-39a2-d77d-c79" hidden="false" typeId="24d9-b8e1-a355-2458">8</characteristic>
+            <characteristic name="AP" id="1f29-2a4e-88bc-82bf" hidden="false" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+            <characteristic name="Type" id="d747-6c3d-c21a-8b74" hidden="false" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Lance, Exoshock (6+), Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Lance" id="4c68-67f9-d64a-6664" hidden="false" targetId="3d6b-9e0b-56f0-8a1e" type="rule"/>
+        <infoLink name="Exoshock (X)" id="566d-6a1e-fe24-e870" hidden="false" targetId="69ca-318a-b47a-7a3c" type="rule">
+          <modifiers>
+            <modifier type="set" value="Exoshock (6+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Twin-linked" id="eb9f-a489-fc7d-d264" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" id="158c-1b5d-b617-84bf" hidden="false" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>
@@ -2172,10 +2577,6 @@ Limitations:
 ● A Detachment using this chamber may not select any Heavy Support choices that do not have the Antigrav Unit Sub-type.
 ● A Detachment using this chamber may not select any Dedicated Transports that do not have the Antigrav Unit Sub-type.</description>
     </rule>
-    <rule name="Wrath of the Tharanatoi" hidden="false" id="ff3c-871b-fde6-2ac2" publicationId="892-6266-f55f-1b9d" page="54">
-      <description>All Melee Attacks made by a model with this Warlord Trait gain the Concussive (1) and Wrecker Special Rules.
-Furthermore, the first Reaction made in each Game Turn by this Warlord and any unit he has joined does not use up a point of the Controlling Player’s Reaction Allotment.</description>
-    </rule>
     <rule name="Chamber of the Tharanatoi" hidden="false" id="da7c-e08b-334-e799" publicationId="892-6266-f55f-1b9d" page="54">
       <description>Effects:
 ● A Detachment using this Chamber may select Aquilon Terminator Squads and Allarus Terminator Squads as Troops choices.
@@ -2202,10 +2603,6 @@ Limitations:
 ● A Detachment using this Chamber may not select more Fast Attack and Heavy Support choices combined than Troops choices.
 ● A Detachment using this Chamber can never roll to Seize the Initiative. 
 ● An army whose primary Detachment uses this Chamber cannot select Fortification choices or a Lord of War Optional Detachment.</description>
-    </rule>
-    <rule name="Ancient of War" hidden="false" id="ed07-a5b8-2368-366" publicationId="892-6266-f55f-1b9d" page="55">
-      <description>All models with the Dreadnought Unit Type in a Detachment including a model with this Warlord Trait gain the It Will Not Die (5+) Special Rule.
-Furthermore, the first Reaction made in each Game Turn by this Warlord and any unit he has joined does not use up a point of the Controlling Player’s Reaction Allotment.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntryGroups>
@@ -2400,4 +2797,25 @@ A Custodian Guard Squad selected in this manner must exchange their Guardian Spe
       </modifiers>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
+  <sharedProfiles>
+    <profile name="Wrath of the Tharanatoi" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait" hidden="false" id="e5eb-432c-df6a-57e7" publicationId="892-6266-f55f-1b9d" page="54">
+      <characteristics>
+        <characteristic name="Text" id="eef7-9c51-1739-159" hidden="false" typeId="c68e-2cda-b67b-baca">All Melee Attacks made by a model with this Warlord Trait gain the Concussive (1) and Wrecker Special Rules.
+Furthermore, the first Reaction made in each Game Turn by this Warlord and any unit he has joined does not use up a point of the Controlling Player’s Reaction Allotment.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ancient of War" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait" hidden="false" id="c39e-af74-c3bc-28ac" publicationId="892-6266-f55f-1b9d" page="55">
+      <characteristics>
+        <characteristic name="Text" id="b3f1-af66-b37a-51b7" hidden="false" typeId="c68e-2cda-b67b-baca">All models with the Dreadnought Unit Type in a Detachment including a model with this Warlord Trait gain the It Will Not Die (5+) Special Rule.
+Furthermore, the first Reaction made in each Game Turn by this Warlord and any unit he has joined does not use up a point of the Controlling Player’s Reaction Allotment.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <categoryEntries>
+    <categoryEntry name="Legio Custodes" id="ccca-a9de-0cd9-f8be" hidden="false">
+      <infoLinks>
+        <infoLink name="Legio Custodes" id="9300-b317-6b65-c72a" hidden="false" targetId="6998-b328-c080-5341" type="rule"/>
+      </infoLinks>
+    </categoryEntry>
+  </categoryEntries>
 </catalogue>
