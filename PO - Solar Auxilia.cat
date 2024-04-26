@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e960-66e8-21db-ebb4" name="[Imperatus] Solar Auxilia" revision="1" battleScribeVersion="2.03" library="true" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2002" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e960-66e8-21db-ebb4" name="[Imperatus] Solar Auxilia" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2002" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry id="bbfc-3ecc-4d10-b3de" name="Lord Marshal Ireton Masade" publicationId="892-6266-f55f-1b9d" page="130" hidden="false" collective="false" import="false" type="unit">
       <comment>!BSC Errors from 20240406-1603
@@ -1675,7 +1675,8 @@ Could not find wargear Melta Bombs
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="18.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6fad-1e31-42a4-90ba" name="Auxilia Infantry Support Tercio Each Auxilia Infantry Support Tercio Is A Single Non-Compulsory Troops Choice, Using Up A Single Troops Slot On The Force Organisation Chart" publicationId="892-6266-f55f-1b9d" page="148" hidden="false" collective="false" import="false" type="unit">
+    <selectionEntry id="6fad-1e31-42a4-90ba" name="Auxilia Infantry Support Tercio " publicationId="892-6266-f55f-1b9d" page="148" hidden="false" collective="false" import="false" type="unit">
+      <comment>Each Auxilia Infantry Support Tercio Is A Single Non-Compulsory Troops Choice, Using Up A Single Troops Slot On The Force Organisation Chart</comment>
       <infoLinks>
         <infoLink id="acc9-8f6d-4854-815b" name="Artillery Spotters" hidden="false" targetId="a373-9d03-0a41-339e" type="rule"/>
         <infoLink id="4c60-3519-4bed-a538" name="Tercio" hidden="false" targetId="6516-f81d-457b-a2cc" type="rule"/>
@@ -2468,7 +2469,8 @@ Could not find profile for Auxilia Weapon Teams in [&apos;Auxilia Weapons Team&a
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="124a-f32d-4442-b42b" name="Auxilia Verticalis Drop Tercio Each Solar Auxilia Drop Tercio Is A Single Fast Attack Choice, Using Up A Single Fast Attack Slot On The Force Organisation Chart" publicationId="892-6266-f55f-1b9d" page="158" hidden="false" collective="false" import="false" type="unit">
+    <selectionEntry id="124a-f32d-4442-b42b" name="Auxilia Verticalis Drop Tercio " publicationId="892-6266-f55f-1b9d" page="158" hidden="false" collective="false" import="false" type="unit">
+      <comment>Each Solar Auxilia Drop Tercio Is A Single Fast Attack Choice, Using Up A Single Fast Attack Slot On The Force Organisation Chart</comment>
       <infoLinks>
         <infoLink id="4f71-152e-4e6e-b883" name="Tercio" hidden="false" targetId="6516-f81d-457b-a2cc" type="rule"/>
       </infoLinks>
@@ -3166,7 +3168,8 @@ Could not find wargear One Hunter-Killer Missile
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a520-ed43-4d78-b257" name="Auxilia Light Armoured Tercio Each Auxilia Light Armoured Tercio Is A Single Fast Attack Choice, Using Up A Single Fast Attack Slot On The Force Organisation Chart" publicationId="892-6266-f55f-1b9d" page="162" hidden="false" collective="false" import="false" type="unit">
+    <selectionEntry id="a520-ed43-4d78-b257" name="Auxilia Light Armoured Tercio " publicationId="892-6266-f55f-1b9d" page="162" hidden="false" collective="false" import="false" type="unit">
+      <comment>Each Auxilia Light Armoured Tercio Is A Single Fast Attack Choice, Using Up A Single Fast Attack Slot On The Force Organisation Chart</comment>
       <infoLinks>
         <infoLink id="0841-c91d-463f-8d39" name="Tercio" hidden="false" targetId="6516-f81d-457b-a2cc" type="rule"/>
         <infoLink id="d085-0b56-4017-beae" name="Scout" hidden="false" targetId="aacf-9a7e-982d-b793" type="rule"/>
@@ -3771,7 +3774,8 @@ Could not find wargear Pintle-Mounted Auto-Launcher
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b287-36c9-40a2-abc5" name="Auxilia Carnodon Tercio Each Auxilia Carnodon Tercio Is A Single Fast Attack Choice, Using Up A Single Fast Attack Slot On The Force Organisation Chart" publicationId="892-6266-f55f-1b9d" page="165" hidden="false" collective="false" import="false" type="unit">
+    <selectionEntry id="b287-36c9-40a2-abc5" name="Auxilia Carnodon Tercio " publicationId="892-6266-f55f-1b9d" page="165" hidden="false" collective="false" import="false" type="unit">
+      <comment>Each Auxilia Carnodon Tercio Is A Single Fast Attack Choice, Using Up A Single Fast Attack Slot On The Force Organisation Chart</comment>
       <infoLinks>
         <infoLink id="acb4-a046-4314-9652" name="Tercio" hidden="false" targetId="6516-f81d-457b-a2cc" type="rule"/>
         <infoLink id="a98e-cbea-4c37-a42b" name="Solar Auxilia Command Tank" hidden="false" targetId="bf74-20ed-ddc9-8ea1" type="rule"/>
@@ -5716,9 +5720,6 @@ Could not find wargear Turret Mounted Oppressor Cannon with Coaxial Autocannon
     </selectionEntry>
     <selectionEntry id="5a26-d499-4251-a65c" name="Auxilia Artillery Tercio Additions" publicationId="892-6266-f55f-1b9d" page="181" hidden="false" collective="false" import="false" type="unit">
       <comment>The Unit Listed Below May Be Selected Instead Of Or As Well As The Other Options Presented In Other Publications For An Auxilia Artillery Tercio</comment>
-      <constraints>
-        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5614-b6b4-8b7d-e9ba" type="max"/>
-      </constraints>
       <infoLinks>
         <infoLink id="5ba6-b07b-407f-8d50" name="Tercio" hidden="false" targetId="6516-f81d-457b-a2cc" type="rule"/>
         <infoLink id="d680-f724-4f04-ba8b" name="Immobile" hidden="false" targetId="a676-e911-8581-8a72" type="rule"/>
