@@ -7116,7 +7116,7 @@ While at least one model with a Command Vox is present on the battlefield and n
                             <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fe04-c096-f846-a6fd" type="equalTo"/>
                           </conditions>
                         </modifier>
-                        <modifier type="set" field="ddd7-6f5c-a939-b69e" value="Infantry">
+                        <modifier type="set" field="ddd7-6f5c-a939-b69e" value="Infantry (Line)">
                           <conditions>
                             <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfd2-7016-f5fe-be6a" type="equalTo"/>
                           </conditions>

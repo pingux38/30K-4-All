@@ -5899,7 +5899,7 @@ Example: A heavy bolter with a suspensor web, which is usually a Range 36&quot; 
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9622-f67e-4afe-09f3" name="Breacher Charge" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9622-f67e-4afe-09f3" name="Breacher Charge" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="d485-964d-e032-8d56" name="Breacher Charge" publicationId="a716-c1c4-7b26-8424" page="142" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
@@ -11293,6 +11293,42 @@ Invulnerable saves granted by a combat shield or boarding shield do not stack wi
           </characteristics>
         </profile>
       </profiles>
+    </selectionEntry>
+    <selectionEntry id="ccbb-2c79-4054-432a" name="Two Twin- Linked Heavy Stubber" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="2fde-1ab6-6c8b-7cfb" name="Heavy Stubber" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" id="e369-67f8-6493-fca8" hidden="false" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+            <characteristic name="Strength" id="b076-60fa-3e25-cc67" hidden="false" typeId="24d9-b8e1-a355-2458">4</characteristic>
+            <characteristic name="AP" id="17ad-8d6-31c-f92e" hidden="false" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
+            <characteristic name="Type" id="5fbb-1b17-6d76-cb1f" hidden="false" typeId="2f86-c8b4-b3b4-3ff9">Heavy 6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Twin-linked" id="9e55-4ed4-5002-c5b3" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="c551-b829-f6f4-4518" name="Twin- Linked Heavy Stubber" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="3247-45da-63c2-5eac" name="Heavy Stubber" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" id="75c5-f360-a45-e420" hidden="false" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+            <characteristic name="Strength" id="6b27-cc66-626c-a62f" hidden="false" typeId="24d9-b8e1-a355-2458">4</characteristic>
+            <characteristic name="AP" id="4151-9085-a3ac-c6e2" hidden="false" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
+            <characteristic name="Type" id="4337-b583-2880-5372" hidden="false" typeId="2f86-c8b4-b3b4-3ff9">Heavy 3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Twin-linked" id="b51e-e541-111f-df71" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
