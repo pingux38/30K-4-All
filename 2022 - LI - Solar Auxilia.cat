@@ -5807,6 +5807,12 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d309-1ebb-6821-34fd" type="max"/>
                       </constraints>
                     </entryLink>
+                    <entryLink import="true" name="Flamer" hidden="false" id="3ce1-c5da-8e26-8c8f" collective="false" targetId="fb37-a292-46bf-0b70" type="selectionEntry">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a361-c8f7-a689-de7d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ebc1-55e6-9ddf-c7c0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                    </entryLink>
                   </entryLinks>
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
