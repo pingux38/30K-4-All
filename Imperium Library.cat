@@ -1321,6 +1321,21 @@ During a Reaction made in any Phase, a player may not choose to activate a model
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Multiple Rocket Pod" hidden="false" id="f2b4-b0d0-1153-cde9" publicationId="892-6266-f55f-1b9d" page="300">
+      <profiles>
+        <profile name="Multiple Rocket Pod" hidden="false" id="9551-ab82-8b5c-65c3" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" publicationId="892-6266-f55f-1b9d" page="300">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&apos;&apos;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5&apos;&apos;), Pinning</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Pinning" id="4b77-8c61-56cd-8948" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="6516-f81d-457b-a2cc" name="Tercio" publicationId="15a4-fc68-502d-48a9" page="138" hidden="false">

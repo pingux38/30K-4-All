@@ -8217,7 +8217,7 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="033d-3201-da9d-137c" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="39d6-965a-61b0-56b5" name="Thermios AP missile" hidden="false" collective="false" import="true" targetId="215a-8348-38fc-553d" type="selectionEntry">
+        <entryLink id="39d6-965a-61b0-56b5" name="Thermios AP Missile" hidden="false" collective="false" import="true" targetId="215a-8348-38fc-553d" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="244b-9858-4870-afa2" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a302-34e4-6517-61ce" type="max"/>
@@ -11209,14 +11209,31 @@ Invulnerable saves granted by a combat shield or boarding shield do not stack wi
         <infoLink name="Multi-Laser" id="a446-a868-2f43-76f6" hidden="false" type="profile" targetId="39e5-062a-576b-91a9"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry id="3ac3-df49-bd49-51ae" name="Multi-Laser w/ Suspensor Web" publicationId="bde1-6db1-163b-3b76" page="117" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3ac3-df49-bd49-51ae" name="Lasrifle w/ Suspensor Web" publicationId="bde1-6db1-163b-3b76" page="117" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Suspensor Web" id="392f-a6fc-5a96-2ffc" hidden="false" type="profile" targetId="733b-dd18-cf6a-a256"/>
-        <infoLink name="Multi-Laser" id="1b4a-d9f-c431-d889" hidden="false" type="profile" targetId="39e5-062a-576b-91a9"/>
+        <infoLink name="Suspensor Web" id="392f-a6fc-5a96-2ffc" hidden="false" type="rule" targetId="d674-d485-e2e3-f509"/>
       </infoLinks>
+      <profiles>
+        <profile name="Lasrifle (Blast Charger, Suspensor-Web)" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="e37d-8f7c-b008-f879" publicationId="15a4-fc68-502d-48a9" page="143">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Lasrifle (Volley, Suspensor-Web)" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="72b5-9612-61cb-d15d" publicationId="15a4-fc68-502d-48a9" page="143">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">30&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">3</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry id="13f-d886-990b-f1ad" name="Lascutter" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
@@ -15776,8 +15793,8 @@ This Provenance cannot be taken in conjunction with the Survivors of the Dark Ag
     </selectionEntryGroup>
     <selectionEntryGroup name="Master-Craft a Single Weapon?" hidden="false" id="7161-5a06-9e6d-2884">
       <entryLinks>
-        <entryLink import="true" name="Mastercraft a Melee Weapon" hidden="false" id="a2c2-f194-6e1-ec0c" type="selectionEntry" targetId="6b65-60e5-5164-5cd9"/>
-        <entryLink import="true" name="Mastercraft a Range Weapon" hidden="false" id="3947-b6f2-4758-383e" type="selectionEntry" targetId="b38b-fa57-c084-fb5b"/>
+        <entryLink import="true" name="Master-crafted Melee Weapon" hidden="false" id="a2c2-f194-6e1-ec0c" type="selectionEntry" targetId="6b65-60e5-5164-5cd9"/>
+        <entryLink import="true" name="Master-crafted Ranged Weapon" hidden="false" id="3947-b6f2-4758-383e" type="selectionEntry" targetId="b38b-fa57-c084-fb5b"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup name="Warrants of Trade" hidden="false" id="c9c3-1152-3913-fa6a">
@@ -16897,6 +16914,9 @@ In addition, any weapons a model with this Special Rule is equipped with which d
     </rule>
     <rule name="The Honored One" hidden="false" id="130d-ed6f-db5f-94ef">
       <description>This Character grants the benefit of a Legion Vexilla to all friendly Legiones Astartes (X) units with the same X as the Character and which have at least one model within 12”.</description>
+    </rule>
+    <rule name="Suspensor Web" id="d674-d485-e2e3-f509" hidden="false">
+      <description>A weapon with a Suspensor Web may be fired as an Assault weapon at half range or less. If a weapon fired in this manner has any Special Rules that rely on range (such as Armourbane (Melta)) then the range required to trigger this Special Rule is calculated based on the weapon’s original range, not the modified range from the Suspensor Web’s effects.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
