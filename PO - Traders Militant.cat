@@ -4,7 +4,7 @@
     <selectionEntry name="Rogue Trader Militant" type="unit" id="6fcb-0846-49d7-9b10" page="14-15" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="e9f8-3683-40aa-bc58"/>
-        <categoryLink targetId="4f85-eb33-30c9-8f51" primary="true" id="4ea9-2998-4e83-95b4" name="HQ"/>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" primary="true" id="4ea9-2998-4e83-95b4" name="HQ:"/>
       </categoryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="90"/>
@@ -118,7 +118,7 @@
             </entryLink>
           </entryLinks>
           <categoryLinks>
-            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="3f2a-c473-4712-8d2c" name="Infantry" primary="false"/>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="3f2a-c473-4712-8d2c" name="Infantry:" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="7beb-b9b3-44be-8848" name="Character" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
@@ -760,7 +760,7 @@
             <entryLink import="true" name="Melta Bomb" hidden="false" id="5153-7824-ee4f-7060" type="selectionEntry" targetId="e55d-d31b-46a9-aeb6"/>
           </entryLinks>
           <categoryLinks>
-            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="82ee-8f48-4f37-ba44" name="Infantry" primary="false"/>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="82ee-8f48-4f37-ba44" name="Infantry:" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
@@ -1034,7 +1034,7 @@
             <entryLink import="true" name="Melta Bomb" hidden="false" id="48f5-c7ad-2355-71c0" type="selectionEntry" targetId="e55d-d31b-46a9-aeb6"/>
           </entryLinks>
           <categoryLinks>
-            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="8681-8776-487f-b9d9" name="Infantry" primary="false"/>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="8681-8776-487f-b9d9" name="Infantry:" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -1495,7 +1495,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="f83b-14e9-4baf-9452" name="Infantry" primary="false"/>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="f83b-14e9-4baf-9452" name="Infantry:" primary="false"/>
           </categoryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -1561,7 +1561,7 @@
             </entryLink>
           </entryLinks>
           <categoryLinks>
-            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="1ade-2322-4898-931d" name="Infantry" primary="false"/>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="1ade-2322-4898-931d" name="Infantry:" primary="false"/>
           </categoryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -1790,8 +1790,8 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="691d-882b-44ba-8352" name="Infantry" primary="false"/>
-            <categoryLink targetId="6e0c-29ba-a445-8321" id="ce8a-18c1-41bc-a90f" name="Psyker" primary="false"/>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="691d-882b-44ba-8352" name="Infantry:" primary="false"/>
+            <categoryLink targetId="6e0c-29ba-a445-8321" id="ce8a-18c1-41bc-a90f" name="Psyker:" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -1999,7 +1999,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="b2fe-ff73-488e-86c8" name="Infantry" primary="false"/>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="b2fe-ff73-488e-86c8" name="Infantry:" primary="false"/>
           </categoryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -2235,8 +2235,8 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="f3a8-24e8-452a-9ef7" name="Infantry" primary="false"/>
-            <categoryLink targetId="6e0c-29ba-a445-8321" id="add4-d69d-4c36-92fc" name="Psyker" primary="false"/>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="f3a8-24e8-452a-9ef7" name="Infantry:" primary="false"/>
+            <categoryLink targetId="6e0c-29ba-a445-8321" id="add4-d69d-4c36-92fc" name="Psyker:" primary="false"/>
           </categoryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -2476,8 +2476,8 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="91bd-f914-45b6-8e03" name="Infantry" primary="false"/>
-            <categoryLink targetId="6e0c-29ba-a445-8321" id="a5c8-a51e-4cc5-9394" name="Psyker" primary="false"/>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="91bd-f914-45b6-8e03" name="Infantry:" primary="false"/>
+            <categoryLink targetId="6e0c-29ba-a445-8321" id="a5c8-a51e-4cc5-9394" name="Psyker:" primary="false"/>
           </categoryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -2625,7 +2625,7 @@ Could not find wargear Missile Launcher (with Frag, Krak, and Flak Missiles)
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink targetId="28f2-0db9-4fdb-bde6" id="98ef-5b5e-42f0-8c91" name="Guardian" primary="false"/>
+            <categoryLink targetId="28f2-0db9-4fdb-bde6" id="98ef-5b5e-42f0-8c91" name="Guardian Unit Sub-Type:" primary="false"/>
             <categoryLink targetId="d8ab-8e21-e193-63ba" id="65da-48b3-bfe-4501" primary="false" name="Automata Unit-type:"/>
           </categoryLinks>
           <costs>
@@ -2998,7 +2998,7 @@ Name ends in a star, check the rules for special handling</comment>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="6ec4-1708-4975-b920" name="Infantry" primary="false"/>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="6ec4-1708-4975-b920" name="Infantry:" primary="false"/>
           </categoryLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="[Placeholder] Legion-Specific Gear" hidden="false" id="7b8e-4715-3a47-6499">
@@ -3327,7 +3327,7 @@ Name ends in a star, check the rules for special handling</comment>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="3231-cbfd-4409-b297" name="Infantry" primary="false"/>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="3231-cbfd-4409-b297" name="Infantry:" primary="false"/>
           </categoryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -3658,7 +3658,7 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="4d56-8ced-4a54-bbe6" name="Infantry" primary="false"/>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="4d56-8ced-4a54-bbe6" name="Infantry:" primary="false"/>
           </categoryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -3837,8 +3837,8 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="703d-abfd-4a3d-b1f7" name="Infantry" primary="false"/>
-            <categoryLink targetId="59a4-7b61-600a-c457" id="a90a-8c40-445d-8c70" name="Skirmish" primary="false"/>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="703d-abfd-4a3d-b1f7" name="Infantry:" primary="false"/>
+            <categoryLink targetId="59a4-7b61-600a-c457" id="a90a-8c40-445d-8c70" name="Skirmish Sub-type:" primary="false"/>
           </categoryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -3943,7 +3943,7 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5a8b-a9fb-4060-a46c"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Proteus Neuro-Lash" hidden="false" type="selectionEntry" targetId="d130-4af2-1ea4-e18d" id="c65c-8676-40a5-91eb" sortIndex="4">
+                <entryLink name="Proteus Neuro-lash" hidden="false" type="selectionEntry" targetId="d130-4af2-1ea4-e18d" id="c65c-8676-40a5-91eb" sortIndex="4">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
@@ -4018,9 +4018,9 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="c3c6-20e6-4e5a-81dc" name="Infantry" primary="false"/>
-            <categoryLink targetId="bff2-ae16-74a8-8712" id="d7b2-d33c-4a97-9090" name="Light" primary="false"/>
-            <categoryLink targetId="32ee-6da0-41d1-8016" id="a112-8140-4c04-91d0" name="Anathema" primary="false"/>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="c3c6-20e6-4e5a-81dc" name="Infantry:" primary="false"/>
+            <categoryLink targetId="bff2-ae16-74a8-8712" id="d7b2-d33c-4a97-9090" name="Light Sub-type:" primary="false"/>
+            <categoryLink targetId="32ee-6da0-41d1-8016" id="a112-8140-4c04-91d0" name="Anathema Unit Sub-Type:" primary="false"/>
           </categoryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -4212,8 +4212,8 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="0b29-5902-4780-abf0" name="Infantry" primary="false"/>
-            <categoryLink targetId="88bc-c291-44f8-8798" id="7f14-2010-4e86-af82" name="Asuryani" primary="false"/>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="0b29-5902-4780-abf0" name="Infantry:" primary="false"/>
+            <categoryLink targetId="88bc-c291-44f8-8798" id="7f14-2010-4e86-af82" name="Asuryani Unit Sub-Type:" primary="false"/>
           </categoryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -4366,8 +4366,8 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="8ab5-8239-499b-92bf" name="Infantry" primary="false"/>
-            <categoryLink targetId="59a4-7b61-600a-c457" id="a544-3627-4ca4-a458" name="Skirmish" primary="false"/>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="8ab5-8239-499b-92bf" name="Infantry:" primary="false"/>
+            <categoryLink targetId="59a4-7b61-600a-c457" id="a544-3627-4ca4-a458" name="Skirmish Sub-type:" primary="false"/>
             <categoryLink targetId="e9cf-bae1-4a9a-8d47" id="e114-e342-20af-51b9" primary="false" name="Rillietann Unit Sub-Type:"/>
           </categoryLinks>
         </selectionEntry>
@@ -4387,7 +4387,7 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
     <selectionEntry name="Voidsmen Cadre - OLD" type="unit" id="0e0e-4311-4191-8b16" page="34" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="83d3-36a6-4e1c-98e6"/>
-        <categoryLink targetId="7aee-565f-b0ae-294e" primary="true" id="97b8-c013-4ef4-b1d2" name="Elites"/>
+        <categoryLink targetId="7aee-565f-b0ae-294e" primary="true" id="97b8-c013-4ef4-b1d2" name="Elites:"/>
       </categoryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="13"/>
@@ -4707,7 +4707,7 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
                     </entryLink>
                     <entryLink import="true" name="Multi-Laser" hidden="false" id="e89c-98e9-cf64-8e6d" type="selectionEntry" targetId="003b-af4b-0094-f5c3" sortIndex="3">
                       <infoLinks>
-                        <infoLink name="Suspensor Web" id="17c6-f921-8b5c-1493" hidden="false" type="profile" targetId="733b-dd18-cf6a-a256"/>
+                        <infoLink name="Suspensor Web" id="17c6-f921-8b5c-1493" hidden="false" type="profile" targetId="457c-1f2c-ca90-1bf3"/>
                       </infoLinks>
                       <modifiers>
                         <modifier type="set" value="Multi-Laser w/ Suspensor Web" field="name"/>
@@ -4721,7 +4721,7 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
                     </entryLink>
                     <entryLink import="true" name="Hot-Shot Volley Gun" hidden="false" id="a603-d821-5710-fa09" type="selectionEntry" targetId="1b5c-5980-4fdd-b123" sortIndex="6">
                       <infoLinks>
-                        <infoLink name="Suspensor Web" id="7058-127e-c241-8209" hidden="false" type="profile" targetId="733b-dd18-cf6a-a256"/>
+                        <infoLink name="Suspensor Web" id="7058-127e-c241-8209" hidden="false" type="profile" targetId="457c-1f2c-ca90-1bf3"/>
                       </infoLinks>
                       <modifiers>
                         <modifier type="set" value="Hot-Shot Volley Gun w/ Suspensor Web" field="name"/>
@@ -4804,7 +4804,7 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
     <selectionEntry name="Imperatrix Bondsmen Cadre" type="unit" id="d75e-31c1-4461-a2de" page="35" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="a5cb-d31c-4857-a90f"/>
-        <categoryLink targetId="7aee-565f-b0ae-294e" primary="true" id="2031-5160-4613-9a10" name="Elites"/>
+        <categoryLink targetId="7aee-565f-b0ae-294e" primary="true" id="2031-5160-4613-9a10" name="Elites:"/>
       </categoryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="16"/>
@@ -4953,8 +4953,8 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="59db-9aef-4046-bfb8" name="Infantry" primary="false"/>
-            <categoryLink targetId="9231-183c-b97b-63f9" id="7b05-0619-448f-8f02" name="Heavy" primary="false"/>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="59db-9aef-4046-bfb8" name="Infantry:" primary="false"/>
+            <categoryLink targetId="9231-183c-b97b-63f9" id="7b05-0619-448f-8f02" name="Heavy Sub-type:" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="11"/>
@@ -5221,9 +5221,9 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="2fac-b35a-4729-8cc2" name="Infantry" primary="false"/>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="2fac-b35a-4729-8cc2" name="Infantry:" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="e4c7-0da9-4563-ac5c" name="Character" primary="false"/>
-            <categoryLink targetId="9231-183c-b97b-63f9" id="b433-a40e-421f-ac41" name="Heavy" primary="false"/>
+            <categoryLink targetId="9231-183c-b97b-63f9" id="b433-a40e-421f-ac41" name="Heavy Sub-type:" primary="false"/>
           </categoryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -5267,7 +5267,7 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
     <selectionEntry name="Savaris Bondsmen Cadre" type="unit" id="d9ee-677c-4a7b-a579" page="36" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="09d4-8e00-45f1-8a13"/>
-        <categoryLink targetId="7aee-565f-b0ae-294e" primary="true" id="b798-eb91-470a-8a34" name="Elites"/>
+        <categoryLink targetId="7aee-565f-b0ae-294e" primary="true" id="b798-eb91-470a-8a34" name="Elites:"/>
       </categoryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="16"/>
@@ -5576,7 +5576,7 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="705e-7072-4d4e-a13a" name="Infantry" primary="false"/>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="705e-7072-4d4e-a13a" name="Infantry:" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="11"/>
@@ -6133,10 +6133,10 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink targetId="e2b6-b770-784c-9e95" id="52db-d813-4fc4-a0a2" name="Vehicle" primary="false"/>
-            <categoryLink targetId="4e84-2d57-4986-2b23" id="9e11-7f4e-48ba-9efd" name="Flyer" primary="false"/>
-            <categoryLink targetId="3a7a-8bb7-b0d3-e2e7" id="5ad5-ae06-42aa-a64e" name="Hover" primary="false"/>
-            <categoryLink targetId="7b0a-a743-a8da-3a39" id="d53f-8d08-455f-9c57" name="Transport" primary="false"/>
+            <categoryLink targetId="e2b6-b770-784c-9e95" id="52db-d813-4fc4-a0a2" name="Vehicle:" primary="false"/>
+            <categoryLink targetId="4e84-2d57-4986-2b23" id="9e11-7f4e-48ba-9efd" name="Flyer Sub-type:" primary="false"/>
+            <categoryLink targetId="3a7a-8bb7-b0d3-e2e7" id="5ad5-ae06-42aa-a64e" name="Hover Sub-type" primary="false"/>
+            <categoryLink targetId="7b0a-a743-a8da-3a39" id="d53f-8d08-455f-9c57" name="Transport Sub-type:" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -6262,8 +6262,8 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink targetId="e2b6-b770-784c-9e95" id="54f7-c2de-4313-b928" name="Vehicle" primary="false"/>
-            <categoryLink targetId="7b0a-a743-a8da-3a39" id="689c-f5df-464c-984e" name="Transport" primary="false"/>
+            <categoryLink targetId="e2b6-b770-784c-9e95" id="54f7-c2de-4313-b928" name="Vehicle:" primary="false"/>
+            <categoryLink targetId="7b0a-a743-a8da-3a39" id="689c-f5df-464c-984e" name="Transport Sub-type:" primary="false"/>
           </categoryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -6370,7 +6370,7 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
             </selectionEntryGroup>
             <selectionEntryGroup name="The Land Raider Armoured Carrier may exchange its Hull (Front) Mounted Twin-Linked Heavy Bolter for one of the following options:" id="d8e2-b92b-4642-9da8" defaultSelectionEntryId="892f-1446-46fd-b83b">
               <entryLinks>
-                <entryLink name="Twin-Linked Heavy Bolter" hidden="false" type="selectionEntry" targetId="d03c-9f7e-84fa-d6e8" id="892f-1446-46fd-b83b" sortIndex="1">
+                <entryLink name="Twin-linked Heavy Bolter" hidden="false" type="selectionEntry" targetId="d03c-9f7e-84fa-d6e8" id="892f-1446-46fd-b83b" sortIndex="1">
                   <modifiers>
                     <modifier type="set" field="name" value="Hull (Front) Mounted Twin-Linked Heavy Bolter"/>
                   </modifiers>
@@ -6378,7 +6378,7 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7661-d817-4cd2-88e7"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Twin-Linked Heavy Flamer" hidden="false" type="selectionEntry" targetId="18ea-34ad-326b-281b" id="2448-7291-4551-887e" sortIndex="2">
+                <entryLink name="Twin-linked Heavy Flamer" hidden="false" type="selectionEntry" targetId="18ea-34ad-326b-281b" id="2448-7291-4551-887e" sortIndex="2">
                   <modifiers>
                     <modifier type="set" field="name" value="Hull (Front) Mounted Twin-Linked Heavy Flamer"/>
                   </modifiers>
@@ -6386,7 +6386,7 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3159-2ca3-4340-a10a"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Twin-Linked Lascannon" hidden="false" type="selectionEntry" targetId="3adf-7150-9ee6-b2de" id="42fa-f0b2-480c-bd59" sortIndex="3">
+                <entryLink name="Twin-linked Lascannon" hidden="false" type="selectionEntry" targetId="3adf-7150-9ee6-b2de" id="42fa-f0b2-480c-bd59" sortIndex="3">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>
@@ -6473,9 +6473,9 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink targetId="e2b6-b770-784c-9e95" id="af6c-315c-4077-9815" name="Vehicle" primary="false"/>
-            <categoryLink targetId="7b0a-a743-a8da-3a39" id="b343-a455-4368-befb" name="Transport" primary="false"/>
-            <categoryLink targetId="9b0d-738c-10e4-4ec1" id="29cc-bf34-441a-b34d" name="Reinforced" primary="false"/>
+            <categoryLink targetId="e2b6-b770-784c-9e95" id="af6c-315c-4077-9815" name="Vehicle:" primary="false"/>
+            <categoryLink targetId="7b0a-a743-a8da-3a39" id="b343-a455-4368-befb" name="Transport Sub-type:" primary="false"/>
+            <categoryLink targetId="9b0d-738c-10e4-4ec1" id="29cc-bf34-441a-b34d" name="Reinforced Sub-type:" primary="false"/>
           </categoryLinks>
           <comment>!BSC Errors from 20240406-1603
 Could not find wargear in The Land Raider Armoured Carrier may exchange its Two Sponson Mounted Gravis Heavy Bolter Batteries for one of the following options:</comment>
@@ -6489,7 +6489,7 @@ Could not find wargear in The Land Raider Armoured Carrier may exchange its Two 
     <selectionEntry name="Grav-Speeder Squadron" type="unit" id="8536-738f-4e2d-80bd" page="46" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="8ec4-fa1f-4911-b1ec"/>
-        <categoryLink targetId="20ef-cd01-a8da-376e" primary="true" id="b71c-10dd-447f-a368" name="Fast Attack"/>
+        <categoryLink targetId="20ef-cd01-a8da-376e" primary="true" id="b71c-10dd-447f-a368" name="Fast Attack:"/>
       </categoryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -6629,7 +6629,7 @@ Could not find wargear in The Land Raider Armoured Carrier may exchange its Two 
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink targetId="4303-1348-cce4-9501" id="3b0b-942a-4a26-be5f" name="Antigrav" primary="false"/>
+            <categoryLink targetId="4303-1348-cce4-9501" id="3b0b-942a-4a26-be5f" name="Antigrav Sub-type" primary="false"/>
             <categoryLink targetId="6d79-a3e4-381f-7b0f" id="f35a-fd62-cbbd-91a1" primary="true" name="Cavalry Unit-type:"/>
           </categoryLinks>
           <costs>
@@ -6654,7 +6654,7 @@ Could not find wargear in The Land Raider Armoured Carrier may exchange its Two 
     <selectionEntry name="Carnodon Severax Squadron" type="unit" id="e4b7-ffcd-4d8e-9ffc" page="50" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="b340-99f8-4055-924a"/>
-        <categoryLink targetId="7031-469a-1aeb-eab0" primary="true" id="feea-a74e-4154-8930" name="Heavy Support"/>
+        <categoryLink targetId="7031-469a-1aeb-eab0" primary="true" id="feea-a74e-4154-8930" name="Heavy Support:"/>
       </categoryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -6858,7 +6858,7 @@ Could not find wargear in The Land Raider Armoured Carrier may exchange its Two 
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink targetId="e2b6-b770-784c-9e95" id="9b56-2359-422f-a91e" name="Vehicle" primary="false"/>
+            <categoryLink targetId="e2b6-b770-784c-9e95" id="9b56-2359-422f-a91e" name="Vehicle:" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="85"/>
@@ -7605,7 +7605,7 @@ Could not find wargear in The Land Raider Armoured Carrier may exchange its Two 
                   </categoryLinks>
                 </entryLink>
                 <entryLink import="true" name="Garviel Loken" hidden="false" id="e423-44b2-3ea3-cad3" type="selectionEntry" targetId="b35-a0d1-afc9-8dd"/>
-                <entryLink import="true" name="Knight-Errant" hidden="false" id="5a36-687a-6624-df47" type="selectionEntry" targetId="2952-dcf5-3d52-e05b"/>
+                <entryLink import="true" name="Recordless Knight-Errant" hidden="false" id="5a36-687a-6624-df47" type="selectionEntry" targetId="2952-dcf5-3d52-e05b"/>
               </entryLinks>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="78d4-40f0-f5e9-81a"/>
@@ -7663,7 +7663,7 @@ Could not find wargear in The Land Raider Armoured Carrier may exchange its Two 
             <constraint type="min" value="1" field="selections" scope="force" shared="true" id="7dee-4a88-8c96-bf82" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Compulsory Elite:" hidden="false" id="85fe-e7fa-5d03-8f46" targetId="bb1f-ae32-b587-c3e1" primary="false" type="category">
+        <categoryLink name="Compulsory Elite:" hidden="false" id="85fe-e7fa-5d03-8f46" targetId="bb1f-ae32-b587-c3e1" primary="false">
           <constraints>
             <constraint type="min" value="2" field="selections" scope="force" shared="true" id="42b8-a682-2f45-ec7b" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
@@ -7681,7 +7681,7 @@ Could not find wargear in The Land Raider Armoured Carrier may exchange its Two 
           </constraints>
         </categoryLink>
         <categoryLink name="Lords of War Have Moved to &quot;Lords of War Detachment&quot;" hidden="false" id="8271-9a82-637-da85" targetId="ed41-7006-3494-4c24" primary="false"/>
-        <categoryLink name="Ageis Militant - Non-Compulsory Elites" hidden="false" id="f53f-32c9-fcc2-d587" targetId="6340-8b61-3c50-8b90" type="category">
+        <categoryLink name="Ageis Militant - Non-Compulsory Elites" hidden="false" id="f53f-32c9-fcc2-d587" targetId="6340-8b61-3c50-8b90">
           <constraints>
             <constraint type="min" value="0" field="selections" scope="force" shared="true" id="e720-6aa3-2adc-9413" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
             <constraint type="max" value="1" field="selections" scope="force" shared="true" id="2cf-d08-f47-6167" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
@@ -7871,7 +7871,7 @@ Could not find wargear in The Land Raider Armoured Carrier may exchange its Two 
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink import="true" name="Trader&apos;s Militant" hidden="false" id="96c0-4c34-aae8-dec3" type="selectionEntry" targetId="b3c-b7a3-8cee-e47e" defaultAmount="1">
+    <entryLink import="true" name="Traders Militant" hidden="false" id="96c0-4c34-aae8-dec3" type="selectionEntry" targetId="b3c-b7a3-8cee-e47e" defaultAmount="1">
       <categoryLinks>
         <categoryLink targetId="e90d-e5a8-f42d-da84" id="a3cc-4182-147e-f2bb" primary="true" name="Allegiance:"/>
       </categoryLinks>

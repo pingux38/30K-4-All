@@ -11315,13 +11315,13 @@ In addition, all models with a Scapuli-Pattern Thruster Pack that have been acti
     <selectionEntry name="Hot-Shot Volley Gun w/ Suspensor Web" type="upgrade" id="5273-769-d897-8426" collective="true">
       <infoLinks>
         <infoLink name="Hot-Shot Volley Gun" id="a51e-845-1a30-e8f9" hidden="false" type="profile" targetId="7eac-5b5a-480a-9008"/>
-        <infoLink name="Suspensor Web" id="5550-adeb-6a03-c56d" hidden="false" type="profile" targetId="733b-dd18-cf6a-a256"/>
+        <infoLink name="Suspensor Web" id="5550-adeb-6a03-c56d" hidden="false" type="profile" targetId="457c-1f2c-ca90-1bf3"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Hot-Shot Volley Gun w/ Suspensor Web" type="upgrade" id="5fb7-ffd4-4449-3aad" collective="false">
       <infoLinks>
         <infoLink name="Hot-Shot Volley Gun" id="7166-91d-b239-124c" hidden="false" type="profile" targetId="7eac-5b5a-480a-9008"/>
-        <infoLink name="Suspensor Web" id="aa2c-b974-9558-e41a" hidden="false" type="profile" targetId="733b-dd18-cf6a-a256"/>
+        <infoLink name="Suspensor Web" id="aa2c-b974-9558-e41a" hidden="false" type="profile" targetId="457c-1f2c-ca90-1bf3"/>
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>

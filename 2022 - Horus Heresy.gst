@@ -3145,14 +3145,14 @@ THIS IS A TEMPORARY NOTIFICATION THAT WILL BE REMOVED IN A FEW MONTHS WHEN HOPEF
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fe77-2e74-160d-c7af" name="Kheres Assault Cannon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="fe77-2e74-160d-c7af" name="Twin-linked Kheres Assault Cannon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="5bb0-1cb6-1702-3b8a" name="Kheres Assault Cannon" publicationId="a716-c1c4-7b26-8424" page="128" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+        <profile id="5bb0-1cb6-1702-3b8a" name="Twin-Linked Kheres Assault Cannon" publicationId="a716-c1c4-7b26-8424" page="128" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 6, Rending (6+)</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 6, Rending (6+), Twin-Linked</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3160,6 +3160,11 @@ THIS IS A TEMPORARY NOTIFICATION THAT WILL BE REMOVED IN A FEW MONTHS WHEN HOPEF
         <infoLink id="eb30-e653-8327-952b" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Rending (6+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Twin-linked" id="b361-a554-a542-9303" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule">
+          <modifiers>
+            <modifier type="set" value="Rending (6+)" field="name"/>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -5862,7 +5867,7 @@ Searchlights do not count as weapons and may not be targeted by the Weapon Destr
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6472-db7f-08b0-d7c7" name="Suspensor Web" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6472-db7f-08b0-d7c7" name="Suspensor Web" hidden="false" collective="false" import="true" type="upgrade" publicationId="9fab-fea7-a93c-2074" page="123">
       <profiles>
         <profile id="457c-1f2c-ca90-1bf3" name="Suspensor Web" publicationId="a716-c1c4-7b26-8424" page="147" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
@@ -7785,7 +7790,7 @@ A unit that makes a Shooting Attack as part of a Scornful Fire Reaction may not 
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 3,  Twin-Linked</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10826,20 +10831,8 @@ Once all models in the unit have moved onto the battlefield, the Warp Rift marke
           </modifiers>
         </infoLink>
         <infoLink id="6ecc-8efb-fa4b-b34d" name="Twin-linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
-        <infoLink id="1afb-1ccc-bfc4-c2a1" name="Suspensor Web" publicationId="9fab-fea7-a93c-2074" page="120" hidden="false" targetId="733b-dd18-cf6a-a256" type="profile"/>
+        <infoLink id="1afb-1ccc-bfc4-c2a1" name="Suspensor Web" publicationId="9fab-fea7-a93c-2074" page="120" hidden="false" targetId="457c-1f2c-ca90-1bf3" type="profile"/>
       </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="8c98-c35c-98be-d27f" name="Suspensor Web" publicationId="9fab-fea7-a93c-2074" page="123" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="733b-dd18-cf6a-a256" name="Suspensor Web" publicationId="9fab-fea7-a93c-2074" page="123" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
-          <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A weapon with a Suspensor Web may be fired as an Assault weapon at half range or less. If a weapon fired in this manner has any Special Rules that rely on range (such as Armourbane (Melta)) then the range required to trigger this Special Rule is calculated based on the weapon’s original range, not the modified range from the Suspensor Web’s effects.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
@@ -11205,7 +11198,7 @@ Invulnerable saves granted by a combat shield or boarding shield do not stack wi
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Suspensor Web" id="9103-b077-f336-257d" hidden="false" type="profile" targetId="733b-dd18-cf6a-a256"/>
+        <infoLink name="Suspensor Web" id="9103-b077-f336-257d" hidden="false" type="profile" targetId="457c-1f2c-ca90-1bf3"/>
         <infoLink name="Multi-Laser" id="a446-a868-2f43-76f6" hidden="false" type="profile" targetId="39e5-062a-576b-91a9"/>
       </infoLinks>
     </selectionEntry>
@@ -11311,7 +11304,7 @@ Invulnerable saves granted by a combat shield or boarding shield do not stack wi
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry id="ccbb-2c79-4054-432a" name="Two Twin- Linked Heavy Stubber" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ccbb-2c79-4054-432a" name="Two Twin-Linked Heavy Stubber" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="2fde-1ab6-6c8b-7cfb" name="Heavy Stubber" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
@@ -11346,6 +11339,56 @@ Invulnerable saves granted by a combat shield or boarding shield do not stack wi
       <infoLinks>
         <infoLink name="Twin-linked" id="b51e-e541-111f-df71" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
       </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Twin-linked Multi-Laser" hidden="false" id="f115-3ca3-45d-8aca" publicationId="bde1-6db1-163b-3b76" page="117" collective="true">
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Multi-Laser" id="2791-b37-3930-d759" hidden="false" type="profile" targetId="39e5-062a-576b-91a9"/>
+        <infoLink name="Twin-linked" id="c05b-a903-a1a2-ea95" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Twin-linked Volkite Culverin" hidden="false" id="e7c5-73dc-18ac-eb9d" publicationId="892-6266-f55f-1b9d" page="300" collective="true">
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Twin-linked" id="6148-ecc4-824f-6ff4" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+        <infoLink name="Deflagrate" id="e134-447c-b4c2-5e24" hidden="false" targetId="60bc-f79a-67ae-be4f" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Twin-Linked Volkite Culverin" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="7f1-83ac-517c-d554" publicationId="a716-c1c4-7b26-8424" page="134">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">45&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 5, Deflagrate, Twin-Linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Kheres Assault Cannon" hidden="false" id="88a1-b1ab-9e1e-2f95" collective="false">
+      <profiles>
+        <profile name="Kheres Assault Cannon" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="6e19-37f9-b559-8b6e" publicationId="a716-c1c4-7b26-8424" page="128">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 6, Rending (6+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Rending (X)" id="7ad7-2a3e-be5d-7db7" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
+          <modifiers>
+            <modifier type="set" value="Rending (6+)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
