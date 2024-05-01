@@ -1116,7 +1116,7 @@ Could not find profile for Servo-automata in [&apos;Enginseer Adept&apos;, &apos
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c63b-8b51-684a-6ef1"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry type="model" import="true" name="Auxilia Breacher Sergeant" hidden="false" id="17db-601e-3870-b715" collective="false" defaultAmount="1">
+                <selectionEntry type="model" import="true" name="Auxilia Breacher Sergeant" hidden="false" id="17db-601e-3870-b715" collective="false" defaultAmount="1" sortIndex="1">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="896-4416-cd54-ed16" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4bc1-c1d8-8c60-afe5" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -1295,43 +1295,43 @@ Could not find profile for Servo-automata in [&apos;Enginseer Adept&apos;, &apos
                 <cost name="Pts" id="b7c5-4b8c-bf5c-6d8" hidden="false" typeId="d2ee-04cb-5f8a-2642" value="0"/>
               </costs>
               <entryLinks>
-                <entryLink import="true" name="Breacher Charge" hidden="false" id="61e6-5e3d-4f3f-6c71" type="selectionEntry" targetId="9622-f67e-4afe-09f3">
+                <entryLink import="true" name="Breacher Charge" hidden="false" id="61e6-5e3d-4f3f-6c71" type="selectionEntry" targetId="9622-f67e-4afe-09f3" sortIndex="10">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2f13-b55f-ef28-a54d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d82f-aa5f-ad6a-ad5e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="false" name="Frag Grenades" hidden="false" id="3e4b-3ca7-c888-5e5" collective="false" targetId="4fd8-9e1f-ae28-3004" type="selectionEntry">
+                <entryLink import="false" name="Frag Grenades" hidden="false" id="3e4b-3ca7-c888-5e5" collective="false" targetId="4fd8-9e1f-ae28-3004" type="selectionEntry" sortIndex="9">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f34f-f3db-1226-f576" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2ff1-8709-dfd-6206" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="false" name="Krak Grenades" hidden="false" id="7e91-27ad-2b4-82e4" collective="false" targetId="3739-1019-344e-761d" type="selectionEntry">
+                <entryLink import="false" name="Krak Grenades" hidden="false" id="7e91-27ad-2b4-82e4" collective="false" targetId="3739-1019-344e-761d" type="selectionEntry" sortIndex="8">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fe63-e902-5dfe-dbe1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9541-e0a7-c0dd-84d6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="false" name="Reinforced Void Armour" hidden="false" id="30ce-f32f-c271-bd7" collective="false" targetId="5e45-2a38-759c-3147" type="selectionEntry">
+                <entryLink import="false" name="Reinforced Void Armour" hidden="false" id="30ce-f32f-c271-bd7" collective="false" targetId="5e45-2a38-759c-3147" type="selectionEntry" sortIndex="7">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="deb0-4597-af08-ffa2" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aec4-2dbc-59e6-3593" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="false" name="Boarding Shield" hidden="false" id="d61b-100e-912d-d792" collective="true" targetId="0c0f-f751-cc4e-4951" type="selectionEntry">
+                <entryLink import="false" name="Boarding Shield" hidden="false" id="d61b-100e-912d-d792" collective="true" targetId="0c0f-f751-cc4e-4951" type="selectionEntry" sortIndex="4">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="22f1-efec-b72f-e0bf" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c93e-97f8-25f6-2f76" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="true" name="Fear (Feral Cohort)" hidden="false" id="30a6-bd35-a118-6cc3" collective="false" targetId="aefe-eff6-2961-a445" type="selectionEntry"/>
+                <entryLink import="true" name="Fear (Feral Cohort)" hidden="false" id="30a6-bd35-a118-6cc3" collective="false" targetId="aefe-eff6-2961-a445" type="selectionEntry" sortIndex="6"/>
               </entryLinks>
               <infoLinks>
                 <infoLink name="Tercio" id="7f41-3682-4841-8a1d" hidden="false" targetId="6516-f81d-457b-a2cc" type="rule"/>
               </infoLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup name="Auxilia Breacher" id="fd8-96e-df63-d734" hidden="false" page="144" publicationId="892-6266-f55f-1b9d" defaultSelectionEntryId="82ff-3f2-b49a-3cfe">
+                <selectionEntryGroup name="Auxilia Breacher" id="fd8-96e-df63-d734" hidden="false" page="144" publicationId="892-6266-f55f-1b9d" defaultSelectionEntryId="82ff-3f2-b49a-3cfe" sortIndex="2">
                   <selectionEntries>
                     <selectionEntry type="model" import="true" name="Auxilia Breacher w/ Lascarbine" hidden="false" id="f7b5-c6d4-e93-3421">
                       <entryLinks>
@@ -1421,7 +1421,7 @@ Could not find profile for Servo-automata in [&apos;Enginseer Adept&apos;, &apos
                     <constraint type="max" value="19" field="selections" scope="parent" shared="true" id="a7ae-d3c5-2870-dab8" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="Dedicated Transports" id="be12-4c94-b59e-dba5" hidden="false" collective="false" import="true">
+                <selectionEntryGroup name="Dedicated Transports" id="be12-4c94-b59e-dba5" hidden="false" collective="false" import="true" sortIndex="5">
                   <modifiers>
                     <modifier type="set" value="true" field="hidden">
                       <conditionGroups>
@@ -1469,7 +1469,7 @@ Could not find profile for Servo-automata in [&apos;Enginseer Adept&apos;, &apos
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="One breacher can take:" id="ba8e-eff0-fe03-4c8e" hidden="false" collective="false" import="false">
+                <selectionEntryGroup name="One breacher can take:" id="ba8e-eff0-fe03-4c8e" hidden="false" collective="false" import="false" sortIndex="3">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ace4-847e-81b6-b7a3" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                   </constraints>
@@ -2057,431 +2057,6 @@ Could not find profile for Servo-automata in [&apos;Enginseer Adept&apos;, &apos
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
-    </selectionEntry>
-    <selectionEntry id="db2d-343f-49a2-ab33" name="Solar Auxilia Breacher Section" publicationId="892-6266-f55f-1b9d" page="146" hidden="false" collective="false" import="false" type="unit">
-      <comment>!BSC Errors from 20240406-1603
-Shotgun is in two option lists for Auxilia Breacher, you will need to combine them by hand.
-Shotgun is in two option lists for Auxilia Breacher Sergeant, you will need to combine them by hand.</comment>
-      <infoLinks>
-        <infoLink id="39d2-1d51-4cc7-b00b" name="Tercio" hidden="false" targetId="6516-f81d-457b-a2cc" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="effb-0f33-4ed3-8813" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
-        <categoryLink id="8ab4-9bbb-4d23-95b3" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="8bc9-2388-4a56-b397" name="Auxilia Breacher" publicationId="892-6266-f55f-1b9d" page="146" hidden="false" collective="false" import="false" type="model">
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Breacher Charges
-	 Checked under Breacher Charges
-Could not find wargear in The Auxilia Breacher Sergeant may select any of the following options:
-Could not find type or subtype &apos;Close-Order&apos;</comment>
-          <constraints>
-            <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecd4-705d-4753-b8a8" type="min"/>
-            <constraint field="selections" scope="parent" value="19" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0391-ddc2-4d70-8a2e" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="ea0a-6827-427e-af5a" name="Auxilia Breacher" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
-              <characteristics>
-                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">6</characteristic>
-                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">3</characteristic>
-                <characteristic name="BS" typeId="74ae-c840-0036-d244">3</characteristic>
-                <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
-                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
-                <characteristic name="W" typeId="57ee-1126-32a9-5672">1</characteristic>
-                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">3</characteristic>
-                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">1</characteristic>
-                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">6</characteristic>
-                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">4+</characteristic>
-                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Line, Close-Order, Heavy)</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <categoryLinks>
-            <categoryLink id="5c31-9614-402c-9ab4" name="Infantry:" hidden="false" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
-            <categoryLink id="f6e4-24c3-41e1-a9a5" name="Line Sub-type:" hidden="false" targetId="6399-5c65-7833-1025" primary="false"/>
-            <categoryLink id="93ae-b101-4339-8c41" name="Heavy Sub-type:" hidden="false" targetId="9231-183c-b97b-63f9" primary="false"/>
-          </categoryLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="bf33-84d1-43b0-9295" name="The Auxilia Breacher Sergeant may exchange their Shotgun for the following option:" hidden="false" collective="false" import="false">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18a8-a60c-4de5-aad3" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="d1ef-b531-40e4-a488" name="Shotgun" hidden="false" collective="false" import="false" targetId="2dba-5646-1049-c134" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ce1-d6a8-4cdd-bdb8" type="max"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="ea44-2fed-4c42-97b0" name="Laspistol" hidden="false" collective="false" import="false" targetId="3cf9-eb36-3bfe-4970" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26c1-7544-4db8-b870" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-            <selectionEntryGroup id="4dc7-c69a-4eef-9e07" name="Any model in the unit may exchange their Shotgun for one of the following options:" hidden="false" collective="false" import="false">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f63e-0692-4812-adde" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="8f8d-ecfc-41f3-8281" name="Lascarbine" hidden="false" collective="false" import="false" targetId="3335-928e-aef8-ca0f" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d62b-ddd7-4b93-99c7" type="max"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="20dc-b605-48e9-90c6" name="Volkite Charger" hidden="false" collective="false" import="false" targetId="5c82-c306-9c5c-5908" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b00-6e5c-4193-9ac7" type="max"/>
-                  </constraints>
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-            <selectionEntryGroup id="e266-66f2-4bd7-bb74" name="The Auxilia Breacher Sergeant may exchange a Laspistol for one of the following options:" hidden="false" collective="false" import="false">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43f5-c3e1-411b-b3f6" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="f1f4-2349-47dd-9c3b" name="Blast Pistol" hidden="false" collective="false" import="false" targetId="2460-375d-31f4-4bdf" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c828-2853-4b71-838b" type="max"/>
-                  </constraints>
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="be4d-de63-4650-9564" name="Needle Pistol" hidden="false" collective="false" import="false" targetId="fd59-e665-136c-1172" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="450a-052e-476e-b04f" type="max"/>
-                  </constraints>
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="ec28-65e9-45e7-9dce" name="Hand Flamer" hidden="false" collective="false" import="false" targetId="6b5f-d62d-7568-38b6" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5597-b36d-4313-bc7d" type="max"/>
-                  </constraints>
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="496c-6e37-4fa4-ade0" name="Plasma Pistol" hidden="false" collective="false" import="false" targetId="1a7b-4418-8346-66a7" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3368-2bfe-4704-9832" type="max"/>
-                  </constraints>
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-            <selectionEntryGroup id="82f0-cea5-4de4-a45f" name="The Auxilia Breacher Sergeant may select one of the following options:" hidden="false" collective="false" import="false">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d903-d9fa-4e2f-914e" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="c9db-09c4-48bc-a787" name="Charnabal Weapon" hidden="false" collective="false" import="false" targetId="e749-ba9b-bb76-a7d9" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afef-8bac-4a8d-ba54" type="max"/>
-                  </constraints>
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="48a7-0b3c-4de2-b992" name="Power Weapon" hidden="false" collective="false" import="false" targetId="36a7-1c39-670c-5fec" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b16-2e7b-4492-b335" type="max"/>
-                  </constraints>
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="c688-36a3-449f-8666" name="Power Fist" hidden="false" collective="false" import="false" targetId="768d-b89b-7328-d749" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43d9-267e-44eb-9a44" type="max"/>
-                  </constraints>
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="af77-a2e4-4f16-9a8f" name="Chainfist" hidden="false" collective="false" import="false" targetId="9c9c-346a-4c47-8715" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc2c-e1e5-426e-91cb" type="max"/>
-                  </constraints>
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-            <selectionEntryGroup id="3861-262c-42ea-af74" name="The Auxilia Breacher Sergeant may select any of the following options:" hidden="false" collective="false" import="false">
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Melta Bombs
-	 Checked under Melta Bombs</comment>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f99d-65c2-4ca9-8c2b" type="max"/>
-              </constraints>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <entryLinks>
-            <entryLink id="06b7-66de-4783-a113" name="Reinforced Void Armour" hidden="false" collective="false" import="false" targetId="5e45-2a38-759c-3147" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ccf-29c0-4396-b1cb" type="min"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6646-f1ec-4f14-96b8" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="4c21-0c20-4824-86ef" name="Boarding Shield" hidden="false" collective="false" import="false" targetId="0c0f-f751-cc4e-4951" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1109-1a91-4af5-8e19" type="min"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a46b-25d4-4369-bbc5" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="8dea-a912-4190-b380" name="Frag Grenades" hidden="false" collective="false" import="false" targetId="4fd8-9e1f-ae28-3004" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2439-5f67-4c95-aa23" type="min"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c8e-2d0f-481a-a80c" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="0cbd-cf7f-4273-9a3b" name="Krak Grenades" hidden="false" collective="false" import="false" targetId="3739-1019-344e-761d" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2002-f710-4101-8f41" type="min"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd12-7b1f-4d48-b32f" type="max"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="8"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="d95d-48f7-4a9a-a134" name="Auxilia Breacher Sergeant" publicationId="892-6266-f55f-1b9d" page="146" hidden="false" collective="false" import="false" type="model">
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Breacher Charges
-	 Checked under Breacher Charges
-Could not find wargear in The Auxilia Breacher Sergeant may select any of the following options:
-Could not find type or subtype &apos;Close-Order&apos;</comment>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="588c-5b8b-4cab-80b9" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="037f-4088-46d7-b914" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="3a24-7dc8-4d51-9e5a" name="Auxilia Breacher Sergeant" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
-              <characteristics>
-                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">6</characteristic>
-                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">3</characteristic>
-                <characteristic name="BS" typeId="74ae-c840-0036-d244">3</characteristic>
-                <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
-                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
-                <characteristic name="W" typeId="57ee-1126-32a9-5672">1</characteristic>
-                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">3</characteristic>
-                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">2</characteristic>
-                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">7</characteristic>
-                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">4+</characteristic>
-                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Line, Close-Order, Heavy, Character)</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <categoryLinks>
-            <categoryLink id="ae91-b8ee-487d-acba" name="Infantry:" hidden="false" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
-            <categoryLink id="3838-3c7c-4a14-9dcc" name="Line Sub-type:" hidden="false" targetId="6399-5c65-7833-1025" primary="false"/>
-            <categoryLink id="3d3f-8a4e-4f02-922d" name="Heavy Sub-type:" hidden="false" targetId="9231-183c-b97b-63f9" primary="false"/>
-            <categoryLink id="de33-5ef6-45cb-9f3a" name="Character" hidden="false" targetId="f75a-d5c1-59ba-5c5a" primary="false"/>
-          </categoryLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="6622-4147-4ad3-9974" name="The Auxilia Breacher Sergeant may exchange their Shotgun for the following option:" hidden="false" collective="false" import="false">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c86-7339-4363-990f" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="48e5-8a5e-4e28-ab6a" name="Shotgun" hidden="false" collective="false" import="false" targetId="2dba-5646-1049-c134" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bbb-86d8-4569-b879" type="max"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="2463-c04d-421b-9651" name="Laspistol" hidden="false" collective="false" import="false" targetId="3cf9-eb36-3bfe-4970" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b329-8aa1-4916-9f82" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-            <selectionEntryGroup id="6c11-ee9e-42d4-b89d" name="Any model in the unit may exchange their Shotgun for one of the following options:" hidden="false" collective="false" import="false">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="822e-b870-4c20-b214" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="9e72-bbda-48f5-91c6" name="Lascarbine" hidden="false" collective="false" import="false" targetId="3335-928e-aef8-ca0f" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de06-12eb-4366-97aa" type="max"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="0a7a-8553-44fa-b519" name="Volkite Charger" hidden="false" collective="false" import="false" targetId="5c82-c306-9c5c-5908" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="891e-05f6-4e98-bd92" type="max"/>
-                  </constraints>
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-            <selectionEntryGroup id="4c74-1a88-470d-9933" name="The Auxilia Breacher Sergeant may exchange a Laspistol for one of the following options:" hidden="false" collective="false" import="false">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fce2-cd03-437f-af5c" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="52e3-d554-409c-852b" name="Blast Pistol" hidden="false" collective="false" import="false" targetId="2460-375d-31f4-4bdf" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ffa-b15d-4176-9490" type="max"/>
-                  </constraints>
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="db1b-8415-46c7-9740" name="Needle Pistol" hidden="false" collective="false" import="false" targetId="fd59-e665-136c-1172" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8800-954d-4f69-89b6" type="max"/>
-                  </constraints>
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="0d23-a753-4b0d-8b5d" name="Hand Flamer" hidden="false" collective="false" import="false" targetId="6b5f-d62d-7568-38b6" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7d2-799c-492b-978e" type="max"/>
-                  </constraints>
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="4aa4-47a5-4cb6-ab2e" name="Plasma Pistol" hidden="false" collective="false" import="false" targetId="1a7b-4418-8346-66a7" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb94-308a-4641-ae0a" type="max"/>
-                  </constraints>
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-            <selectionEntryGroup id="eb95-006d-464a-b307" name="The Auxilia Breacher Sergeant may select one of the following options:" hidden="false" collective="false" import="false">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19cd-6fda-44de-a21d" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="365c-fce4-4671-9d13" name="Charnabal Weapon" hidden="false" collective="false" import="false" targetId="e749-ba9b-bb76-a7d9" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9297-93c7-42fc-9c5b" type="max"/>
-                  </constraints>
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="eaf3-9142-4d61-8563" name="Power Weapon" hidden="false" collective="false" import="false" targetId="36a7-1c39-670c-5fec" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2be-7adf-4e3e-be5c" type="max"/>
-                  </constraints>
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="4f2e-c969-46bc-8731" name="Power Fist" hidden="false" collective="false" import="false" targetId="768d-b89b-7328-d749" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6aa4-8bf2-47de-8b35" type="max"/>
-                  </constraints>
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="e062-ab74-40bd-ae55" name="Chainfist" hidden="false" collective="false" import="false" targetId="9c9c-346a-4c47-8715" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf17-4f9f-40f7-94fc" type="max"/>
-                  </constraints>
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-            <selectionEntryGroup id="6028-27bf-4acb-822d" name="The Auxilia Breacher Sergeant may select any of the following options:" hidden="false" collective="false" import="false">
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Melta Bombs
-	 Checked under Melta Bombs</comment>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aed8-f7fd-4a38-8a13" type="max"/>
-              </constraints>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <entryLinks>
-            <entryLink id="d7b2-211f-4d86-8898" name="Reinforced Void Armour" hidden="false" collective="false" import="false" targetId="5e45-2a38-759c-3147" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="076a-d9e0-42ad-9012" type="min"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a50a-20c7-4a4e-b326" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="3501-c191-4f2f-a643" name="Boarding Shield" hidden="false" collective="false" import="false" targetId="0c0f-f751-cc4e-4951" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c226-5270-4853-b9c1" type="min"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6121-9bc1-4af3-8be0" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="453b-9098-44c1-8833" name="Frag Grenades" hidden="false" collective="false" import="false" targetId="4fd8-9e1f-ae28-3004" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d56-34a6-4a01-9455" type="min"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdcf-da2f-4141-ba3a" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="6e33-9987-41cd-89dd" name="Krak Grenades" hidden="false" collective="false" import="false" targetId="3739-1019-344e-761d" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e941-6249-4420-b4a9" type="min"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c69-0ff8-4775-a616" type="max"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="effb-60d8-4125-8d2f" name="One Auxilia Breacher may select:" hidden="false" collective="false" import="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4fb-8439-4de0-baa9" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="0eb1-a721-4386-9db9" name="Vox Interlock" hidden="false" collective="false" import="false" targetId="c04e-5624-3615-0660" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7398-605f-43df-b305" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
-              </costs>
-            </entryLink>
-            <entryLink id="5bc8-e0c8-466a-a62a" name="Auxilia Vexilla" hidden="false" collective="false" import="false" targetId="6f5a-bf56-4bee-ce7e" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2579-a2ba-4a24-b986" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
-              </costs>
-            </entryLink>
-            <entryLink id="e62e-727e-4e70-9610" name="Augury Scanner" hidden="false" collective="false" import="false" targetId="595f-ed8a-4597-8890" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dfa-0035-4878-89fc" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="18"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="6fad-1e31-42a4-90ba" name="Auxilia Infantry Support Tercio" publicationId="892-6266-f55f-1b9d" page="148" hidden="false" collective="false" import="false" type="unit">
       <categoryLinks>
@@ -4549,17 +4124,6 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="17"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ca94-82b2-438f-ab63" name="Solar Auxilia Heavy Weapons Section" publicationId="892-6266-f55f-1b9d" page="153" hidden="false" collective="false" import="false" type="unit">
-      <comment>!BSC Errors from 20240406-1603
-Could not find profile for Auxilia Weapon Teams in [&apos;Auxilia Weapons Team&apos;]</comment>
-      <categoryLinks>
-        <categoryLink id="5fe0-cb05-44dc-8964" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
-        <categoryLink id="bf29-d6ce-4a21-a72e" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="45"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="c052-5fc4-48d3-8edc" name="Solar Auxilia Chimera Transport" publicationId="892-6266-f55f-1b9d" page="154" hidden="false" collective="false" import="false" type="unit">
       <infoLinks>
         <infoLink id="0c18-5a14-42d4-9f5c" name="Amphibious" hidden="false" targetId="788d-3aba-4321-8d6e" type="rule"/>
@@ -6554,17 +6118,17 @@ Could not find type or subtype &apos;Cavalry&apos;</comment>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ac9-95e8-40b5-b912" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Twin-Linked Kheres Assault Cannon" hidden="false" id="1b83-f1a8-eb36-9c8a" type="selectionEntry" targetId="fe77-2e74-160d-c7af" collective="true" sortIndex="4">
+                <entryLink import="true" name="Twin-linked Kheres Assault Cannon" hidden="false" id="1b83-f1a8-eb36-9c8a" type="selectionEntry" targetId="fe77-2e74-160d-c7af" collective="true" sortIndex="4">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>
                 </entryLink>
-                <entryLink import="true" name="Twin-Linked Multi-Laser" hidden="false" id="47cb-52eb-ec64-6a2" type="selectionEntry" targetId="f115-3ca3-45d-8aca" sortIndex="2">
+                <entryLink import="true" name="Twin-linked Multi-Laser" hidden="false" id="47cb-52eb-ec64-6a2" type="selectionEntry" targetId="f115-3ca3-45d-8aca" sortIndex="2">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
                 </entryLink>
-                <entryLink import="true" name="Twin-Linked Volkite Culverin" hidden="false" id="286b-512f-ddd5-ec19" type="selectionEntry" targetId="e7c5-73dc-18ac-eb9d" sortIndex="3">
+                <entryLink import="true" name="Twin-linked Volkite Culverin" hidden="false" id="286b-512f-ddd5-ec19" type="selectionEntry" targetId="e7c5-73dc-18ac-eb9d" sortIndex="3">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>
@@ -6657,15 +6221,13 @@ until the start of the Controlling Player’s next turn.</characteristic>
       <categoryLinks>
         <categoryLink id="3ca4-38a2-4200-85bf" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
         <categoryLink id="b663-39d6-4e8e-a54e" name="Fast Attack:" hidden="false" targetId="20ef-cd01-a8da-376e" primary="true"/>
+        <categoryLink name="SA or IM Unit" hidden="false" id="3f3-8bd0-97e1-429f" targetId="4aca-2849-7f41-0200" primary="false"/>
+        <categoryLink name="Infantry:" hidden="false" id="d0e1-729c-8b8b-981c" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
+        <categoryLink name="Mechanised Unit Sub-Type:" hidden="false" id="3c2b-cd4c-2ccc-eb7e" targetId="ad48-f7f6-413d-afeb" primary="false"/>
+        <categoryLink name="Skirmish Sub-type:" hidden="false" id="183a-44b0-1520-1915" targetId="59a4-7b61-600a-c457" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="621b-be50-4ac5-8edb" name="Aethon Heavy Sentinel" publicationId="892-6266-f55f-1b9d" page="167" hidden="false" collective="false" import="false" type="model">
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Vox-Interlock
-	 Checked under Vox-Interlock
-Could not find wargear in Any Aethon Heavy Sentinel may replace their Multi-Laser with one of the following options:
-Could not find wargear in Any Aethon Heavy Sentinel may replace their two Havoc Launchers with one of the following options:
-Could not find wargear in Any Aethon Heavy Sentinel may select up to two of the following option:</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="423a-72c8-42da-82ae" type="min"/>
             <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d379-f4d4-4a39-8eca" type="max"/>
@@ -6693,25 +6255,23 @@ Could not find wargear in Any Aethon Heavy Sentinel may select up to two of the 
             <categoryLink id="3963-e063-467e-a12c" name="Mechanised Unit Sub-Type:" hidden="false" targetId="ad48-f7f6-413d-afeb" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="9cd7-a94d-4f59-acae" name="Any Aethon Heavy Sentinel may replace their Multi-Laser with one of the following options:" hidden="false" collective="false" import="false">
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Missile Launcher (with Frag, Krak, and Flak missiles)
-	 Checked under Missile Launcher (with Frag, Krak, and Flak missiles)</comment>
+            <selectionEntryGroup id="9cd7-a94d-4f59-acae" name="May select one of:" hidden="false" collective="false" import="false" sortIndex="1">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0630-c888-46cd-ac6e" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0630-c888-46cd-ac6e-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0630-c888-46cd-ac6e-max" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="78e6-36b9-4050-891e" name="Heavy Bolter" hidden="false" collective="false" import="false" targetId="6024-6953-b8f4-ce63" type="selectionEntry">
+                <entryLink id="78e6-36b9-4050-891e" name="Heavy Bolter" hidden="false" collective="false" import="false" targetId="6024-6953-b8f4-ce63" type="selectionEntry" sortIndex="2">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="057c-c9ac-4913-86bb" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="fab1-eaf6-49c4-ba37" name="Heavy Flamer" hidden="false" collective="false" import="false" targetId="aab4-9e33-94f0-5815" type="selectionEntry">
+                <entryLink id="fab1-eaf6-49c4-ba37" name="Heavy Flamer" hidden="false" collective="false" import="false" targetId="aab4-9e33-94f0-5815" type="selectionEntry" sortIndex="3">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="541f-d7b9-436f-8d92" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="2412-e3c1-4b8e-948a" name="Volkite Culverin" hidden="false" collective="false" import="false" targetId="170d-44e0-455c-8207" type="selectionEntry">
+                <entryLink id="2412-e3c1-4b8e-948a" name="Volkite Culverin" hidden="false" collective="true" import="false" targetId="170d-44e0-455c-8207" type="selectionEntry" sortIndex="6">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6403-0c20-4bae-8dbf" type="max"/>
                   </constraints>
@@ -6719,7 +6279,7 @@ Could not find wargear Missile Launcher (with Frag, Krak, and Flak missiles)
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>
-                <entryLink id="636d-223d-4bca-9ebc" name="Plasma Cannon" hidden="false" collective="false" import="false" targetId="bdc7-3f9b-4c67-8641" type="selectionEntry">
+                <entryLink id="636d-223d-4bca-9ebc" name="Plasma Cannon" hidden="false" collective="true" import="false" targetId="bdc7-3f9b-4c67-8641" type="selectionEntry" sortIndex="5">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0b9-ad44-49c3-aba8" type="max"/>
                   </constraints>
@@ -6727,7 +6287,7 @@ Could not find wargear Missile Launcher (with Frag, Krak, and Flak missiles)
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>
-                <entryLink id="d477-1ae3-40af-b034" name="Multi-Melta" hidden="false" collective="false" import="false" targetId="9332-3834-cf3a-56b4" type="selectionEntry">
+                <entryLink id="d477-1ae3-40af-b034" name="Multi-Melta" hidden="false" collective="true" import="false" targetId="9332-3834-cf3a-56b4" type="selectionEntry" sortIndex="7">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c395-bc71-4029-9ebc" type="max"/>
                   </constraints>
@@ -6735,7 +6295,7 @@ Could not find wargear Missile Launcher (with Frag, Krak, and Flak missiles)
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>
                 </entryLink>
-                <entryLink id="d82a-bbf3-4771-9d7f" name="Lascannon" hidden="false" collective="false" import="false" targetId="8621-4e12-b3d2-116f" type="selectionEntry">
+                <entryLink id="d82a-bbf3-4771-9d7f" name="Lascannon" hidden="false" collective="false" import="false" targetId="8621-4e12-b3d2-116f" type="selectionEntry" sortIndex="8">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="543a-94ba-4233-8ae1" type="max"/>
                   </constraints>
@@ -6743,17 +6303,21 @@ Could not find wargear Missile Launcher (with Frag, Krak, and Flak missiles)
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                   </costs>
                 </entryLink>
+                <entryLink import="false" name="Multi-Laser" hidden="false" id="87e9-3f84-4f7a-85f9" collective="true" targetId="003b-af4b-0094-f5c3" type="selectionEntry" defaultAmount="1" sortIndex="1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b00d-1eb5-4774-ad48" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Missile Launcher" hidden="false" id="9b52-7cda-a68-1fbb" type="selectionEntry" targetId="0ec3-6c91-952c-e0ea" collective="true" sortIndex="4"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="35bc-e643-43bb-b929" name="Any Aethon Heavy Sentinel may replace their two Havoc Launchers with one of the following options:" hidden="false" collective="false" import="false">
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Cyclone Missile Launcher (with Frag, Krak, and Flak missiles)
-	 Checked under Cyclone Missile Launcher (with Frag, Krak, and Flak missiles)</comment>
+            <selectionEntryGroup id="35bc-e643-43bb-b929" name="May select one of:" hidden="false" collective="false" import="false" sortIndex="2">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c21-0e29-4a1d-ad9f" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c21-0e29-4a1d-ad9f-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c21-0e29-4a1d-ad9f-max" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="7b5f-c30b-416e-a255" name="Gravis Multi-Laser" hidden="false" collective="false" import="false" targetId="9938-d8d4-e0cc-b883" type="selectionEntry">
+                <entryLink id="7b5f-c30b-416e-a255" name="Gravis Multi-Laser" hidden="false" collective="true" import="false" targetId="9938-d8d4-e0cc-b883" type="selectionEntry" sortIndex="3">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bce-094b-4f51-894e" type="max"/>
                   </constraints>
@@ -6761,7 +6325,7 @@ Could not find wargear Cyclone Missile Launcher (with Frag, Krak, and Flak missi
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
                 </entryLink>
-                <entryLink id="7e67-099c-45df-a4e2" name="Gravis Autocannon" hidden="false" collective="false" import="false" targetId="8a23-e57d-b4a8-14a9" type="selectionEntry">
+                <entryLink id="7e67-099c-45df-a4e2" name="Gravis Autocannon" hidden="false" collective="true" import="false" targetId="8a23-e57d-b4a8-14a9" type="selectionEntry" sortIndex="2">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f3b-3913-4122-9e98" type="max"/>
                   </constraints>
@@ -6769,7 +6333,7 @@ Could not find wargear Cyclone Missile Launcher (with Frag, Krak, and Flak missi
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
                 </entryLink>
-                <entryLink id="997f-9527-4cfe-9c20" name="Volkite Dual-Culverin" hidden="false" collective="false" import="false" targetId="015f-ee1b-46c1-8937" type="selectionEntry">
+                <entryLink id="997f-9527-4cfe-9c20" name="Volkite Dual-Culverin" hidden="false" collective="true" import="false" targetId="015f-ee1b-46c1-8937" type="selectionEntry" sortIndex="6">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="318f-6c0f-4277-b960" type="max"/>
                   </constraints>
@@ -6777,7 +6341,7 @@ Could not find wargear Cyclone Missile Launcher (with Frag, Krak, and Flak missi
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                   </costs>
                 </entryLink>
-                <entryLink id="fd8b-f7dd-47cc-9be1" name="Gravis Melta Cannon" hidden="false" collective="false" import="false" targetId="65cc-0f51-4f63-b463" type="selectionEntry">
+                <entryLink id="fd8b-f7dd-47cc-9be1" name="Gravis Melta Cannon" hidden="false" collective="true" import="false" targetId="65cc-0f51-4f63-b463" type="selectionEntry" sortIndex="5">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2268-9413-4d89-9491" type="max"/>
                   </constraints>
@@ -6785,7 +6349,7 @@ Could not find wargear Cyclone Missile Launcher (with Frag, Krak, and Flak missi
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                   </costs>
                 </entryLink>
-                <entryLink id="ba9d-29ce-47b9-916b" name="Gravis Lascannon" hidden="false" collective="false" import="false" targetId="1fe0-7c96-5200-0e39" type="selectionEntry">
+                <entryLink id="ba9d-29ce-47b9-916b" name="Gravis Lascannon" hidden="false" collective="true" import="false" targetId="1fe0-7c96-5200-0e39" type="selectionEntry" sortIndex="7">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbd0-36ed-4ef0-abb3" type="max"/>
                   </constraints>
@@ -6793,9 +6357,33 @@ Could not find wargear Cyclone Missile Launcher (with Frag, Krak, and Flak missi
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
                   </costs>
                 </entryLink>
+                <entryLink import="false" name="Havoc Launcher" hidden="false" id="e7db-aaf5-48f3-910a" collective="true" targetId="bde9-5abf-ec3d-2273" type="selectionEntry" defaultAmount="1" sortIndex="1">
+                  <modifiers>
+                    <modifier type="set" value="Two Havoc Launchers" field="name"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e442-1f96-44c7-af72" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Cyclone Missile Launcher" hidden="false" id="3127-e3cb-b1b9-7ba5" type="selectionEntry" targetId="3e5a-ad5d-4607-7489" defaultAmount="0" collective="true" sortIndex="4">
+                  <entryLinks>
+                    <entryLink import="true" name="Cyclone Missile Launcher - Flak" hidden="false" id="fe07-3300-7487-5451" type="selectionEntry" targetId="981d-dfaf-452a-98dc">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a8fd-bb5f-4d31-76a7" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e6f8-f8ed-aaed-9d6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="733-c36f-bdf8-462e"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="8fb7-c8b1-47e5-8540" name="Any Aethon Heavy Sentinel may select any of the following options:" hidden="false" collective="false" import="false">
+            <selectionEntryGroup id="8fb7-c8b1-47e5-8540" name="May select any of:" hidden="false" collective="false" import="false" sortIndex="3">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e89-26b2-4975-8d91" type="max"/>
               </constraints>
@@ -6818,32 +6406,18 @@ Could not find wargear Cyclone Missile Launcher (with Frag, Krak, and Flak missi
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="6e81-43f5-4338-9286" name="Any Aethon Heavy Sentinel may select up to two of the following option:" hidden="false" collective="false" import="false">
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear One Hunter-Killer Missile
-	 Checked under One Hunter-Killer Missile</comment>
+            <selectionEntryGroup id="6e81-43f5-4338-9286" name="May select up to two of:" hidden="false" collective="false" import="false" sortIndex="4">
               <constraints>
                 <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b638-3163-4f15-8490" type="max"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="864b-8e6-5cba-6af9" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Hunter-Killer Missile" hidden="false" id="18fe-8a3d-1188-d329" type="selectionEntry" targetId="1bf8-72f8-c331-6900"/>
+              </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="87e9-3f84-4f7a-85f9" name="Multi-Laser" hidden="false" collective="false" import="false" targetId="003b-af4b-0094-f5c3" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a392-3ae8-4cef-b8c7" type="min"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b00d-1eb5-4774-ad48" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="e7db-aaf5-48f3-910a" name="Havoc Launcher" hidden="false" collective="false" import="false" targetId="bde9-5abf-ec3d-2273" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="name" value="Two Havoc Launchers"/>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a154-0b23-4d7e-9665" type="min"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e442-1f96-44c7-af72" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="f428-827f-42e2-8456" name="Augury Scanner" hidden="false" collective="false" import="false" targetId="595f-ed8a-4597-8890" type="selectionEntry">
+            <entryLink id="f428-827f-42e2-8456" name="Augury Scanner" hidden="false" collective="false" import="false" targetId="595f-ed8a-4597-8890" type="selectionEntry" sortIndex="5">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a61a-41ad-40ac-b16b" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b20-152b-4ba9-8e96" type="max"/>
@@ -6868,9 +6442,7 @@ Could not find wargear One Hunter-Killer Missile
         <categoryLink id="ba06-e10c-4bd3-adc2" name="Fast Attack:" hidden="false" targetId="20ef-cd01-a8da-376e" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="03a1-aca3-4d63-aad7" name="Auxilia Hellhound" publicationId="892-6266-f55f-1b9d" page="168" hidden="false" collective="false" import="false" type="model">
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear in Any Auxilia Hellhound may select any of the following options:</comment>
+        <selectionEntry id="03a1-aca3-4d63-aad7" name="Auxilia Hellhound" publicationId="892-6266-f55f-1b9d" page="168" hidden="false" collective="false" import="false" type="model" sortIndex="2">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d412-8829-46ef-97b5" type="min"/>
             <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03ee-cebf-4343-a544" type="max"/>
@@ -6895,49 +6467,13 @@ Could not find wargear in Any Auxilia Hellhound may select any of the following 
             <categoryLink id="5e1f-636f-4e74-bc0f" name="Reinforced Sub-type:" hidden="false" targetId="9b0d-738c-10e4-4ec1" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="3e92-5332-47a2-a2b1" name="All models in a Solar Auxilia Hellhound Flame Tank Squadron may exchange their Turret Mounted Gravis Heavy Flamer for one of the following options (all models in the unit must select the same option):" hidden="false" collective="false" import="false">
+            <selectionEntryGroup id="6dd6-f2b2-4b36-9bc3" name="May take one of:" hidden="false" collective="false" import="false" sortIndex="2">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="daf6-ad02-4d56-b6c4" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a25a-e7e5-42d4-933a-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a25a-e7e5-42d4-933a-max" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="2225-0c6f-4164-9d11" name="Gravis Heavy Flamer" hidden="false" collective="false" import="false" targetId="1aa9-8c00-499e-b2bb" type="selectionEntry">
-                  <modifiers>
-                    <modifier type="set" field="name" value="Turret Mounted Gravis Heavy Flamer"/>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04d6-7b70-42a5-8afe" type="max"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="2d5e-41d3-47d1-85a6" name="Chem Cannon" hidden="false" collective="false" import="false" targetId="87c1-71cc-44b1-bd0a" type="selectionEntry">
-                  <modifiers>
-                    <modifier type="set" field="name" value="Turret Mounted Chem Cannon"/>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b20b-0328-4789-8173" type="max"/>
-                  </constraints>
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="5ec2-1016-47be-a67e" name="Melta Cannon" hidden="false" collective="false" import="false" targetId="708c-0a08-417b-aa85" type="selectionEntry">
-                  <modifiers>
-                    <modifier type="set" field="name" value="Turret Mounted Melta Cannon"/>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4617-9e9c-441d-a9f2" type="max"/>
-                  </constraints>
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-            <selectionEntryGroup id="6dd6-f2b2-4b36-9bc3" name="Any Auxilia Hellhound may exchange its Hull (Front) Mounted Heavy Flamer for one of the following options:" hidden="false" collective="false" import="false">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a25a-e7e5-42d4-933a" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="4a67-dea3-41ba-9b6c" name="Heavy Flamer" hidden="false" collective="false" import="false" targetId="aab4-9e33-94f0-5815" type="selectionEntry">
+                <entryLink id="4a67-dea3-41ba-9b6c" name="Heavy Flamer" hidden="false" collective="false" import="false" targetId="aab4-9e33-94f0-5815" type="selectionEntry" defaultAmount="1" sortIndex="1">
                   <modifiers>
                     <modifier type="set" field="name" value="Hull (Front) Mounted Heavy Flamer"/>
                   </modifiers>
@@ -6953,7 +6489,7 @@ Could not find wargear in Any Auxilia Hellhound may select any of the following 
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b386-d1e2-439e-8f34" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="02a3-5b54-4391-b143" name="Multi-Laser" hidden="false" collective="false" import="false" targetId="003b-af4b-0094-f5c3" type="selectionEntry">
+                <entryLink id="02a3-5b54-4391-b143" name="Multi-Laser" hidden="false" collective="true" import="false" targetId="003b-af4b-0094-f5c3" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="name" value="Hull (Front) Mounted Multi-Laser"/>
                   </modifiers>
@@ -6961,7 +6497,7 @@ Could not find wargear in Any Auxilia Hellhound may select any of the following 
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ded-d308-4840-859d" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="de2b-423d-4c46-8a51" name="Multi-Melta" hidden="false" collective="false" import="false" targetId="9332-3834-cf3a-56b4" type="selectionEntry">
+                <entryLink id="de2b-423d-4c46-8a51" name="Multi-Melta" hidden="false" collective="true" import="false" targetId="9332-3834-cf3a-56b4" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="name" value="Hull (Front) Mounted Multi-Melta"/>
                   </modifiers>
@@ -6974,7 +6510,7 @@ Could not find wargear in Any Auxilia Hellhound may select any of the following 
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="7c88-4a1d-4bf5-adb6" name="Any Auxilia Hellhound may select one of the following options:" hidden="false" collective="false" import="false">
+            <selectionEntryGroup id="7c88-4a1d-4bf5-adb6" name="May take one of:" hidden="false" collective="false" import="false" sortIndex="3">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ed2-405b-48c5-8710" type="max"/>
               </constraints>
@@ -7014,15 +6550,12 @@ Could not find wargear in Any Auxilia Hellhound may select any of the following 
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="d662-9503-4761-a2d5" name="Any Auxilia Hellhound may select any of the following options:" hidden="false" collective="false" import="false">
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear One Hull (Front) Hunter-Killer Missile
-	 Checked under One Hull (Front) Hunter-Killer Missile</comment>
+            <selectionEntryGroup id="d662-9503-4761-a2d5" name="May take any of :" hidden="false" collective="false" import="false" sortIndex="4">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c72-e4f5-4a3a-b20c" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="ac2e-5223-4d62-bd08" name="Searchlights" hidden="false" collective="false" import="false" targetId="a280-c496-4014-aca3" type="selectionEntry">
+                <entryLink id="ac2e-5223-4d62-bd08" name="Searchlights" hidden="false" collective="true" import="false" targetId="a280-c496-4014-aca3" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dba1-2f7a-4e67-94bc" type="max"/>
                   </constraints>
@@ -7030,7 +6563,7 @@ Could not find wargear One Hull (Front) Hunter-Killer Missile
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
                 </entryLink>
-                <entryLink id="3582-8fcf-4dfa-a52b" name="Dozer Blade" hidden="false" collective="false" import="false" targetId="42e1-f6cf-1f2b-a492" type="selectionEntry">
+                <entryLink id="3582-8fcf-4dfa-a52b" name="Dozer Blade" hidden="false" collective="true" import="false" targetId="42e1-f6cf-1f2b-a492" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b99d-7399-4ea5-881d" type="max"/>
                   </constraints>
@@ -7038,11 +6571,16 @@ Could not find wargear One Hull (Front) Hunter-Killer Missile
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
                 </entryLink>
+                <entryLink import="true" name="Hunter-Killer Missile" hidden="false" id="45b1-469c-3327-57f0" type="selectionEntry" targetId="1bf8-72f8-c331-6900">
+                  <modifiers>
+                    <modifier type="set" value="One Hull (Front) Hunter-Killer Missile" field="name"/>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="b0e3-2a9d-4eae-8223" name="Smoke Launchers" hidden="false" collective="false" import="false" targetId="0873-34dd-e52d-d33c" type="selectionEntry">
+            <entryLink id="b0e3-2a9d-4eae-8223" name="Smoke Launchers" hidden="false" collective="true" import="false" targetId="0873-34dd-e52d-d33c" type="selectionEntry" sortIndex="5" defaultAmount="1">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40e0-cade-49bc-8063" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="600c-efae-4214-a8b4" type="max"/>
@@ -7057,6 +6595,50 @@ Could not find wargear One Hull (Front) Hunter-Killer Missile
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
       </costs>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="All models in a unit may have:" id="3e92-5332-47a2-a2b1" hidden="false" collective="false" import="false" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="daf6-ad02-4d56-b6c4-min" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="daf6-ad02-4d56-b6c4-max" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="false" name="Gravis Heavy Flamer" hidden="false" id="2225-0c6f-4164-9d11" collective="false" targetId="1aa9-8c00-499e-b2bb" type="selectionEntry" defaultAmount="1" sortIndex="1">
+              <modifiers>
+                <modifier type="set" value="Turret Mounted Gravis Heavy Flamer" field="name"/>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="04d6-7b70-42a5-8afe" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="false" name="Chem Cannon" hidden="false" id="2d5e-41d3-47d1-85a6" collective="false" targetId="87c1-71cc-44b1-bd0a" type="selectionEntry" sortIndex="2">
+              <modifiers>
+                <modifier type="set" value="Turret Mounted Chem Cannon" field="name"/>
+                <modifier type="increment" value="10" field="d2ee-04cb-5f8a-2642">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="522c-4262-4041-8226" childId="03a1-aca3-4d63-aad7" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b20b-0328-4789-8173" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="false" name="Melta Cannon" hidden="false" id="5ec2-1016-47be-a67e" collective="false" targetId="708c-0a08-417b-aa85" type="selectionEntry" sortIndex="3">
+              <modifiers>
+                <modifier type="set" value="Turret Mounted Melta Cannon" field="name"/>
+                <modifier type="increment" value="15" field="d2ee-04cb-5f8a-2642">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="522c-4262-4041-8226" childId="03a1-aca3-4d63-aad7" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4617-9e9c-441d-a9f2" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry id="bba1-0a9b-4dc3-b677" name="Divisio Aeronautica Avenger Strike Fighter" publicationId="892-6266-f55f-1b9d" page="169" hidden="false" collective="false" import="false" type="unit">
       <infoLinks>
@@ -9024,5 +8606,7 @@ Could not find wargear Two Twin-Linked Heavy Stubbers
     <entryLink import="true" name="Auxilia Verticalis Drop Tercio" hidden="false" id="9556-a98d-5302-9730" type="selectionEntry" targetId="124a-f32d-4442-b42b"/>
     <entryLink import="true" name="Auxilia Light Armoured Tercio" hidden="false" id="2187-95f3-da10-b000" type="selectionEntry" targetId="a520-ed43-4d78-b257"/>
     <entryLink import="true" name="Solar Auxilia Tempestor Land Speeder Squadron" hidden="false" id="5735-cccc-5ef1-af18" type="selectionEntry" targetId="9510-1c96-4cfe-ae17"/>
+    <entryLink import="true" name="Solar Auxilia Aethon Heavy Sentinel Squadron" hidden="false" id="16d9-f519-c398-ad10" type="selectionEntry" targetId="ce34-d75b-4127-a03f"/>
+    <entryLink import="true" name="Solar Auxilia Hellhound Flame Tank Squadron" hidden="false" id="a342-f22b-2585-e96e" type="selectionEntry" targetId="522c-4262-4041-8226"/>
   </entryLinks>
 </catalogue>
