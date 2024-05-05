@@ -7273,13 +7273,13 @@ When any enemy unit is deployed to the battlefield from Reserves, a unit that in
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry name="Deathstrike Missile - Plasma Warhead P" type="upgrade" id="0a01-4b58-42eb-8e14">
+    <selectionEntry name="Deathstrike Missile - Plasma Warhead" type="upgrade" id="0a01-4b58-42eb-8e14">
       <infoLinks>
         <infoLink name="Plasma Burn" hidden="false" type="rule" targetId="efaa-c932-9788-9ade" id="0620-0af5-40dd-b94d"/>
         <infoLink name="Ignores Cover" hidden="false" type="rule" targetId="fdb5-59e2-c446-1cbc" id="2cb8-a195-4355-b8a9"/>
       </infoLinks>
       <profiles>
-        <profile name="Deathstrike Missile - Plasma Warhead P" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="f40d-9cb5-4231-b3f8" page="298" publicationId="892-6266-f55f-1b9d">
+        <profile name="Deathstrike Missile - Plasma Warhead" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="f40d-9cb5-4231-b3f8" page="298" publicationId="892-6266-f55f-1b9d">
           <characteristics>
             <characteristic typeId="95ba-cda7-b831-6066" name="Range">-</characteristic>
             <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">10</characteristic>
@@ -7288,11 +7288,8 @@ When any enemy unit is deployed to the battlefield from Reserves, a unit that in
           </characteristics>
         </profile>
       </profiles>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Apocalyptic Blast (10&quot;)
-Could not find rule:</comment>
     </selectionEntry>
-    <selectionEntry name="Deathstrike Missile - Tactical Nuclear Warhead S" type="upgrade" id="916a-b16e-45d2-9db5">
+    <selectionEntry name="Deathstrike Missile - Tactical Nuclear Warhead" type="upgrade" id="916a-b16e-45d2-9db5">
       <profiles>
         <profile name="Deathstrike Missile - Tactical Nuclear Warhead S" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="528f-99bc-40a6-891b" page="298" publicationId="892-6266-f55f-1b9d">
           <characteristics>
@@ -7307,11 +7304,8 @@ Could not find rule:</comment>
         <infoLink name="Eye of the Storm" hidden="false" type="rule" targetId="c8d1-3794-4ffc-8b3d" id="3d69-60d3-42f6-a415"/>
         <infoLink name="Impact Flash" hidden="false" type="rule" targetId="aff3-a166-441a-88c2" id="11fe-459a-4e0f-8294"/>
       </infoLinks>
-      <comment>!BSC Errors from 20240406-1709
-Could not find rule: Apocalyptic Mega-Blast
-Could not find rule:</comment>
     </selectionEntry>
-    <selectionEntry name="Deathstrike Missile - Vortex Warhead I" type="upgrade" id="589e-91e3-4430-b879">
+    <selectionEntry name="Deathstrike Missile - Vortex Warhead " type="upgrade" id="589e-91e3-4430-b879">
       <infoLinks>
         <infoLink name="Blast" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8" id="62a8-f9a9-4038-a404">
           <modifiers>
@@ -7335,8 +7329,6 @@ Could not find rule:</comment>
           </characteristics>
         </profile>
       </profiles>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule:</comment>
     </selectionEntry>
     <selectionEntry name="Needle Cavalcade" type="upgrade" id="5d5b-111b-4a9f-b905">
       <infoLinks>
@@ -11304,6 +11296,34 @@ In addition, all models with a Scapuli-Pattern Thruster Pack that have been acti
           </constraints>
         </entryLink>
       </entryLinks>
+    </selectionEntry>
+    <selectionEntry name="Oppressor Cannon w/ Co-Axial Autocannon" type="upgrade" id="5e3a-baef-7a45-723b">
+      <infoLinks>
+        <infoLink name="Sunder" hidden="false" type="rule" targetId="20e2-75cf-bc16-cd8f" id="8446-428a-5f8e-f389"/>
+        <infoLink name="Brutal (X)" hidden="false" type="rule" targetId="5079-1fec-d32b-8b84" id="cceb-3f02-a7fd-c1bc">
+          <modifiers>
+            <modifier type="set" field="name" value="Brutal (3)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <profiles>
+        <profile name="Oppressor Cannon" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="8cce-957b-fbff-2156" page="294" publicationId="892-6266-f55f-1b9d">
+          <characteristics>
+            <characteristic typeId="95ba-cda7-b831-6066" name="Range">72&quot;</characteristic>
+            <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">10</characteristic>
+            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">2</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Heavy 2, Sunder, Brutal (3)</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Co-Axial Autocannon" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="dc14-f807-3fb4-a980" publicationId="9fab-fea7-a93c-2074" page="133">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Rending (6+), Co-Axial</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>

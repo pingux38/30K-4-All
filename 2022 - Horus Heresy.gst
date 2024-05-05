@@ -11304,7 +11304,7 @@ Invulnerable saves granted by a combat shield or boarding shield do not stack wi
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry id="ccbb-2c79-4054-432a" name="Two Twin-Linked Heavy Stubber" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ccbb-2c79-4054-432a" name="Two Twin-linked Heavy Stubber" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="2fde-1ab6-6c8b-7cfb" name="Heavy Stubber" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
@@ -11322,7 +11322,7 @@ Invulnerable saves granted by a combat shield or boarding shield do not stack wi
         <infoLink name="Twin-linked" id="9e55-4ed4-5002-c5b3" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry id="c551-b829-f6f4-4518" name="Twin- Linked Heavy Stubber" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c551-b829-f6f4-4518" name="Twin-linked Heavy Stubber" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="3247-45da-63c2-5eac" name="Heavy Stubber" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
@@ -11430,6 +11430,96 @@ Invulnerable saves granted by a combat shield or boarding shield do not stack wi
           </modifiers>
         </infoLink>
       </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Twin-linked Autocannon" hidden="false" id="7481-8e71-4643-834c" collective="false">
+      <profiles>
+        <profile name="Twin-linked Autocannon" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="a7da-a133-4743-8e02" publicationId="15a4-fc68-502d-48a9" page="140">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Twin-linked, Rending (6+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Twin-linked" id="9095-6643-e03c-ded7" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Twin-linked Punisher Rotary Cannon" hidden="false" id="a83-a716-3720-4a39" collective="false">
+      <profiles>
+        <profile name="Twin-linked Punisher Rotary Cannon" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="b332-4e7e-223f-20a7" publicationId="a716-c1c4-7b26-8424" page="128">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 18, Pinning, Shell Shock (1), Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Pinning" id="b9ff-8071-e514-4b7f" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+        <infoLink name="Shell Shock (X)" id="7972-e18d-265d-76a7" hidden="false" targetId="46b7-63a1-941c-96a5" type="rule">
+          <modifiers>
+            <modifier type="set" value="Shell Shock (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Twin-linked" id="1e52-b9f0-df67-109c" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Storm Eagle Missile" hidden="false" id="67d5-c341-edc0-6a59" page="" publicationId="892-6266-f55f-1b9d">
+      <profiles>
+        <profile name="Storm Eagle Missile" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="964f-4892-b459-f637">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">12-120&apos;&apos;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 4, Guided Fire, One Shot, Ponderous Aim</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Manticore Missile" hidden="false" id="f2fe-34ec-a59-d7fa" page="" publicationId="892-6266-f55f-1b9d">
+      <profiles>
+        <profile name="Manticore Missile" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="3445-67bc-c0a3-fdf9">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">18-300&apos;&apos;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Large Blast (5”), Breaching (4+), One Shot, Ponderous Aim</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Phosphor Incendiary Missile" hidden="false" id="a683-c01f-495c-68d" page="" publicationId="892-6266-f55f-1b9d">
+      <profiles>
+        <profile name="Phosphor Incendiary Missile" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="215-39f1-7045-d609">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">12-72&apos;&apos;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Barrage, Large Blast (5”), Ignores Cover, Pinning, Shell Shock (2), One Shot, Ponderous Aim</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Solutus Chem Missile" hidden="false" id="9264-cd9a-7855-3089" page="" publicationId="892-6266-f55f-1b9d">
+      <profiles>
+        <profile name="Solutus Chem Missile" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="1f27-1544-666d-8515">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">12-72&apos;&apos;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">1</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">-</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance D3+1, Barrage, Blast (3”), Brutal (2), Breaching (5+), One Shot, Fleshbane, Ponderous Aim</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
