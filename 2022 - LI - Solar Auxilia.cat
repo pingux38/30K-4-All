@@ -7437,7 +7437,7 @@ While at least one model with a Command Vox is present on the battlefield and n
             <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4a9-97a4-e0ac-ca9f" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="ac79-da6c-ad20-77ee" name="Rapier Battery" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="ac79-da6c-ad20-77ee" name="Rapier Battery" hidden="false" collective="false" import="true" type="unit" defaultAmount="1">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>

@@ -56,9 +56,10 @@
         <categoryLink targetId="4aca-2849-7f41-0200" id="6145-f591-278-26b3" primary="false" name="SA or IM Unit"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="5915-2e6b-40fb-bceb" name="Ireton MaSade" publicationId="892-6266-f55f-1b9d" page="130" hidden="false" collective="false" import="false" type="model" sortIndex="3">
+        <selectionEntry id="5915-2e6b-40fb-bceb" name="Ireton MaSade" publicationId="892-6266-f55f-1b9d" page="130" hidden="false" collective="false" import="false" type="model" sortIndex="3" defaultAmount="1">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fdb-4c9f-4216-8145" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fdb-4c9f-4216-8145-min" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fdb-4c9f-4216-8145-max" type="max"/>
           </constraints>
           <profiles>
             <profile id="15df-f7df-443b-b8f8" name="Ireton MaSade" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
@@ -196,7 +197,7 @@ In addition, the Controlling Player of an army with Ireton MaSade as its Warlord
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="135"/>
           </costs>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Extremis Warsuit" hidden="false" id="c5c7-7719-621b-2c39" sortIndex="3">
@@ -303,7 +304,7 @@ All models in an Extremis Boarding Rig Section selected as a Retinue Squad lose 
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="135"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="d48d-2944-95d7-881d"/>
@@ -5482,7 +5483,7 @@ Could not find wargear One Hunter-Killer Missile
           <selectionEntryGroups>
             <selectionEntryGroup name="Any combinaison of:" id="e43d-4707-5489-81f3" hidden="false">
               <selectionEntries>
-                <selectionEntry type="unit" import="false" name="Auxilia Salamander Scout Squadron" hidden="false" id="3bc7-43f4-4f0a-a5cb" publicationId="892-6266-f55f-1b9d" page="163" collective="false">
+                <selectionEntry type="unit" import="false" name="Auxilia Salamander Scout Squadron" hidden="false" id="3bc7-43f4-4f0a-a5cb" publicationId="892-6266-f55f-1b9d" page="163" collective="false" defaultAmount="1">
                   <infoLinks>
                     <infoLink name="Tercio" id="c652-c3e6-4249-b235" hidden="false" targetId="6516-f81d-457b-a2cc" type="rule"/>
                     <infoLink name="Scout" id="eaa0-f90f-40aa-9d19" hidden="false" targetId="aacf-9a7e-982d-b793" type="rule"/>
@@ -10438,6 +10439,83 @@ Could not find wargear Two Twin-Linked Heavy Stubbers
     <entryLink import="true" name="Lord Marshal Ireton Masade" hidden="false" id="d17d-5316-bac2-7bdc" type="selectionEntry" targetId="bbfc-3ecc-4d10-b3de"/>
     <entryLink import="true" name="Battle Psyker" hidden="false" id="7b47-5efc-c88d-fb7f" type="selectionEntry" targetId="aeec-9d3a-4d2b-b235"/>
     <entryLink import="true" name="Tactical Command Tercio" hidden="false" id="632-5b0b-f9b7-6825" type="selectionEntry" targetId="43d2-d1b2-5f8f-59a6"/>
+    <entryLink import="true" name="Davinite Lodge Priest" hidden="false" id="3421-9d40-2302-d750" type="selectionEntry" targetId="fe13-4a8f-b2af-1e40">
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="ae5f-ab2d-e192-8451" primary="true" name="HQ:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Expeditionary Navigator" hidden="false" id="16e6-6507-3f63-39ed" type="selectionEntry" targetId="ce53-e40c-65b6-4d3a">
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="7df6-aefd-7dd2-b9fc" primary="true" name="HQ:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Termite Assault Drill" hidden="false" id="c263-fa31-e7bf-a9ec" type="selectionEntry" targetId="b4b5-9c0a-9e86-3d38">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="a051-1be4-ff89-fafa" primary="true" name="Fast Attack:"/>
+        <categoryLink targetId="4aca-2849-7f41-0200" id="ae2f-234d-2052-aec2" primary="false" name="SA or IM Unit"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Veletaris Tercio" hidden="false" id="6606-b6a1-4c7d-ec00" type="selectionEntry" targetId="1905-2087-cffc-4839">
+      <categoryLinks>
+        <categoryLink targetId="7aee-565f-b0ae-294e" id="53d4-c948-1871-b718" primary="true" name="Elites:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Dracosan Armoured Transport" hidden="false" id="5da4-5e3d-dc65-fbd7" type="selectionEntry" targetId="496b-a01b-3726-0a44">
+      <categoryLinks>
+        <categoryLink targetId="7b0a-a743-a8da-3a39" id="7d73-2b1c-bb1f-8b84" primary="true" name="Transport Sub-type:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Aurox Transport" hidden="false" id="19ba-61e8-bb16-71a3" type="selectionEntry" targetId="071b-79e5-7b5b-c9cd">
+      <categoryLinks>
+        <categoryLink targetId="7b0a-a743-a8da-3a39" id="6e1a-6cdd-bcb6-80d" primary="true" name="Transport Sub-type:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Arvus Transport" hidden="false" id="6bee-3eb1-d4e6-ce89" type="selectionEntry" targetId="5041-9403-02b7-af14">
+      <categoryLinks>
+        <categoryLink targetId="7b0a-a743-a8da-3a39" id="7601-75d5-97dc-3f72" primary="true" name="Transport Sub-type:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Divisio Aeronautica Primaris-Lightning Strike Fighter" hidden="false" id="2ad0-8a3e-f8be-697e" type="selectionEntry" targetId="428d-bd65-c88e-1430">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="7e2e-8de7-1eeb-de0e" primary="true" name="Fast Attack:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Divisio Aeronautica Thunderbolt Fighter" hidden="false" id="8182-fb10-5710-4125" type="selectionEntry" targetId="6201-e908-c475-db6b">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="7332-7a82-eb48-b8bc" primary="true" name="Fast Attack:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Armoured Tercio" hidden="false" id="5b62-c38b-fd49-db0b" type="selectionEntry" targetId="26e0-55ec-051b-d209"/>
+    <entryLink import="true" name="Malcador Heavy Tank Squadron" hidden="false" id="948-2555-5c69-d746" type="selectionEntry" targetId="7040-cbf9-ae05-d34f">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="9f94-abd0-f9bd-49b8" primary="true" name="Heavy Support:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Armoured Battery" hidden="false" id="728-a70a-e7bb-a35f" type="selectionEntry" targetId="c020-7685-ddf4-a10a">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="afd4-28f7-78-5d8b" primary="true" name="Heavy Support:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Valdor Tank Destroyer Squadron" hidden="false" id="8a5-cb64-2bf9-9e69" type="selectionEntry" targetId="087d-b4d7-7770-7c07">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="8543-5541-1ce-3bc" primary="true" name="Heavy Support:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Cyclops Demolition Section" hidden="false" id="b84a-34a-c36d-85dd" type="selectionEntry" targetId="2f8d-70ea-fbb2-53e2">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="a93c-dee2-2c78-a80f" primary="true" name="Heavy Support:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Malcador Infernus Squadron" hidden="false" id="24a6-b4a0-d0b9-1336" type="selectionEntry" targetId="b0a8-0f45-9999-b893">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="7870-7545-6d99-cd92" primary="true" name="Heavy Support:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Stormhammer" hidden="false" id="d680-2098-5018-cdf4" type="selectionEntry" targetId="19c9-f8e8-edff-fa8e">
+      <categoryLinks>
+        <categoryLink targetId="c658-dc6b-727b-c488" id="6a76-fcc4-afb3-1a19" primary="true" name="Lords of War:"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Warlord Traits" id="2305-2d04-f14e-8b58" hidden="true">
@@ -10760,49 +10838,6 @@ Limitations (THIS MUST BE CHECKED MANUALLY)
             </rule>
           </rules>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Armoured Fist Pattern Cohorts (Check Limitations manually)" hidden="false" id="f2d6-c520-989d-71" publicationId="15a4-fc68-502d-48a9" page="71" collective="false">
-          <rules>
-            <rule name="Armoured Fist Pattern Cohorts" id="dfd9-5524-1697-9998" hidden="false" publicationId="15a4-fc68-502d-48a9" page="71">
-              <description>Effects
-• A Detachment using this Cohort Doctrine may select Auxilia Armoured Tercios as Troops choices. An Auxilia Armoured Tercio selected as a Troops choice may only consist of a single unit. Auxilia Armoured Tercios selected as Compulsory Troop Choices in a Primary Detachment using this Cohort Doctrine gain the Line Unit Sub-type. The first time in a game that any models with the Infantry Unit Type Disembark from their own Dedicated Transport, they gain the Relentless special rule until the end of that turn. (THIS MUST BE MANUALLY CHECKED)
-• In a Primary Detachment using this Cohort Doctrine, a single Solar Auxilia Armoured Command Section composed of only a single Leman Russ Command Tank, must be selected as a HQ choice. This Leman Russ Command Tank gains the Cohort Doctrines special rule and must be selected as the army’s Warlord and must use the Armoured Legate Warlord trait (see below). A model with the Vehicle Unit Type must be selected as the Warlord of an army using this Cohort Doctrine, regardless of any rules which would require a model to be selected as the army’s Warlord (note this means that some units and Characters cannot be selected as part of this army):
-
-Warlord Trait: Armoured Legate
-A Warlord with this Warlord Trait gains the Cohort Doctrines special rule, a 5+ Invulnerable Save and increases its BS by +1.
-
-Limitations (THIS MUST BE MANUALLY CHECKED)
-• All units composed entirely of models with the Infantry Unit Type must
-begin the battle Embarked on a model with the Transport Unit Sub-type
-or in Reserves, unless the unit has the Mechanised Unit Sub-type.
-• A Detachment using this Cohort Doctrine may not include any models
-with a Movement Characteristic of 0 or ‘-’.
-• An army which includes at least one Detachment using this Cohort
-Doctrine may not select any Fortifiction choice.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Feral Pattern Cohorts" hidden="false" id="4da7-6b5f-6357-eef0" publicationId="15a4-fc68-502d-48a9" page="72" collective="false">
-          <rules>
-            <rule name="Feral Pattern Cohorts" id="cc82-1efd-179-6ff3" hidden="false" publicationId="9fab-fea7-a93c-2074" page="146">
-              <description>Effects (THIS MUST BE CHECKED MANUALLY)
-• Any unit made up entirely of models with the Infantry Unit Type may be given the Fear (1) special rule for a cost of +25 points per unit.
-• All units that include one or more models with the Tercio special rule gain the Counter-attack (1) special rule while ‘In Formation’.
-• All models with the Infantry Unit Type from a Detachment using this Cohort Doctrine gain a bonus of +1 to their Weapon Skill, to a maximum of 5, for the duration of any player turn in which they make a Successful Charge.
-• Any model in a Detachment using this Cohort Doctrine may replace a Bayonet with a Chain Bayonet for +1 point per model.
-• Any model with the Character Unit Sub-type in a Detachment using this Cohort Doctrine may exchange a Close Combat Weapon for a Chain Axe for +2 points per model.
-
-Limitations
-• All units in a Detachment using this Cohort Doctrine that begin the controlling player’s Assault phase with an enemy unit that is a valid target for a Charge must declare a Charge. If more than one enemy unit is a valid target, the controlling player chooses which enemy unit is the target of the Charge.
-• All other Detachments in an army with the Loyalist Allegiance that includes a Detachment using this Cohort Doctrine will consider the Detachment with this Cohort Doctrine to be Distrusted Allies, regardless of the normal result of the Allies Matrix.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Iron Pattern Cohorts" hidden="false" id="548d-8ffc-e12d-515c" publicationId="892-6266-f55f-1b9d" page="124" collective="false">
           <rules>
             <rule name="Iron Pattern Cohorts" id="5cda-7503-1eca-4009" hidden="false" publicationId="892-6266-f55f-1b9d" page="124">
@@ -10810,6 +10845,7 @@ Limitations
 • A Detachment using this Cohort Doctrine may select Castellax Maniples* and Thallax Squads* as Elites choices.
 • A Legate Marshal, Auxilia Marshal or Auxilia Captain in a Detachment using this Cohort Doctrine may select a cortex controller* for +15 points each.
 • A Legate Marshal in a Detachment using this Cohort Doctrine gains the Master of Automata special rule.
+• Enginseer Auxilia Sections selected in a Detachment using this Cohort Doctrine gains the Line Unit Sub-type, and may optionally select a Triaros Armoured Conveyor as a Dedicated Tranport (see Liber Mechanicum for rules and points cost).
 *Unit profiles and rules for these can be found in Liber Mechanicum.
 
 Limitations
@@ -10821,80 +10857,15 @@ Limitations
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Penal Pattern Cohorts" hidden="false" id="ff89-ccce-9b05-a73b" publicationId="15a4-fc68-502d-48a9" page="72" collective="false">
-          <rules>
-            <rule name="Penal Pattern Cohorts" id="ef99-5947-fd1a-c52c" hidden="false" publicationId="15a4-fc68-502d-48a9" page="72">
-              <description>Effects
-• All models in a unit from a Detachment using this Cohort Doctrine that include models with the Tercio special rule also gain the Furious Charge (1) special rule.
-• Any model with the Infantry Unit Type in a Detachment using this Cohort Doctrine may replace a Lasrifle or Volkite Charger with a Lascarbine, Lasgun, Stubcarbine, Autorifle, Laspistol and Close Combat Weapon, or Shotgun for no additional points cost. In addition, one Auxilia in any Solar Auxilia Rifle Section may replace a Lasrifle with a Heavy Stubber for +5 points per model.
-• All models selected as part of a Solar Auxilia Rifle Section gain the Feel No Pain (6+) special rule – this does not stack with any other variant of this special rule and if the unit has access to any other Feel No Pain (X) special rule, the controlling player must select one to use.
-• Any model in a Detachment using this Cohort Doctrine may replace a
-Close Combat Weapon with a Chainsword for +1 point per model.”
-
-Limitations
-• All models in a Detachment using this Cohort Doctrine with the Close-order Unit Sub-type lose that Unit Sub-type.
-• A Detachment using this Cohort Doctrine may not include more than one Auxilia Veletaris Tercio.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Reborn Cohorts" hidden="false" id="51f6-f1c6-938-24f0" publicationId="15a4-fc68-502d-48a9" page="71" collective="false">
-          <rules>
-            <rule name="Reborn Cohorts" id="ad64-9194-434e-efab" hidden="false" publicationId="15a4-fc68-502d-48a9" page="71">
-              <description>Effects
-• All models with the Infantry Unit Type in a Detachment using this Cohort Doctrine gain a bonus of +1 to their Leadership Characteristic, to a maximum of Leadership 10, and the Stubborn Special Rule.
-• When making a Shooting Attack during any Game Turn in which the attacking unit has not Moved, a unit from a Detachment using this Cohort Doctrine may re-roll all failed To Hit rolls of ‘1’.
-
-Limitations
-• A Detachment using this Cohort Doctrine may not include more than a single Auxilia Armoured Tercio.
-• A Detachment using this Cohort Doctrine may not include more than a single Auxilia Artillery Tercio.
-• All models with the Infantry Unit Type in a Detachment using this Cohort Doctrine count their Initiative as ‘1’ for the purposes of determining the distance moved when Running, when rolling as part of a Sweeping Advance, or when making a Move as part of any Reaction; and when determining which Initiative Step they would attack in during an Assault their Initiative Characteristic is considered to be one lower than normal.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Solar Pattern Cohorts" hidden="false" id="6241-3ac7-cace-f3" publicationId="15a4-fc68-502d-48a9" page="70" collective="false">
-          <rules>
-            <rule name="Solar Pattern Cohorts" id="1b94-159e-a35d-516b" hidden="false" publicationId="15a4-fc68-502d-48a9" page="70">
-              <description>Effects
-• A Detachment using this Cohort Doctrine may select Auxilia Veletaris Tercios as Troops choices.
-• All units selected as part of an Auxilia Veletaris Tercio in a Detachment using this Cohort Doctrine may select an Arvus Transport as a Dedicated Transport.
-• All units in an Auxilia Veletaris Tercio selected as a Troops choice gain the Line Unit Sub-type.
-
-Limitations
-• A Detachment using this Cohort Doctrine may not include more than a single Auxilia Armoured Tercio.
-• A Detachment using this Cohort Doctrine may not include more than a single Auxilia Artillery Tercio.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Ultramar Pattern Cohorts" hidden="false" id="fbb1-c524-27b0-72cd" publicationId="15a4-fc68-502d-48a9" page="70" collective="false">
-          <rules>
-            <rule name="Ultramar Pattern Cohorts" id="5d22-6ed7-6361-5909" hidden="false" publicationId="15a4-fc68-502d-48a9" page="70">
-              <description>Effects
-• A Detachment using this Cohort Doctrine uses the Organisation chart shown below to select all Auxilia Rifle Sections instead of the one found in the unit profile and may include up to 6 units.
-• All Solar Auxilia Rifle Sections and Solar Auxilia Line Command Sections gain a bonus of +1 to all To Hit rolls made during Shooting Attacks when all models in the unit are in base contact with at least one other model from the same unit.
-
-Ultramar Pattern Auxilia Rifle Tercio Organisation Chart
-An Ultramar Pattern Auxilia Infantry Tercio must include the following units:
-• 0-1 Line Command Section
-• 1-6 Auxilia Rifle Sections
-
-Limitations
-• A Detachment using this Cohort Doctrine may not select Dedicated Transports for any Solar Auxilia Rifle Sections or Solar Auxilia Line Command Sections.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-          </costs>
-        </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Reborn Cohorts" hidden="false" id="782c-5a40-90cd-ee11" type="selectionEntry" targetId="fe04-c096-f846-a6fd"/>
+        <entryLink import="true" name="Feral Pattern Cohorts" hidden="false" id="4da7-6b5f-6357-eef0" type="selectionEntry" targetId="021e-6841-7375-7862"/>
+        <entryLink import="true" name="Armoured Fist Pattern Cohorts (Check Limitations manually)" hidden="false" id="e90d-2b61-be6f-d884" type="selectionEntry" targetId="1974-9f9a-5b14-e449"/>
+        <entryLink import="true" name="Penal Pattern Cohorts" hidden="false" id="ff89-ccce-9b05-a73b" type="selectionEntry" targetId="bfd2-7016-f5fe-be6a"/>
+        <entryLink import="true" name="Solar Pattern Cohorts" hidden="false" id="6241-3ac7-cace-f3" type="selectionEntry" targetId="a09b-28bd-8ffc-f4f0"/>
+        <entryLink import="true" name="Ultramar Pattern Cohorts" hidden="false" id="fbb1-c524-27b0-72cd" type="selectionEntry" targetId="3624-316b-4ed4-d5d1"/>
+      </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
 </catalogue>
