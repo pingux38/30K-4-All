@@ -1171,11 +1171,7 @@
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink id="6044-5a15-898d-0950" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="1ebb-8e01-7d58-9d99" type="selectionEntryGroup">
-              <entryLinks>
-                <entryLink import="true" name="[Imperatus] Solar Auxilia" hidden="false" id="45cd-e319-80dd-48d4" type="selectionEntryGroup" targetId="24e3-cae0-6905-40f4"/>
-              </entryLinks>
-            </entryLink>
+            <entryLink id="6044-5a15-898d-0950" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="1ebb-8e01-7d58-9d99" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="85"/>
@@ -8851,7 +8847,7 @@ While at least one model with a Command Vox is present on the battlefield and n
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4da7-6b5f-6357-eef0" type="equalTo"/>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="021e-6841-7375-7862" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>

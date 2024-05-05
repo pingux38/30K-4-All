@@ -11390,6 +11390,47 @@ Invulnerable saves granted by a combat shield or boarding shield do not stack wi
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Archaeotech Apex Digital Weapon" hidden="false" id="9f2a-fc8b-69b5-38e9" collective="false" publicationId="892-6266-f55f-1b9d" page="266">
+      <infoLinks>
+        <infoLink name="Apex Digital Weapon" id="a4f0-e271-1a46-9ed7" hidden="false" targetId="bb6c-b537-b02e-ca42" type="rule" publicationId="892-6266-f55f-1b9d" page="266"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Archaeotech Displacer Matrix" hidden="false" id="70ca-2f54-4732-f1a" collective="false" publicationId="892-6266-f55f-1b9d" page="266">
+      <infoLinks>
+        <infoLink name="Displacer Matrix" id="7a4b-6608-df09-92d3" hidden="false" targetId="f0c8-4b6c-836-23fc" type="rule" publicationId="892-6266-f55f-1b9d" page="266"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Archaeotech Grav-wave Generator" hidden="false" id="24a1-b2eb-756e-4194" collective="false" publicationId="892-6266-f55f-1b9d" page="266">
+      <infoLinks>
+        <infoLink name="Grav-wave Generator" id="40f4-854d-8e68-733e" hidden="false" targetId="a180-6969-3d65-c3a0" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Archaeotech Metaphasic Reader" hidden="false" id="308a-cd51-71d6-fa8f" collective="false" publicationId="892-6266-f55f-1b9d" page="267">
+      <infoLinks>
+        <infoLink name="Metaphasic Reader" id="937-c310-7b47-8abd" hidden="false" targetId="d2b9-8b6d-6ec0-1815" type="rule" publicationId="892-6266-f55f-1b9d" page="266"/>
+        <infoLink name="Night Vision" id="879e-353b-bb51-965d" hidden="false" targetId="683e-b4f2-f032-d31b" type="rule" publicationId="892-6266-f55f-1b9d" page="266"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Archaeotech Psi-Jammer" hidden="false" id="3d38-6d1b-b20b-86e7" collective="false" publicationId="892-6266-f55f-1b9d" page="267">
+      <infoLinks>
+        <infoLink name="Psi-Jammer" id="b600-9c33-22b4-4834" hidden="false" targetId="1ecb-5684-fce-aa9f" type="rule" publicationId="892-6266-f55f-1b9d" page="266"/>
+        <infoLink name="Adamantium Will (X+)" id="8144-44aa-f1ec-4f7a" hidden="false" targetId="4380-44a5-f01a-d964" type="rule" publicationId="892-6266-f55f-1b9d" page="266">
+          <modifiers>
+            <modifier type="set" value="Adamantium Will (5+)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Archaeotech Void Shield Harness" hidden="false" id="b56c-92bf-5e08-a9da" collective="false" publicationId="892-6266-f55f-1b9d" page="267">
+      <infoLinks>
+        <infoLink name="Void Shield Harness" id="4476-3c9c-d6a9-bd45" hidden="false" targetId="a9e1-5852-7011-c073" type="rule" publicationId="892-6266-f55f-1b9d" page="266"/>
+        <infoLink name="Void Shields" id="96ac-f983-9eb8-b6cf" hidden="false" targetId="c503-f5b8-3da0-16e6" type="rule" publicationId="892-6266-f55f-1b9d" page="266">
+          <modifiers>
+            <modifier type="set" value="Void Shields (2)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="4a48-4935-246d-0c2e" name="Legion" hidden="false" collective="false" import="true">
@@ -16960,6 +17001,36 @@ In addition, any weapons a model with this Special Rule is equipped with which d
     </rule>
     <rule name="Suspensor Web" id="d674-d485-e2e3-f509" hidden="false">
       <description>A weapon with a Suspensor Web may be fired as an Assault weapon at half range or less. If a weapon fired in this manner has any Special Rules that rely on range (such as Armourbane (Melta)) then the range required to trigger this Special Rule is calculated based on the weapon’s original range, not the modified range from the Suspensor Web’s effects.</description>
+    </rule>
+    <rule name="Apex Digital Weapon" id="bb6c-b537-b02e-ca42" hidden="false" publicationId="892-6266-f55f-1b9d" page="266">
+      <description>Once per game when making a Shooting Attack, a model with an Apex Digital Weapon can declare it will fire either a Disintegrator, Lascannon, Multi-Melta, Plasma Cannon or Volkite Culverin. When firing this weapon, treat the model as if it had the Relentless Special Rule.</description>
+    </rule>
+    <rule name="Displacer Matrix" id="f0c8-4b6c-836-23fc" hidden="false" publicationId="892-6266-f55f-1b9d" page="266">
+      <description>A Displacer Matrix provides a 3+ Invulnerable Save. This Invulnerable Save does not stack with other Invulnerable Saves, and cannot benefit from rules (like Cyber-Familiar wargear) that specifically increase existing saves. If a model has another Invulnerable Save then the Controlling Player must choose which one to use.
+
+
+In addition, the first time a roll of ‘1’ is made for an Invulnerable Save for a model with a Displacer Matrix, the Wound is ignored, and the model is removed from the battlefield, entering the Controlling Player’s Reserves assigned to a Deep Strike Assault (even if one had already been made earlier in the game). If the model was part of a unit, they count as having left the unit – even if they would not ordinarily be allowed to do so. No other units may be assigned to this Deep Strike Assault, and resolving this Deep Strike Assault does not prevent the Controlling Player from resolving another Deep Strike Assault later in the game if they have units still assigned to one. This Deep Strike Assault automatically arrives in the Controlling Player’s next game turn. If the Deep Strike Assault is Disordered, or the game does not continue into the next turn (in which this model would arrive), then the model is counted as Destroyed.</description>
+    </rule>
+    <rule name="Grav-wave Generator" id="a180-6969-3d65-c3a0" hidden="false" publicationId="892-6266-f55f-1b9d" page="266">
+      <description>When an enemy unit declares a Charge targeting a unit which includes a model with a Grav-Wave Generator, the unit may make the Hold The Line Advanced Reaction (see the Horus Heresy: Age of Darkness rulebook, page 330) without expending a point of the Reactive Player’s Reaction Allotment, and automatically passes the associated Morale Check. This does not allow the unit to make more than one Reaction per Phase, but does allow the Controlling Player to exceed the normal three Reactions limit in a given phase.
+
+
+In addition, a model receives no benefit from the Hammer of Wrath (X) Special Rule if they Charge a unit which makes a Hold The Line Advanced Reaction that includes a model with a Grav-Wave Generator.</description>
+    </rule>
+    <rule name="Metaphasic Reader" id="d2b9-8b6d-6ec0-1815" hidden="false" page="267" publicationId="892-6266-f55f-1b9d">
+      <description>A model with a Metaphasic Reader gains the Night Vision Special Rule, and enemy models cannot be deployed using the Infiltrate Special Rule within 18” of a model with a Metaphasic Reader.
+
+
+In addition, when any enemy unit is deployed to the battlefield from Reserves, a unit that includes at least one model with a Metaphasic Reader may make the Interceptor Advanced Reaction (see the Horus Heresy: Age of Darkness rulebook, page 309) without expending a point of the Reactive player’s Reaction Allotment. This does not allow the unit to make more than one Reaction per Phase, but does allow the controlling player to exceed the normal three Reactions limit in a given Phase.</description>
+    </rule>
+    <rule name="Psi-Jammer" id="1ecb-5684-fce-aa9f" hidden="false" publicationId="892-6266-f55f-1b9d" page="267">
+      <description>Any enemy model within 18” and line of sight of a model with a Psi-Jammer must reduce its Leadership by -2 when making Psychic Checks. This modifier is not cumulative and no model may suffer penalties from more than one Psi-Jammer.
+
+
+In addition, a model with a Psi-Jammer and any unit they have joined gains the Adamantium Will (5+) Special Rule.</description>
+    </rule>
+    <rule name="Void Shield Harness" id="a9e1-5852-7011-c073" hidden="false" publicationId="892-6266-f55f-1b9d" page="267">
+      <description>A model with a Void Shield Harness gains the Void Shields (2) Special Rule. Whenever a Shooting Attack is assigned to a unit containing a model with a Void Shield Harness, that Shooting Attack must instead target the Void Shields (even if that attack had the Sniper or Precision Shots (X) Special Rule), so long as they have not been collapsed earlier in the battle. In addition, when the Void Shields provided by a Void Shield Harness collapse, all models within D6” of a model with a Void Shield Harness suffer an immediate hit at S8 AP-.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
