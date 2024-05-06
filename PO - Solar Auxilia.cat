@@ -10810,7 +10810,7 @@ Could not find wargear Two Twin-Linked Heavy Stubbers
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dc0d-a25f-5fd-3ba8" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry type="unit" import="true" name="Leman Russ Assault Squadron" hidden="false" id="f2c1-9984-55eb-3f78" collective="false">
+                <selectionEntry type="unit" import="true" name="Leman Russ Assault Squadron" hidden="false" id="f2c1-9984-55eb-3f78" collective="false" defaultAmount="">
                   <modifiers>
                     <modifier type="set" value="true" field="hidden">
                       <conditions>
@@ -11032,7 +11032,7 @@ Could not find wargear Two Twin-Linked Heavy Stubbers
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry type="unit" import="true" name="Leman Russ Strike Squadron" hidden="false" id="3c3d-765f-f6df-ab1c" collective="false">
+                <selectionEntry type="unit" import="true" name="Leman Russ Strike Squadron" hidden="false" id="3c3d-765f-f6df-ab1c" collective="false" defaultAmount="1">
                   <modifiers>
                     <modifier type="set" value="true" field="hidden">
                       <conditions>
@@ -11150,7 +11150,7 @@ Could not find wargear Two Twin-Linked Heavy Stubbers
                         <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="3ff7-34c5-6176-fe28" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
                       <selectionEntries>
-                        <selectionEntry type="model" import="true" name="Leman Russ Battle Tank" hidden="false" id="fc91-bf2-a790-aa61" collective="false">
+                        <selectionEntry type="model" import="true" name="Leman Russ Battle Tank" hidden="false" id="fc91-bf2-a790-aa61" collective="false" defaultAmount="1">
                           <infoLinks>
                             <infoLink name="Outflank" id="9417-a984-6844-a09f" hidden="false" targetId="bfbf-e75c-49a2-0285" type="rule"/>
                             <infoLink name="Tercio" id="df56-6d89-96fd-8fa" hidden="false" targetId="6516-f81d-457b-a2cc" type="rule"/>
@@ -11772,7 +11772,7 @@ Could not find wargear Two Twin-Linked Heavy Stubbers
         <selectionEntry type="model" import="true" name="Valdor Tank Destroyer" hidden="false" id="a111-44b7-39da-1bb8" collective="false">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e567-1b26-7962-64c1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6d54-7283-2a6d-d9b1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3dad-ed8d-5b7a-b42c"/>
           </constraints>
           <profiles>
             <profile name="Valdor Tank Destroyer" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle" hidden="false" id="efb3-b749-8366-3e5e" publicationId="9fab-fea7-a93c-2074" page="147">
@@ -11962,10 +11962,6 @@ Could not find wargear Two Twin-Linked Heavy Stubbers
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
       </costs>
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fe7f-6d7b-cc79-1d06"/>
-        <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3dad-ed8d-5b7a-b42c"/>
-      </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Macharius Heavy Tank Squadron" hidden="false" id="8ca5-3185-88ac-5f0b" collective="false">
       <categoryLinks>
@@ -12356,6 +12352,7 @@ Could not find wargear Two Twin-Linked Heavy Stubbers
     <entryLink import="true" name="Auxilia Breacher Tercio" hidden="false" id="b73e-eddc-4a38-7453" type="selectionEntry" targetId="3310-b0ef-4e41-9a06">
       <categoryLinks>
         <categoryLink targetId="9b5d-fac7-799b-d7e7" id="a0a1-5920-9983-ab1c" primary="true" name="Troops:"/>
+        <categoryLink targetId="8f42-a824-fb5f-8fea" id="6784-7701-ab1b-81b2" primary="false" name="Compulsory Troops:"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Auxilia Carnodon Tercio" hidden="false" id="bef5-2386-deb4-945c" type="selectionEntry" targetId="b287-36c9-40a2-abc5"/>
@@ -12363,6 +12360,8 @@ Could not find wargear Two Twin-Linked Heavy Stubbers
     <entryLink import="true" name="Infantry Tercio" hidden="false" id="39e-8b9d-86d4-8c3e" type="selectionEntry" targetId="e3d9-ef46-4077-e1f5">
       <categoryLinks>
         <categoryLink targetId="9b5d-fac7-799b-d7e7" id="388f-920a-24d3-dae9" primary="true" name="Troops:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="30e1-c7d7-547c-f4bc" primary="false" name="Unit:"/>
+        <categoryLink targetId="8f42-a824-fb5f-8fea" id="a6dd-f405-d258-e0b7" primary="false" name="Compulsory Troops:"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Auxilia Verticalis Drop Tercio" hidden="false" id="9556-a98d-5302-9730" type="selectionEntry" targetId="124a-f32d-4442-b42b"/>
@@ -12370,7 +12369,12 @@ Could not find wargear Two Twin-Linked Heavy Stubbers
     <entryLink import="true" name="Tempestor Land Speeder Squadron" hidden="false" id="5735-cccc-5ef1-af18" type="selectionEntry" targetId="9510-1c96-4cfe-ae17"/>
     <entryLink import="true" name="Aethon Heavy Sentinel Squadron" hidden="false" id="16d9-f519-c398-ad10" type="selectionEntry" targetId="ce34-d75b-4127-a03f"/>
     <entryLink import="true" name="Hellhound Flame Tank Squadron" hidden="false" id="a342-f22b-2585-e96e" type="selectionEntry" targetId="522c-4262-4041-8226"/>
-    <entryLink import="true" name="Legate Marshal" hidden="false" id="1d3-81a5-9585-8c3b" type="selectionEntry" targetId="89e4-3d9a-5c33-7519"/>
+    <entryLink import="true" name="Legate Marshal" hidden="false" id="1d3-81a5-9585-8c3b" type="selectionEntry" targetId="89e4-3d9a-5c33-7519">
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="d283-33c4-fb32-30c1" primary="true" name="HQ:"/>
+        <categoryLink targetId="f823-8c1d-6a87-26a1" id="e7fd-80d4-8da5-45f" primary="false" name="Compulsory HQ:"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink import="true" name="Lord Marshal Ireton Masade" hidden="false" id="d17d-5316-bac2-7bdc" type="selectionEntry" targetId="bbfc-3ecc-4d10-b3de"/>
     <entryLink import="true" name="Battle Psyker" hidden="false" id="7b47-5efc-c88d-fb7f" type="selectionEntry" targetId="aeec-9d3a-4d2b-b235"/>
     <entryLink import="true" name="Tactical Command Tercio" hidden="false" id="632-5b0b-f9b7-6825" type="selectionEntry" targetId="43d2-d1b2-5f8f-59a6"/>
@@ -12460,6 +12464,21 @@ Could not find wargear Two Twin-Linked Heavy Stubbers
     <entryLink import="true" name="Deathstrike Missile Platform" hidden="false" id="b189-da21-fc4d-7a94" type="selectionEntry" targetId="a3b7-9e16-452a-a23f"/>
     <entryLink import="true" name="Malcador Heavy Tank Squadron" hidden="false" id="240f-ef40-c9bf-b1da" type="selectionEntry" targetId="5-c4db-f4f9-829b"/>
     <entryLink import="true" name="Macharius Heavy Tank Squadron" hidden="false" id="fab-6a1d-d997-26eb" type="selectionEntry" targetId="8ca5-3185-88ac-5f0b"/>
+    <entryLink import="true" name="Medicae Section" hidden="false" id="9818-5706-18da-aea8" type="selectionEntry" targetId="f28b-5804-f1fd-c187">
+      <categoryLinks>
+        <categoryLink targetId="7aee-565f-b0ae-294e" id="ace-e607-2fd1-153" primary="true" name="Elites:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Surgeon-Primus Aevos Jovan" hidden="false" id="2d92-9df9-60ea-173f" type="selectionEntry" targetId="c032-86a2-3757-80e4">
+      <categoryLinks>
+        <categoryLink targetId="7aee-565f-b0ae-294e" id="ab14-f8cb-ff7-6fa3" primary="true" name="Elites:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Charonite Ogryn Section" hidden="false" id="e740-61d6-10ff-a4d6" type="selectionEntry" targetId="6728-8632-5bf2-79bb">
+      <categoryLinks>
+        <categoryLink targetId="7aee-565f-b0ae-294e" id="1b71-2afa-8ee1-4186" primary="true" name="Elites:"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Warlord Traits" id="2305-2d04-f14e-8b58" hidden="true">
