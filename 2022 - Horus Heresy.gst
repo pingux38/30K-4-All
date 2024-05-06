@@ -8629,6 +8629,7 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
           </modifiers>
         </infoLink>
         <infoLink id="23c0-f57c-ce37-0701" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
+        <infoLink name="Twin-linked" id="9b94-469b-c944-2276" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -11473,7 +11474,7 @@ Invulnerable saves granted by a combat shield or boarding shield do not stack wi
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Storm Eagle Missile" hidden="false" id="67d5-c341-edc0-6a59" page="" publicationId="892-6266-f55f-1b9d">
+    <selectionEntry type="upgrade" import="true" name="Storm Eagle Missile" hidden="false" id="67d5-c341-edc0-6a59" publicationId="892-6266-f55f-1b9d">
       <profiles>
         <profile name="Storm Eagle Missile" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="964f-4892-b459-f637">
           <characteristics>
@@ -11485,7 +11486,7 @@ Invulnerable saves granted by a combat shield or boarding shield do not stack wi
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Manticore Missile" hidden="false" id="f2fe-34ec-a59-d7fa" page="" publicationId="892-6266-f55f-1b9d">
+    <selectionEntry type="upgrade" import="true" name="Manticore Missile" hidden="false" id="f2fe-34ec-a59-d7fa" publicationId="892-6266-f55f-1b9d">
       <profiles>
         <profile name="Manticore Missile" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="3445-67bc-c0a3-fdf9">
           <characteristics>
@@ -11497,7 +11498,7 @@ Invulnerable saves granted by a combat shield or boarding shield do not stack wi
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Phosphor Incendiary Missile" hidden="false" id="a683-c01f-495c-68d" page="" publicationId="892-6266-f55f-1b9d">
+    <selectionEntry type="upgrade" import="true" name="Phosphor Incendiary Missile" hidden="false" id="a683-c01f-495c-68d" publicationId="892-6266-f55f-1b9d">
       <profiles>
         <profile name="Phosphor Incendiary Missile" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="215-39f1-7045-d609">
           <characteristics>
@@ -11509,7 +11510,7 @@ Invulnerable saves granted by a combat shield or boarding shield do not stack wi
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Solutus Chem Missile" hidden="false" id="9264-cd9a-7855-3089" page="" publicationId="892-6266-f55f-1b9d">
+    <selectionEntry type="upgrade" import="true" name="Solutus Chem Missile" hidden="false" id="9264-cd9a-7855-3089" publicationId="892-6266-f55f-1b9d">
       <profiles>
         <profile name="Solutus Chem Missile" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="1f27-1544-666d-8515">
           <characteristics>
@@ -11520,6 +11521,31 @@ Invulnerable saves granted by a combat shield or boarding shield do not stack wi
           </characteristics>
         </profile>
       </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Twin-linked Plasma Cannon" hidden="false" id="9b78-5e1-2dde-b7f6" collective="false">
+      <profiles>
+        <profile name="Twin-linked Plasma Cannon" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="849b-f4fe-e0d-f298" publicationId="a716-c1c4-7b26-8424" page="134">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Blast (3&quot;), Breaching (4+), Gets Hot, Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Twin-linked" id="306e-db6f-a05f-5980" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+        <infoLink name="Blast" id="9cde-2635-d6a6-b402" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
+        <infoLink name="Breaching (X)" id="e92d-d16a-9929-ad86" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
+          <modifiers>
+            <modifier type="set" value="Breaching (4+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Gets Hot" id="87e3-d6fe-41cc-7d78" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
