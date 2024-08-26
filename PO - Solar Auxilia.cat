@@ -7640,11 +7640,11 @@ Could not find wargear in Any Auxilia Ocypete may exchange their Two Hull (Front
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
       </costs>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Squadron" id="82bd-6811-adeb-4595" hidden="false">
+        <selectionEntryGroup name="Squadron" id="f3f4-f774-b1db-85fe" hidden="false">
           <selectionEntries>
-            <selectionEntry type="model" import="false" name="Auxilia Praetorian Heavy Tank w/ turret" hidden="false" id="5c7a-3c9c-2b38-80cc" publicationId="892-6266-f55f-1b9d" page="179" collective="false" sortIndex="1" defaultAmount="1">
+            <selectionEntry type="model" import="false" name="Auxilia Praetorian Heavy Tank w/ turret" hidden="false" id="ad8c-aab2-c32b-e242" publicationId="892-6266-f55f-1b9d" page="179" collective="false" sortIndex="1" defaultAmount="1">
               <profiles>
-                <profile name="Auxilia Praetorian Heavy Tank" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle" hidden="false" id="8e93-7e04-7c0f-e899">
+                <profile name="Auxilia Praetorian Heavy Tank" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle" hidden="false" id="dbd7-be24-292f-1022">
                   <characteristics>
                     <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">12</characteristic>
                     <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">3</characteristic>
@@ -7659,65 +7659,65 @@ Could not find wargear in Any Auxilia Ocypete may exchange their Two Hull (Front
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink name="Vehicle:" hidden="false" id="6f1e-53a1-7c02-7a3d" targetId="e2b6-b770-784c-9e95" primary="false"/>
-                <categoryLink name="Reinforced Sub-type:" hidden="false" id="7ea-a274-c39c-4fc6" targetId="9b0d-738c-10e4-4ec1" primary="false"/>
+                <categoryLink name="Vehicle:" hidden="false" id="c3eb-345f-4be0-957e" targetId="e2b6-b770-784c-9e95" primary="false"/>
+                <categoryLink name="Reinforced Sub-type:" hidden="false" id="9b8-8ca5-c9f8-bd12" targetId="9b0d-738c-10e4-4ec1" primary="false"/>
               </categoryLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup name="Select one of the following options:" id="ba65-936f-1e2e-ae41" hidden="false" collective="false" import="false" sortIndex="4">
+                <selectionEntryGroup name="Select one of the following options:" id="baad-2919-5aa-8539" hidden="false" collective="false" import="false" sortIndex="4">
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b543-aa6c-2378-9336" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f359-cd2d-9c8f-8b86" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink import="false" name="Heavy Stubber" hidden="false" id="27d1-1e48-7258-9863" collective="false" targetId="f227-a61a-3215-932b" type="selectionEntry">
+                    <entryLink import="false" name="Heavy Stubber" hidden="false" id="7bc0-c580-9270-5a9d" collective="false" targetId="f227-a61a-3215-932b" type="selectionEntry">
                       <modifiers>
                         <modifier type="set" value="Pintle Mounted Heavy Stubber" field="name"/>
                       </modifiers>
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c677-9a16-1589-aaa6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="920c-f51b-4c30-c683" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="false" name="Heavy Bolter" hidden="false" id="5f9-f990-5a8d-798b" collective="false" targetId="6024-6953-b8f4-ce63" type="selectionEntry">
+                    <entryLink import="false" name="Heavy Bolter" hidden="false" id="663b-59c7-d4a3-d0b2" collective="false" targetId="6024-6953-b8f4-ce63" type="selectionEntry">
                       <modifiers>
                         <modifier type="set" value="Two Sponson Mounted Heavy Bolters" field="name"/>
                       </modifiers>
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ef4c-67a2-97cf-e7e2" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f98f-cfff-69e2-df02" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="false" name="Heavy Flamer" hidden="false" id="414-604a-932f-7a5d" collective="false" targetId="aab4-9e33-94f0-5815" type="selectionEntry">
+                    <entryLink import="false" name="Heavy Flamer" hidden="false" id="2d35-bb14-fd90-fd2d" collective="false" targetId="aab4-9e33-94f0-5815" type="selectionEntry">
                       <modifiers>
                         <modifier type="set" value="Pintle Mounted Heavy Flamer" field="name"/>
                       </modifiers>
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="99bd-a5bb-915b-acb1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3fbf-50b8-4c8e-e1c2" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="false" name="Multi-Melta" hidden="false" id="9125-6c45-ab22-3b1c" collective="false" targetId="9332-3834-cf3a-56b4" type="selectionEntry">
+                    <entryLink import="false" name="Multi-Melta" hidden="false" id="b545-f98a-aaf0-a505" collective="false" targetId="9332-3834-cf3a-56b4" type="selectionEntry">
                       <modifiers>
                         <modifier type="set" value="Two Sponson Mounted Multi-Meltas" field="name"/>
                       </modifiers>
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8989-7fc-f7c0-2c9f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="29ba-7ce5-ebb7-93cc" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="false" name="Multi-Laser" hidden="false" id="809b-2b4a-cadd-381c" collective="false" targetId="003b-af4b-0094-f5c3" type="selectionEntry">
+                    <entryLink import="false" name="Multi-Laser" hidden="false" id="afdc-c410-cf4c-2975" collective="false" targetId="003b-af4b-0094-f5c3" type="selectionEntry">
                       <modifiers>
                         <modifier type="set" value="Pintle Mounted Multi-Laser" field="name"/>
                       </modifiers>
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="12de-62e1-757c-8e8" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="41c3-597-afc5-5341" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
@@ -7725,38 +7725,38 @@ Could not find wargear in Any Auxilia Ocypete may exchange their Two Hull (Front
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="May select any of:" id="cbb5-9cc6-3c79-35fd" hidden="false" collective="false" import="false" sortIndex="2">
+                <selectionEntryGroup name="May select any of:" id="a314-920d-a78d-ec27" hidden="false" collective="false" import="false" sortIndex="2">
                   <entryLinks>
-                    <entryLink import="false" name="Searchlights" hidden="false" id="32fc-9ade-76e3-18d7" collective="false" targetId="a280-c496-4014-aca3" type="selectionEntry" sortIndex="2">
+                    <entryLink import="false" name="Searchlights" hidden="false" id="659-763a-242d-37d3" collective="false" targetId="a280-c496-4014-aca3" type="selectionEntry" sortIndex="2">
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="921c-74e0-656a-fa6d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c27f-a7ff-5ced-4f27" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="false" name="Hunter-Killer Missile" hidden="false" id="7eb6-cd8e-335a-6c47" collective="false" targetId="1bf8-72f8-c331-6900" type="selectionEntry" sortIndex="1">
+                    <entryLink import="false" name="Hunter-Killer Missile" hidden="false" id="3468-c4cc-1a32-3db4" collective="false" targetId="1bf8-72f8-c331-6900" type="selectionEntry" sortIndex="1">
                       <modifiers>
                         <modifier type="set" value="One Hull (Front) Mounted Hunter-Killer Missile" field="name"/>
                       </modifiers>
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cb20-b774-a2d-ac51" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="170b-9e28-75b2-1252" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="false" name="Dozer Blade" hidden="false" id="ef26-d4aa-22e3-8cce" collective="false" targetId="42e1-f6cf-1f2b-a492" type="selectionEntry" sortIndex="3">
+                    <entryLink import="false" name="Dozer Blade" hidden="false" id="adb9-149e-b104-cbeb" collective="false" targetId="42e1-f6cf-1f2b-a492" type="selectionEntry" sortIndex="3">
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e77a-e58f-5975-79e8" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="48ed-f896-fa6c-3b52" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="false" name="Flare Shield" hidden="false" id="c323-c99e-a14f-72d1" collective="false" targetId="0e77-6285-22bb-1534" type="selectionEntry" sortIndex="4">
+                    <entryLink import="false" name="Flare Shield" hidden="false" id="4f00-1891-5352-a655" collective="false" targetId="0e77-6285-22bb-1534" type="selectionEntry" sortIndex="4">
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a05e-27bf-50d5-3fda" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6d51-5d31-6202-1706" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
@@ -7764,49 +7764,49 @@ Could not find wargear in Any Auxilia Ocypete may exchange their Two Hull (Front
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="Must select:" id="b6d5-3c46-fe1d-f1af" hidden="false" collective="false" import="false" sortIndex="1">
+                <selectionEntryGroup name="Must select:" id="cb6f-e505-661c-34c0" hidden="false" collective="false" import="false" sortIndex="1">
                   <selectionEntryGroups>
-                    <selectionEntryGroup name="Turret weapon:" id="fd6b-e981-4e5c-b613" hidden="false" collective="false" import="false">
+                    <selectionEntryGroup name="Turret weapon:" id="9315-3c73-1c10-16c3" hidden="false" collective="false" import="false">
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2421-8394-10ba-ecd1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="219f-6502-30b0-8c7e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d9a-b5ab-d9e2-4744" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1799-c9b5-17ff-43d0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
                       <entryLinks>
-                        <entryLink import="false" name="Praetorian Battle Cannon" hidden="false" id="4168-a102-4d19-84e8" collective="false" targetId="974c-75e5-4908-abe1" type="selectionEntry" sortIndex="1">
+                        <entryLink import="false" name="Praetorian Battle Cannon" hidden="false" id="7463-5cc7-227f-4539" collective="false" targetId="974c-75e5-4908-abe1" type="selectionEntry" sortIndex="1">
                           <modifiers>
                             <modifier type="set" value="Turret Mounted Praetorian Battle Cannon" field="name"/>
                           </modifiers>
                           <constraints>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7ede-a891-eaa0-695a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b8a8-52a2-2b65-8542" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                           </constraints>
                         </entryLink>
-                        <entryLink import="true" name="Oppressor Cannon w/ Co-Axial Autocannon" hidden="false" id="6bee-4ca5-aaf1-e81e" type="selectionEntry" targetId="5e3a-baef-7a45-723b" sortIndex="2">
+                        <entryLink import="true" name="Oppressor Cannon w/ Co-Axial Autocannon" hidden="false" id="b81d-96d1-c86c-c542" type="selectionEntry" targetId="5e3a-baef-7a45-723b" sortIndex="2">
                           <costs>
                             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                           </costs>
                         </entryLink>
                       </entryLinks>
                     </selectionEntryGroup>
-                    <selectionEntryGroup name="Centreline mounted weapons:" id="506e-6af5-4951-d16a" hidden="false" collective="false" import="false">
+                    <selectionEntryGroup name="Centreline mounted weapons:" id="75f6-e373-8bec-912e" hidden="false" collective="false" import="false">
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="83ca-8f0-e604-6689" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bad8-eed7-a66-e62d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="117b-78ef-4180-dc" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bf29-2a9d-6c57-68c0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
                       <entryLinks>
-                        <entryLink import="false" name="Kheres Assault Cannon" hidden="false" id="9bdc-59a3-d272-9260" collective="false" targetId="846f-31df-4b6b-814b" type="selectionEntry" defaultAmount="1" sortIndex="1">
+                        <entryLink import="false" name="Kheres Assault Cannon" hidden="false" id="7538-f396-88e2-c845" collective="false" targetId="846f-31df-4b6b-814b" type="selectionEntry" defaultAmount="1" sortIndex="1">
                           <modifiers>
                             <modifier type="set" value="Centreline Mounted Kheres Assault Cannon" field="name"/>
                           </modifiers>
                           <constraints>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b186-bc8b-a84d-af7d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2dbd-41bd-10a2-8ce1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                           </constraints>
                         </entryLink>
-                        <entryLink import="false" name="Pulveriser Cannon" hidden="false" id="ab05-a8fa-f42b-ca1e" collective="false" targetId="6e27-740d-462e-88ac" type="selectionEntry" sortIndex="2">
+                        <entryLink import="false" name="Pulveriser Cannon" hidden="false" id="e0cc-ad5a-25aa-cc8e" collective="false" targetId="6e27-740d-462e-88ac" type="selectionEntry" sortIndex="2">
                           <modifiers>
                             <modifier type="set" value="Centreline Mounted Pulveriser Cannon" field="name"/>
                           </modifiers>
                           <constraints>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="acd5-aee9-4a7-821" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7a79-cd4d-5f93-b26a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                           </constraints>
                           <costs>
                             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
@@ -7818,10 +7818,10 @@ Could not find wargear in Any Auxilia Ocypete may exchange their Two Hull (Front
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
-                <entryLink import="false" name="Smoke Launchers" hidden="false" id="e7a6-2fad-9941-2ea0" collective="false" targetId="0873-34dd-e52d-d33c" type="selectionEntry" sortIndex="5">
+                <entryLink import="false" name="Smoke Launchers" hidden="false" id="a23-cb8e-4ebb-a472" collective="false" targetId="0873-34dd-e52d-d33c" type="selectionEntry" sortIndex="5">
                   <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fc0f-dab5-a3f5-f24c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="99d4-2ec3-11b0-9b65" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b24-d84a-5a12-c50b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b0d7-8975-7d35-206c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
@@ -7829,9 +7829,9 @@ Could not find wargear in Any Auxilia Ocypete may exchange their Two Hull (Front
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="250"/>
               </costs>
             </selectionEntry>
-            <selectionEntry type="model" import="false" name="Auxilia Praetorian Heavy Tank w/ Subjugator Cannon" hidden="false" id="2112-800a-db32-3960" publicationId="892-6266-f55f-1b9d" page="179" collective="false" sortIndex="2">
+            <selectionEntry type="model" import="false" name="Auxilia Praetorian Heavy Tank w/ Subjugator Cannon" hidden="false" id="6201-657e-d697-5cb" publicationId="892-6266-f55f-1b9d" page="179" collective="false" sortIndex="2">
               <profiles>
-                <profile name="Auxilia Praetorian Heavy Tank" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle" hidden="false" id="5eda-9f64-1a5b-446b">
+                <profile name="Auxilia Praetorian Heavy Tank" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle" hidden="false" id="c7fc-dcb-f1da-46a9">
                   <characteristics>
                     <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">12</characteristic>
                     <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">3</characteristic>
@@ -7846,65 +7846,65 @@ Could not find wargear in Any Auxilia Ocypete may exchange their Two Hull (Front
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink name="Vehicle:" hidden="false" id="3636-cf64-7cf7-ea4b" targetId="e2b6-b770-784c-9e95" primary="false"/>
-                <categoryLink name="Reinforced Sub-type:" hidden="false" id="55e2-214d-fd99-6006" targetId="9b0d-738c-10e4-4ec1" primary="false"/>
+                <categoryLink name="Vehicle:" hidden="false" id="d1a4-de2e-fb0f-bbbb" targetId="e2b6-b770-784c-9e95" primary="false"/>
+                <categoryLink name="Reinforced Sub-type:" hidden="false" id="880-c6e9-d26-8b1f" targetId="9b0d-738c-10e4-4ec1" primary="false"/>
               </categoryLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup name="Select one of the following options:" id="db1c-1637-348e-454a" hidden="false" collective="false" import="false" sortIndex="4">
+                <selectionEntryGroup name="Select one of the following options:" id="85d7-37ec-f759-4120" hidden="false" collective="false" import="false" sortIndex="4">
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b31f-7f94-e395-ed61" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6-99b3-8e6-aae1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink import="false" name="Heavy Stubber" hidden="false" id="4b1c-c553-e223-2687" collective="false" targetId="f227-a61a-3215-932b" type="selectionEntry">
+                    <entryLink import="false" name="Heavy Stubber" hidden="false" id="87e4-2a36-5386-5872" collective="false" targetId="f227-a61a-3215-932b" type="selectionEntry">
                       <modifiers>
                         <modifier type="set" value="Pintle Mounted Heavy Stubber" field="name"/>
                       </modifiers>
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="698e-42fe-7fd3-ea93" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ac57-e9c0-b0b7-1b9b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="false" name="Heavy Bolter" hidden="false" id="21e9-44de-9137-ced1" collective="false" targetId="6024-6953-b8f4-ce63" type="selectionEntry">
+                    <entryLink import="false" name="Heavy Bolter" hidden="false" id="743e-f685-f641-a0b" collective="false" targetId="6024-6953-b8f4-ce63" type="selectionEntry">
                       <modifiers>
                         <modifier type="set" value="Two Sponson Mounted Heavy Bolters" field="name"/>
                       </modifiers>
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c28f-4c1f-200d-fb9b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f903-201d-876d-70e7" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="false" name="Heavy Flamer" hidden="false" id="a755-b62-5b50-bb71" collective="false" targetId="aab4-9e33-94f0-5815" type="selectionEntry">
+                    <entryLink import="false" name="Heavy Flamer" hidden="false" id="52b5-5f0e-a13c-3d9c" collective="false" targetId="aab4-9e33-94f0-5815" type="selectionEntry">
                       <modifiers>
                         <modifier type="set" value="Pintle Mounted Heavy Flamer" field="name"/>
                       </modifiers>
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4b3b-d311-301-75ae" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4fc4-8be9-df62-dd7e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="false" name="Multi-Melta" hidden="false" id="525c-b4d2-187a-2b22" collective="false" targetId="9332-3834-cf3a-56b4" type="selectionEntry">
+                    <entryLink import="false" name="Multi-Melta" hidden="false" id="89c6-2591-f35d-872c" collective="false" targetId="9332-3834-cf3a-56b4" type="selectionEntry">
                       <modifiers>
                         <modifier type="set" value="Two Sponson Mounted Multi-Meltas" field="name"/>
                       </modifiers>
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2f90-9c62-d504-205d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="356a-2b40-9a51-897" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="false" name="Multi-Laser" hidden="false" id="b237-6574-109d-b01" collective="false" targetId="003b-af4b-0094-f5c3" type="selectionEntry">
+                    <entryLink import="false" name="Multi-Laser" hidden="false" id="4ad3-f04a-e7cb-f681" collective="false" targetId="003b-af4b-0094-f5c3" type="selectionEntry">
                       <modifiers>
                         <modifier type="set" value="Pintle Mounted Multi-Laser" field="name"/>
                       </modifiers>
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8caa-10cb-fc4a-cbb3" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c310-c7e6-f9c0-a1a8" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
@@ -7912,38 +7912,38 @@ Could not find wargear in Any Auxilia Ocypete may exchange their Two Hull (Front
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="May select any of:" id="6b9f-9a0b-9ecf-5d56" hidden="false" collective="false" import="false" sortIndex="2">
+                <selectionEntryGroup name="May select any of:" id="4e60-f9a0-32df-69e" hidden="false" collective="false" import="false" sortIndex="2">
                   <entryLinks>
-                    <entryLink import="false" name="Searchlights" hidden="false" id="e362-49f5-e21e-8eba" collective="false" targetId="a280-c496-4014-aca3" type="selectionEntry" sortIndex="2">
+                    <entryLink import="false" name="Searchlights" hidden="false" id="c03e-26f2-279a-4a5e" collective="false" targetId="a280-c496-4014-aca3" type="selectionEntry" sortIndex="2">
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d6e8-4eff-a03e-ae3a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="79c0-8d79-3aca-fd17" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="false" name="Hunter-Killer Missile" hidden="false" id="b5d6-a1d5-e3de-3222" collective="false" targetId="1bf8-72f8-c331-6900" type="selectionEntry" sortIndex="1">
+                    <entryLink import="false" name="Hunter-Killer Missile" hidden="false" id="2829-60fb-9bc9-8d84" collective="false" targetId="1bf8-72f8-c331-6900" type="selectionEntry" sortIndex="1">
                       <modifiers>
                         <modifier type="set" value="One Hull (Front) Mounted Hunter-Killer Missile" field="name"/>
                       </modifiers>
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7cfb-2d91-c918-6bb6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e39a-8a1-c6f9-9f2d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="false" name="Dozer Blade" hidden="false" id="6264-83e0-177-e5e6" collective="false" targetId="42e1-f6cf-1f2b-a492" type="selectionEntry" sortIndex="3">
+                    <entryLink import="false" name="Dozer Blade" hidden="false" id="78cf-547b-692f-2466" collective="false" targetId="42e1-f6cf-1f2b-a492" type="selectionEntry" sortIndex="3">
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b0d-5749-11a0-841a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="84e6-16bc-9648-3dff" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="false" name="Flare Shield" hidden="false" id="f229-87c-4cb6-f921" collective="false" targetId="0e77-6285-22bb-1534" type="selectionEntry" sortIndex="4">
+                    <entryLink import="false" name="Flare Shield" hidden="false" id="564c-780-e303-17e2" collective="false" targetId="0e77-6285-22bb-1534" type="selectionEntry" sortIndex="4">
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="26f5-7724-35ba-b4bd" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="848-8b69-6dc0-8d3b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
@@ -7953,19 +7953,19 @@ Could not find wargear in Any Auxilia Ocypete may exchange their Two Hull (Front
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
-                <entryLink import="false" name="Smoke Launchers" hidden="false" id="6ca1-56bf-3511-681a" collective="false" targetId="0873-34dd-e52d-d33c" type="selectionEntry" sortIndex="5">
+                <entryLink import="false" name="Smoke Launchers" hidden="false" id="aa18-f9b2-eb79-ab61" collective="false" targetId="0873-34dd-e52d-d33c" type="selectionEntry" sortIndex="5">
                   <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="486c-db3f-f297-f62a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7c5a-c80f-fb46-17c5" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="80b5-25b1-c10c-3168" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7322-d5d5-1feb-8be4" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="false" name="Subjugator Cannon" hidden="false" id="2dc7-cac5-cbf3-7235" collective="false" targetId="ae05-f28c-4471-9d09" type="selectionEntry" sortIndex="1">
+                <entryLink import="false" name="Subjugator Cannon" hidden="false" id="6893-777d-2f75-e398" collective="false" targetId="ae05-f28c-4471-9d09" type="selectionEntry" sortIndex="1">
                   <modifiers>
                     <modifier type="set" value="Centerline Mounted Subjugator Cannon" field="name"/>
                   </modifiers>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5c1a-e07f-8a08-2540" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5cc0-3194-ca1c-3ec0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ecf7-b3f2-461a-987a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3a99-873b-7155-ac44" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
@@ -7978,8 +7978,8 @@ Could not find wargear in Any Auxilia Ocypete may exchange their Two Hull (Front
             </selectionEntry>
           </selectionEntries>
           <constraints>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="d339-cd24-ccc1-5d2f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ec66-b622-aea5-7d41" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="7528-1abf-1699-8c70" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6b68-bbfd-606d-20b8" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
