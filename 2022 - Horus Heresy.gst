@@ -7467,9 +7467,9 @@ Thaumaturge’s Cleansing (Psychic Weapon)</description>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5617-ada9-bf10-f9b0" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5617-ada9-bf10-f9b0" type="max"/>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4024-fa03-dada-cc4b" type="max"/>
-        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0dff-37d2-448b-45a6" type="min"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0dff-37d2-448b-45a6" type="min"/>
       </constraints>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -11543,6 +11543,76 @@ Invulnerable saves granted by a combat shield or boarding shield do not stack wi
         </infoLink>
         <infoLink name="Gets Hot" id="87e3-d6fe-41cc-7d78" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Twin-linked Battle Cannon" hidden="false" id="2a8a-3eec-c151-1774" publicationId="9fab-fea7-a93c-2074" page="170" collective="false">
+      <profiles>
+        <profile name="Twin-linked Battle Cannon" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="ee0f-dade-55d0-dbf7" publicationId="9fab-fea7-a93c-2074" page="170">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5&quot;), Breaching (6+), Pinning, Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Pinning" id="c625-fa4c-34e1-9ca" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+        <infoLink name="Blast" id="f168-fe1-4340-3a21" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
+        <infoLink name="Breaching (X)" id="cb7d-f0c6-a03d-61ef" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule"/>
+        <infoLink name="Twin-linked" id="9f18-d2f6-5501-a398" hidden="false" type="rule" targetId="8542-ee9d-e2fa-52fe"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Gravis  Missile Launcher w/Frag &amp; Krak Missiles" hidden="false" id="9659-15d6-bc86-2a3d" collective="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Gravis Missile Launcher - Krak" hidden="false" id="d6b2-6746-ab2e-ddc" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1276-af1e-9843-d73a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b6d6-b0bd-54da-e4df" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+          <profiles>
+            <profile name="Gravis Missile Launcher - Krak" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="f227-d4a9-5369-8da7" publicationId="a716-c1c4-7b26-8424" page="133">
+              <characteristics>
+                <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+                <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+                <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Gravis Missile Launcher - Frag" hidden="false" id="a0fa-9ce9-8d32-7c85" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d064-c17f-b773-2c0d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d13c-ab7a-b053-2db3" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Blast" id="ea69-c72f-ca45-a121" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
+            <infoLink name="Pinning" id="9c39-1151-68e7-beee" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+          <profiles>
+            <profile name="Gravis Missile Launcher - Frag" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="fc40-ada2-d643-2ec4" publicationId="a716-c1c4-7b26-8424" page="133">
+              <characteristics>
+                <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+                <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
+                <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5&quot;), Pinning</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
