@@ -1280,7 +1280,7 @@ Could not find profile for Servo-automata in [&apos;Enginseer Adept&apos;, &apos
         <selectionEntry id="f6fb-f08b-44d7-8e73" name="Enginseer Adept" publicationId="892-6266-f55f-1b9d" page="139" hidden="false" collective="false" import="false" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b53-dc39-4546-8a38" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1f0-6bc1-4747-a087" type="max"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1f0-6bc1-4747-a087" type="max"/>
           </constraints>
           <profiles>
             <profile id="7ce1-fe42-4a22-8b8a" name="Enginseer Adept" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
@@ -1300,8 +1300,132 @@ Could not find profile for Servo-automata in [&apos;Enginseer Adept&apos;, &apos
             </profile>
           </profiles>
           <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Battlesmith (X)" id="3c89-a905-f2df-b6b1" hidden="false" type="rule" targetId="5d57-4d02-1e36-4a82">
+              <modifiers>
+                <modifier type="set" value="Battlesmith (6+)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Battle-Automata" id="fd18-317b-2eff-3a12" hidden="false" type="rule" targetId="2d31-1b1b-4e0b-a594"/>
+            <infoLink name="Stubborn" id="d0a2-1dba-5449-8b53" hidden="false" type="rule" targetId="7989-1f2c-a43d-82ae"/>
+            <infoLink name="Techno-Arcana: Enginseer" id="6c09-746c-45e3-b907" hidden="false" type="rule" targetId="6ea0-bda5-48cc-98dd"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Laspistol" hidden="false" id="c58e-8183-a13b-b342" type="selectionEntry" targetId="3cf9-eb36-3bfe-4970">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="13a6-7eea-964b-794a-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="13a6-7eea-964b-794a-max"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Power Axe" hidden="false" id="0d05-3e5c-e762-a099" type="selectionEntry" targetId="ef98-66ac-fcaf-c15d">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bff9-4489-ccd5-945c-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bff9-4489-ccd5-945c-max"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Servo-Arm" hidden="false" id="af07-c0bc-6dc0-e15c" type="selectionEntry" targetId="4168-fc85-8912-7188" collective="true">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c50f-e487-e639-b593-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c50f-e487-e639-b593-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="May take any of:" id="9024-aeb1-bb96-9fba" hidden="false" collective="false">
+              <entryLinks>
+                <entryLink import="true" name="Volkite Charger" hidden="false" id="89fc-0d9b-08cc-efac" type="selectionEntry" targetId="6f6e-ad55-e093-6503" sortIndex="7">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7e84-5041-6cab-bf35"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Vox Interlock" hidden="false" id="cf13-58ad-80eb-b4b7" type="selectionEntry" targetId="c04e-5624-3615-0660" sortIndex="4">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="10c5-74a4-9ca6-ca25"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Nuncio-Vox" hidden="false" id="230d-856f-7733-6c96" type="selectionEntry" targetId="005e-aae6-ddac-bb45" sortIndex="6">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dea3-4339-7bec-443a"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Augury Scanner" hidden="false" id="9f32-d268-66c9-1abe" type="selectionEntry" targetId="595f-ed8a-4597-8890" sortIndex="1">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="adf1-23a4-905c-eb07"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Cortex Controller" hidden="false" id="d29b-381c-1171-d557" type="selectionEntry" targetId="2fda-455f-d34d-97e0" sortIndex="8">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2d39-c8f8-7eba-43ce"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Graviton Gun" hidden="false" id="6c9e-45f8-be7e-b614" type="selectionEntry" targetId="5303-5a3e-de51-1707" sortIndex="9">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="32b7-ff88-e8f7-f766"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Vox Interlock" hidden="false" id="c825-0fc7-53f0-f9bc" type="selectionEntry" targetId="c04e-5624-3615-0660" sortIndex="5">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="690a-eb08-73ca-8bc1"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Cyber-Familiar" hidden="false" id="d586-864a-9c30-3f0e" type="selectionEntry" targetId="6c85-4601-cf58-7b35" sortIndex="2">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3702-0214-872d-055b"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="3702-0214-872d-055b">
+                      <conditions>
+                        <condition type="greaterThan" value="1" field="selections" scope="ancestor" childId="f6fb-f08b-44d7-8e73" shared="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" value="1" field="3702-0214-872d-055b">
+                      <conditions>
+                        <condition type="greaterThan" value="2" field="selections" scope="ancestor" childId="f6fb-f08b-44d7-8e73" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Melta Bomb" hidden="false" id="2ee2-0030-b8b5-989d" type="selectionEntry" targetId="e55d-d31b-46a9-aeb6" sortIndex="3">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2571-6d85-218c-38a0"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <categoryLinks>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="02a7-0124-4256-487e" primary="true" name="Infantry:"/>
+            <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="73de-6705-ba76-926e" primary="false" name="Character"/>
+          </categoryLinks>
         </selectionEntry>
         <selectionEntry id="8b16-63e2-4811-8523" name="Servo-Automata" publicationId="892-6266-f55f-1b9d" page="139" hidden="false" collective="false" import="false" type="model">
           <profiles>
@@ -1322,13 +1446,105 @@ Could not find profile for Servo-automata in [&apos;Enginseer Adept&apos;, &apos
             </profile>
           </profiles>
           <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
           </costs>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="4314-3f57-4db5-0edd" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="5521-7362-b8fe-c0e9" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Close Combat Weapon" hidden="false" id="b188-9ed7-2342-52b5" type="selectionEntry" targetId="19ab-4d64-f6a7-9f81">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2c8c-1a9b-ebf0-c28a-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2c8c-1a9b-ebf0-c28a-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <categoryLinks>
+            <categoryLink targetId="28f2-0db9-4fdb-bde6" id="617a-734b-148f-49da" primary="true" name="Guardian Unit Sub-Type:"/>
+          </categoryLinks>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="65"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
       </costs>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Servo-Automata may take one of:" id="21f4-abd0-29ec-8551" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Heavy Bolter" hidden="false" id="21a3-9e42-b97c-70bb" type="selectionEntry" targetId="07fd-c24a-9235-4206" sortIndex="7">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7cd8-b472-258d-d007"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Servo-Arm" hidden="false" id="691c-6849-d455-1e84" type="selectionEntry" targetId="fbef-812d-4d20-9285" sortIndex="4">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c4bc-029a-d71a-c892"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Rotor Cannon" hidden="false" id="26cb-0bcf-6a55-2363" type="selectionEntry" targetId="5ce3-3aa5-3f5e-9ead" sortIndex="6">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c9ff-6d10-fc26-8271"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Las-Lock" hidden="false" id="54c7-ee9a-17b6-0c8d" type="selectionEntry" targetId="f7ee-658a-45dc-8edf" sortIndex="1">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="259a-1b51-b068-802e"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Multi-Melta" hidden="false" id="16bb-097b-7cae-95cc" type="selectionEntry" targetId="9332-3834-cf3a-56b4" sortIndex="8">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9609-9ca4-4dde-a246"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Grenade Launcher" hidden="false" id="fd1c-7b7f-bb2e-b64a" type="selectionEntry" targetId="e0f3-3743-a9d0-f5f1" sortIndex="5">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4948-24e5-b316-21ea"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Flamer" hidden="false" id="695d-d96e-fb3c-d541" type="selectionEntry" targetId="9f41-82e2-90f6-973a" sortIndex="2">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e829-b3f5-5038-d28b"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Maxima Bolter" hidden="false" id="4192-63ee-7d29-c46e" type="selectionEntry" targetId="1e45-db2f-40cb-9bf4" sortIndex="3">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b1da-288d-3d40-a92a"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="2172-5335-658b-6a7e"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="2172-5335-658b-6a7e">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="8b16-63e2-4811-8523" shared="true" roundUp="false" percentValue="false" includeChildSelections="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry id="3310-b0ef-4e41-9a06" name="Auxilia Breacher Tercio" publicationId="892-6266-f55f-1b9d" page="144" hidden="false" collective="false" import="false" type="unit">
       <categoryLinks>
@@ -2920,7 +3136,7 @@ Could not find profile for Servo-automata in [&apos;Enginseer Adept&apos;, &apos
                 <categoryLink name="SA or IM Unit" hidden="false" id="4fb2-c531-989-7f47" targetId="4aca-2849-7f41-0200" primary="false"/>
               </categoryLinks>
             </selectionEntry>
-            <selectionEntry type="unit" import="false" name="Auxilia Special Weapons Section" hidden="false" id="8b14-8bc8-8f4f-9b56" publicationId="892-6266-f55f-1b9d" page="150" collective="false">
+            <selectionEntry type="unit" import="false" name="Auxilia Special Weapons Section" hidden="false" id="8b14-8bc8-8f4f-9b56" publicationId="892-6266-f55f-1b9d" page="150" collective="false" defaultAmount="1">
               <infoLinks>
                 <infoLink name="Tercio" id="72f4-9c2c-6e12-4af9" hidden="false" targetId="6516-f81d-457b-a2cc" type="rule"/>
                 <infoLink name="Counter-Attack (X)" id="e49-d21c-7059-f293" hidden="false" targetId="fd6d-2a76-10e0-936a" type="rule">
@@ -5894,7 +6110,7 @@ Could not find wargear in A Salamander Scout Vehicle may select one of the follo
                     <categoryLink name="Vehicle:" hidden="false" id="014d-c8e4-4017-8f48" targetId="e2b6-b770-784c-9e95" primary="false"/>
                   </categoryLinks>
                   <selectionEntryGroups>
-                    <selectionEntryGroup name="A Carnodon Command Tank may exchange their Turret Mounted Gravis Multi-Laser for one of the following options:" id="e85c-b634-42c8-9101" hidden="false" collective="false" import="false" sortIndex="1">
+                    <selectionEntryGroup name="A Carnodon Command Tank may exchange their Turret Mounted Gravis Multi-Laser for one of the following options:" id="e85c-b634-42c8-9101" hidden="false" collective="false" import="false" sortIndex="2">
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="819a-4951-4b6f-b445" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
@@ -5939,7 +6155,7 @@ Could not find wargear in A Salamander Scout Vehicle may select one of the follo
                         </entryLink>
                       </entryLinks>
                     </selectionEntryGroup>
-                    <selectionEntryGroup name="A Carnodon Command Tank may exchange their Two Sponson Mounted Heavy Flamers for one of the following options:" id="9dd4-3f7b-4d97-b928" hidden="false" collective="false" import="false" sortIndex="2">
+                    <selectionEntryGroup name="A Carnodon Command Tank may exchange their Two Sponson Mounted Heavy Flamers for one of the following options:" id="9dd4-3f7b-4d97-b928" hidden="false" collective="false" import="false" sortIndex="3">
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9c3b-099c-4624-aedd" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
@@ -6000,7 +6216,7 @@ Could not find wargear in A Salamander Scout Vehicle may select one of the follo
                         </entryLink>
                       </entryLinks>
                     </selectionEntryGroup>
-                    <selectionEntryGroup name="A Carnodon Command Tank may select one of the following options:" id="4d1f-0b74-4f03-b9c8" hidden="false" collective="false" import="false" sortIndex="4">
+                    <selectionEntryGroup name="A Carnodon Command Tank may select one of the following options:" id="4d1f-0b74-4f03-b9c8" hidden="false" collective="false" import="false" sortIndex="5">
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c779-6f47-4643-a169" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
@@ -6040,7 +6256,7 @@ Could not find wargear in A Salamander Scout Vehicle may select one of the follo
                         </entryLink>
                       </entryLinks>
                     </selectionEntryGroup>
-                    <selectionEntryGroup name="A Carnodon Command Tank may select any of the following options:" id="d9d9-110f-4654-8278" hidden="false" collective="false" import="false" sortIndex="3">
+                    <selectionEntryGroup name="A Carnodon Command Tank may select any of the following options:" id="d9d9-110f-4654-8278" hidden="false" collective="false" import="false" sortIndex="4">
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="689d-c983-43d5-a596" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
@@ -6071,7 +6287,7 @@ Could not find wargear in A Salamander Scout Vehicle may select one of the follo
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f062-ea9d-44d0-92fb" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
                     </entryLink>
-                    <entryLink import="true" name="Armoured Fist Marshal" hidden="false" id="e379-361-cc3a-c821" type="selectionEntry" targetId="4dd3-fbd0-bb9e-2507" sortIndex="5">
+                    <entryLink import="true" name="Armoured Fist Marshal" hidden="false" id="e379-361-cc3a-c821" type="selectionEntry" targetId="4dd3-fbd0-bb9e-2507" sortIndex="1">
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
                       </costs>
@@ -7601,7 +7817,7 @@ until the start of the Controlling Player’s next turn.</characteristic>
                 <categoryLink name="Reinforced Sub-type:" hidden="false" id="9b8-8ca5-c9f8-bd12" targetId="9b0d-738c-10e4-4ec1" primary="false"/>
               </categoryLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup name="Select one of the following options:" id="baad-2919-5aa-8539" hidden="false" collective="false" import="false" sortIndex="3">
+                <selectionEntryGroup name="Select one of the following options:" id="baad-2919-5aa-8539" hidden="false" collective="false" import="false" sortIndex="6">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f359-cd2d-9c8f-8b86" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
@@ -7663,7 +7879,7 @@ until the start of the Controlling Player’s next turn.</characteristic>
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="May select any of:" id="a314-920d-a78d-ec27" hidden="false" collective="false" import="false" sortIndex="2">
+                <selectionEntryGroup name="May select any of:" id="a314-920d-a78d-ec27" hidden="false" collective="false" import="false" sortIndex="5">
                   <entryLinks>
                     <entryLink import="false" name="Searchlights" hidden="false" id="659-763a-242d-37d3" collective="false" targetId="a280-c496-4014-aca3" type="selectionEntry" sortIndex="2">
                       <constraints>
@@ -7702,7 +7918,7 @@ until the start of the Controlling Player’s next turn.</characteristic>
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="Must select:" id="cb6f-e505-661c-34c0" hidden="false" collective="false" import="false" sortIndex="1">
+                <selectionEntryGroup name="Must select:" id="cb6f-e505-661c-34c0" hidden="false" collective="false" import="false" sortIndex="4">
                   <selectionEntryGroups>
                     <selectionEntryGroup name="Turret weapon:" id="9315-3c73-1c10-16c3" hidden="false" collective="false" import="false">
                       <constraints>
@@ -7756,13 +7972,13 @@ until the start of the Controlling Player’s next turn.</characteristic>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
-                <entryLink import="false" name="Smoke Launchers" hidden="false" id="a23-cb8e-4ebb-a472" collective="false" targetId="0873-34dd-e52d-d33c" type="selectionEntry" sortIndex="5">
+                <entryLink import="false" name="Smoke Launchers" hidden="false" id="a23-cb8e-4ebb-a472" collective="false" targetId="0873-34dd-e52d-d33c" type="selectionEntry" sortIndex="7">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b24-d84a-5a12-c50b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b0d7-8975-7d35-206c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="true" name="Dictatii Marshal" hidden="false" id="a699-9b50-fc38-cf5f" type="selectionEntry" targetId="fa92-a6a3-19c-40e0" sortIndex="4">
+                <entryLink import="true" name="Dictatii Marshal" hidden="false" id="ce00-df62-43b4-855e" type="selectionEntry" targetId="fa92-a6a3-19c-40e0" sortIndex="2">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="75"/>
                   </costs>
@@ -7786,6 +8002,17 @@ until the start of the Controlling Player’s next turn.</characteristic>
                     <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Reinforced)</characteristic>
                     <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e"/>
                   </characteristics>
+                  <modifierGroups>
+                    <modifierGroup type="and">
+                      <modifiers>
+                        <modifier type="increment" value="1" field="51fb-b7d9-aa59-863d"/>
+                        <modifier type="increment" value="2" field="a76c-83b1-602f-9e62"/>
+                      </modifiers>
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="fa92-a6a3-19c-40e0" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifierGroup>
+                  </modifierGroups>
                 </profile>
               </profiles>
               <categoryLinks>
@@ -7793,7 +8020,7 @@ until the start of the Controlling Player’s next turn.</characteristic>
                 <categoryLink name="Reinforced Sub-type:" hidden="false" id="880-c6e9-d26-8b1f" targetId="9b0d-738c-10e4-4ec1" primary="false"/>
               </categoryLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup name="Select one of the following options:" id="85d7-37ec-f759-4120" hidden="false" collective="false" import="false" sortIndex="3">
+                <selectionEntryGroup name="Select one of the following options:" id="85d7-37ec-f759-4120" hidden="false" collective="false" import="false" sortIndex="5">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6-99b3-8e6-aae1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
@@ -7855,7 +8082,7 @@ until the start of the Controlling Player’s next turn.</characteristic>
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="May select any of:" id="4e60-f9a0-32df-69e" hidden="false" collective="false" import="false" sortIndex="2">
+                <selectionEntryGroup name="May select any of:" id="4e60-f9a0-32df-69e" hidden="false" collective="false" import="false" sortIndex="4">
                   <entryLinks>
                     <entryLink import="false" name="Searchlights" hidden="false" id="c03e-26f2-279a-4a5e" collective="false" targetId="a280-c496-4014-aca3" type="selectionEntry" sortIndex="2">
                       <constraints>
@@ -7896,13 +8123,13 @@ until the start of the Controlling Player’s next turn.</characteristic>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
-                <entryLink import="false" name="Smoke Launchers" hidden="false" id="aa18-f9b2-eb79-ab61" collective="false" targetId="0873-34dd-e52d-d33c" type="selectionEntry" sortIndex="5">
+                <entryLink import="false" name="Smoke Launchers" hidden="false" id="aa18-f9b2-eb79-ab61" collective="false" targetId="0873-34dd-e52d-d33c" type="selectionEntry" sortIndex="7">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="80b5-25b1-c10c-3168" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7322-d5d5-1feb-8be4" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="false" name="Subjugator Cannon" hidden="false" id="6893-777d-2f75-e398" collective="false" targetId="ae05-f28c-4471-9d09" type="selectionEntry" sortIndex="1">
+                <entryLink import="false" name="Subjugator Cannon" hidden="false" id="6893-777d-2f75-e398" collective="false" targetId="ae05-f28c-4471-9d09" type="selectionEntry" sortIndex="3">
                   <modifiers>
                     <modifier type="set" value="Centerline Mounted Subjugator Cannon" field="name"/>
                   </modifiers>
@@ -7914,7 +8141,7 @@ until the start of the Controlling Player’s next turn.</characteristic>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
                   </costs>
                 </entryLink>
-                <entryLink import="true" name="Dictatii Marshal" hidden="false" id="a74b-6bb5-c0ff-7bfb" type="selectionEntry" targetId="fa92-a6a3-19c-40e0" sortIndex="4">
+                <entryLink import="true" name="Dictatii Marshal" hidden="false" id="a836-5d06-cbe1-bdd9" type="selectionEntry" targetId="fa92-a6a3-19c-40e0" sortIndex="2">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="75"/>
                   </costs>
@@ -9219,9 +9446,14 @@ Could not find wargear Two Twin-Linked Heavy Stubbers
             <entryLink import="true" name="Warlord" hidden="false" id="6d6b-dee5-bf09-f677" collective="false" targetId="0176-56a3-d590-b103" type="selectionEntry">
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
-                  <conditions>
-                    <condition type="equalTo" value="1" field="selections" scope="force" childId="c9b6-946c-a4cb-9083" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="roster" childId="200e-5c8b-4b90-342d" shared="true" includeChildForces="true" includeChildSelections="true"/>
+                        <condition type="equalTo" value="1" field="selections" scope="roster" childId="c9b6-946c-a4cb-9083" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
             </entryLink>
@@ -11284,7 +11516,7 @@ Could not find wargear Two Twin-Linked Heavy Stubbers
                     <categoryLink name="Vehicle:" hidden="false" id="104e-bff-ae5b-8155" targetId="e2b6-b770-784c-9e95" primary="false"/>
                   </categoryLinks>
                   <selectionEntryGroups>
-                    <selectionEntryGroup name="Must take one of:" id="3d9c-5c0-b810-b3de" hidden="false" collective="false" import="true" defaultSelectionEntryId="cf0d-ccdd-c720-5fb0" sortIndex="2">
+                    <selectionEntryGroup name="Must take one of:" id="3d9c-5c0-b810-b3de" hidden="false" collective="false" import="true" defaultSelectionEntryId="cf0d-ccdd-c720-5fb0" sortIndex="3">
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d39f-ec91-dc9f-4541" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9a62-b865-ea3f-3d5b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -11320,7 +11552,7 @@ Could not find wargear Two Twin-Linked Heavy Stubbers
                         </entryLink>
                       </entryLinks>
                     </selectionEntryGroup>
-                    <selectionEntryGroup name="May take one of the following:" id="a7a3-22ab-4857-8509" hidden="false" collective="false" import="true" sortIndex="3">
+                    <selectionEntryGroup name="May take one of the following:" id="a7a3-22ab-4857-8509" hidden="false" collective="false" import="true" sortIndex="4">
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e4cf-3a3-7fdb-2ade" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
@@ -11351,7 +11583,7 @@ Could not find wargear Two Twin-Linked Heavy Stubbers
                         </entryLink>
                       </entryLinks>
                     </selectionEntryGroup>
-                    <selectionEntryGroup name="May take any of the following:" id="7b15-9638-ba75-c87e" hidden="false" collective="false" import="true" sortIndex="4">
+                    <selectionEntryGroup name="May take any of the following:" id="7b15-9638-ba75-c87e" hidden="false" collective="false" import="true" sortIndex="5">
                       <entryLinks>
                         <entryLink import="true" name="Flare Shield" hidden="false" id="7bf6-3382-2354-3345" collective="false" targetId="0e77-6285-22bb-1534" type="selectionEntry">
                           <constraints>
@@ -11387,7 +11619,7 @@ Could not find wargear Two Twin-Linked Heavy Stubbers
                         </entryLink>
                       </entryLinks>
                     </selectionEntryGroup>
-                    <selectionEntryGroup name="Turret Mounter Weapon:" id="a7d4-59b2-35e1-c2cb" hidden="false" sortIndex="1">
+                    <selectionEntryGroup name="Turret Mounter Weapon:" id="a7d4-59b2-35e1-c2cb" hidden="false" sortIndex="2">
                       <constraints>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1b14-67d7-b48c-8931" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9a86-7a23-976-429a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -11442,19 +11674,19 @@ Could not find wargear Two Twin-Linked Heavy Stubbers
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                   <entryLinks>
-                    <entryLink import="true" name="Searchlights" hidden="false" id="7806-8330-baa5-d3f8" collective="false" targetId="4ae3-79b4-6051-505e" type="selectionEntry" sortIndex="6">
+                    <entryLink import="true" name="Searchlights" hidden="false" id="7806-8330-baa5-d3f8" collective="false" targetId="4ae3-79b4-6051-505e" type="selectionEntry" sortIndex="7">
                       <constraints>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fa9c-4e1c-d09e-e5bf" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cb6d-d2be-dc8-a377" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
                     </entryLink>
-                    <entryLink import="true" name="Smoke Launchers" hidden="false" id="63ff-7614-bb4a-e4c6" collective="false" targetId="0873-34dd-e52d-d33c" type="selectionEntry" sortIndex="7">
+                    <entryLink import="true" name="Smoke Launchers" hidden="false" id="63ff-7614-bb4a-e4c6" collective="false" targetId="0873-34dd-e52d-d33c" type="selectionEntry" sortIndex="8">
                       <constraints>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4366-49c1-1178-688f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5beb-6646-a17c-8f44" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
                     </entryLink>
-                    <entryLink import="true" name="Armoured Fist Marshal" hidden="false" id="fe34-317c-617-6a4f" type="selectionEntry" targetId="4dd3-fbd0-bb9e-2507" sortIndex="5">
+                    <entryLink import="true" name="Armoured Fist Marshal" hidden="false" id="c4a8-0da8-bd4c-0c2d" type="selectionEntry" targetId="4dd3-fbd0-bb9e-2507" sortIndex="1">
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
                       </costs>
@@ -11509,7 +11741,7 @@ Could not find wargear Two Twin-Linked Heavy Stubbers
             <infoLink name="Independent Fire Control" id="a5ea-7254-ffc7-2935" hidden="false" targetId="64ca-719e-b563-e3df" type="rule"/>
           </infoLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Must take one Turret Mounted Weapon :" id="5257-6d29-7e61-48e9" hidden="false" collective="false" import="true" defaultSelectionEntryId="75b6-40fb-7a3e-7338" sortIndex="1">
+            <selectionEntryGroup name="Must take one Turret Mounted Weapon :" id="5257-6d29-7e61-48e9" hidden="false" collective="false" import="true" defaultSelectionEntryId="75b6-40fb-7a3e-7338" sortIndex="2">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1daa-6fcf-61fb-6254" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="507f-864d-bf46-aed9" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -11538,7 +11770,7 @@ Could not find wargear Two Twin-Linked Heavy Stubbers
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Must take one Hull (Front) Mounted Weapon:" id="4c23-c019-6e3d-71da" hidden="false" collective="false" import="true" defaultSelectionEntryId="428d-7409-2134-a6c7" sortIndex="3">
+            <selectionEntryGroup name="Must take one Hull (Front) Mounted Weapon:" id="4c23-c019-6e3d-71da" hidden="false" collective="false" import="true" defaultSelectionEntryId="428d-7409-2134-a6c7" sortIndex="4">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c049-8a82-665b-d6b3" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="21d4-7636-9a08-43f3" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -11582,7 +11814,7 @@ Could not find wargear Two Twin-Linked Heavy Stubbers
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Must take Side (Left) &amp; Side (Right) Mounted Weapons:" id="db85-c1c4-67c8-7629" hidden="false" collective="false" import="true" defaultSelectionEntryId="9020-c4fb-3589-9f16" sortIndex="2">
+            <selectionEntryGroup name="Must take Side (Left) &amp; Side (Right) Mounted Weapons:" id="db85-c1c4-67c8-7629" hidden="false" collective="false" import="true" defaultSelectionEntryId="9020-c4fb-3589-9f16" sortIndex="3">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="49ba-7558-fa63-b8ca" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="46ee-7f55-73a8-511f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -11634,7 +11866,7 @@ Could not find wargear Two Twin-Linked Heavy Stubbers
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="May take one Pintle Mounted Weapon:" id="75a-24cf-53ac-6037" hidden="false" collective="false" import="true" sortIndex="5">
+            <selectionEntryGroup name="May take one Pintle Mounted Weapon:" id="75a-24cf-53ac-6037" hidden="false" collective="false" import="true" sortIndex="6">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="75dd-3a32-cbf6-13ff" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
@@ -11665,7 +11897,7 @@ Could not find wargear Two Twin-Linked Heavy Stubbers
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="May take any of the following:" id="2149-ca3a-5595-f8c3" hidden="false" collective="false" import="true" sortIndex="4">
+            <selectionEntryGroup name="May take any of the following:" id="2149-ca3a-5595-f8c3" hidden="false" collective="false" import="true" sortIndex="5">
               <entryLinks>
                 <entryLink import="true" name="Flare Shield" hidden="false" id="c0d3-daf-c119-ff79" collective="false" targetId="0e77-6285-22bb-1534" type="selectionEntry">
                   <constraints>
@@ -11712,7 +11944,7 @@ Could not find wargear Two Twin-Linked Heavy Stubbers
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="565f-7547-d044-9d73" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Armoured Fist Marshal" hidden="false" id="6174-3b70-3d1e-f195" type="selectionEntry" targetId="4dd3-fbd0-bb9e-2507" sortIndex="6">
+            <entryLink import="true" name="Armoured Fist Marshal" hidden="false" id="6174-3b70-3d1e-f195" type="selectionEntry" targetId="4dd3-fbd0-bb9e-2507" sortIndex="1">
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
               </costs>
@@ -11969,7 +12201,7 @@ Could not find wargear Two Twin-Linked Heavy Stubbers
             <categoryLink name="Reinforced Sub-type:" hidden="false" id="2c09-3467-a27b-ba9d" targetId="9b0d-738c-10e4-4ec1" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="May take one Pintle mounted Weapon:" id="a6a7-6aa9-417a-c415" hidden="false" collective="false" import="true" sortIndex="4">
+            <selectionEntryGroup name="May take one Pintle mounted Weapon:" id="a6a7-6aa9-417a-c415" hidden="false" collective="false" import="true" sortIndex="6">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b739-ad8-3fa-a0f7" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
@@ -12031,7 +12263,7 @@ Could not find wargear Two Twin-Linked Heavy Stubbers
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="May take any of:" id="3d8f-b13-bfa1-b23f" hidden="false" sortIndex="3">
+            <selectionEntryGroup name="May take any of:" id="3d8f-b13-bfa1-b23f" hidden="false" sortIndex="5">
               <entryLinks>
                 <entryLink import="true" name="Flare Shield" hidden="false" id="acc8-a9d7-974a-205b" type="selectionEntry" targetId="0e77-6285-22bb-1534">
                   <costs>
@@ -12058,7 +12290,7 @@ Could not find wargear Two Twin-Linked Heavy Stubbers
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Must take Hull Mounted Weapon:" id="30f1-f9eb-14e8-7bd1" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Must take Hull Mounted Weapon:" id="30f1-f9eb-14e8-7bd1" hidden="false" sortIndex="3">
               <entryLinks>
                 <entryLink import="true" name="Twin-linked Heavy Stubber" hidden="false" id="535c-dab8-b929-fcc8" collective="false" targetId="c551-b829-f6f4-4518" type="selectionEntry" defaultAmount="1" sortIndex="2">
                   <modifiers>
@@ -12151,7 +12383,7 @@ Could not find wargear Two Twin-Linked Heavy Stubbers
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d746-2891-ac91-d94a-max"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Must take Sponsons Mounted Weapons:" id="cacd-898-978-ee5d" hidden="false" sortIndex="2">
+            <selectionEntryGroup name="Must take Sponsons Mounted Weapons:" id="cacd-898-978-ee5d" hidden="false" sortIndex="4">
               <entryLinks>
                 <entryLink import="true" name="Heavy Stubber" hidden="false" id="4348-e48b-2792-b035" collective="false" targetId="f227-a61a-3215-932b" type="selectionEntry" defaultAmount="1" sortIndex="2">
                   <modifiers>
@@ -12246,13 +12478,13 @@ Could not find wargear Two Twin-Linked Heavy Stubbers
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink import="true" name="Smoke Launchers" hidden="false" id="5cfa-c224-ff64-be48" collective="false" targetId="0873-34dd-e52d-d33c" type="selectionEntry" sortIndex="6">
+            <entryLink import="true" name="Smoke Launchers" hidden="false" id="5cfa-c224-ff64-be48" collective="false" targetId="0873-34dd-e52d-d33c" type="selectionEntry" sortIndex="8">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a5c3-a73f-a258-87ad" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b1-2802-c43f-dc98" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Dictatii Marshal" hidden="false" id="cd6-d5db-6010-d3ab" type="selectionEntry" targetId="fa92-a6a3-19c-40e0" sortIndex="5">
+            <entryLink import="true" name="Dictatii Marshal" hidden="false" id="0ab0-8b2c-3bc6-fbfd" type="selectionEntry" targetId="fa92-a6a3-19c-40e0" sortIndex="2">
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="75"/>
               </costs>
@@ -12304,6 +12536,17 @@ Could not find wargear Two Twin-Linked Heavy Stubbers
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="7aee-565f-b0ae-294e" field="category"/>
+            <modifier type="set-primary" value="7aee-565f-b0ae-294e" field="category"/>
+          </modifiers>
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="roster" childId="200e-5c8b-4b90-342d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Ordnance Corps Marshal" hidden="false" id="af59-ec04-3c5f-dde7" publicationId="892-6266-f55f-1b9d" page="126">
       <entryLinks>
@@ -12320,6 +12563,10 @@ Could not find wargear Two Twin-Linked Heavy Stubbers
 For that Shooting Phase only, a unit declared as firing a Blitz Barrage may fire any weapons they are equipped with that have the Ordnance type twice. This second Shooting Attack may be made at a different target to the first, but otherwise follows all the normal rules and conventions around making a Shooting Attack.</description>
         </rule>
       </rules>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7a66-a290-2fb7-d85d" includeChildSelections="true" includeChildForces="true"/>
+        <constraint type="min" value="0" field="selections" scope="roster" shared="true" id="e51f-59ef-4e1a-8302" includeChildForces="true" includeChildSelections="true"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Minotaur Battery" hidden="false" id="8f0d-ca78-5c5e-5de4" collective="false">
       <categoryLinks>
@@ -12648,13 +12895,17 @@ used as part of a Concentrated Fire Advanced Reaction if the target unit is with
 normally.</description>
         </rule>
       </rules>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="82c0-afeb-75b9-6c0e" includeChildSelections="true" includeChildForces="true"/>
+        <constraint type="min" value="0" field="selections" scope="roster" shared="true" id="a81f-0060-f21d-fa79" includeChildForces="true" includeChildSelections="true"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Dictatii Marshal" hidden="false" id="fa92-a6a3-19c-40e0" publicationId="892-6266-f55f-1b9d" page="127">
       <entryLinks>
         <entryLink import="true" name="Flare Shield" hidden="false" id="e241-58da-8750-e513" type="selectionEntry" targetId="0e77-6285-22bb-1534" defaultAmount="1">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ec43-e4ef-65d7-3f2e-min"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ec43-e4ef-65d7-3f2e-max"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ec43-e4ef-65d7-3f2e-min-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ec43-e4ef-65d7-3f2e-min-max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -12664,10 +12915,8 @@ normally.</description>
       </constraints>
       <rules>
         <rule name="Dictatii Marshall" id="626-24a8-ce13-792e" hidden="false" publicationId="892-6266-f55f-1b9d" page="127">
-          <description>A model with this Special Rule gains the Void Shields (2) Special Rule. A model with this upgrade also gains +1 to its Ballistic Skill Characteristic, and
-+2 to its Hull Points Characteristic.
-In addition, all friendly models with the Solar Auxilia Sub-faction within 12” of a model with this upgrade automatically pass any Morale or Pinning
-Tests they are called upon to make.</description>
+          <description>A model with this Special Rule gains the Void Shields (2) Special Rule. A model with this upgrade also gains +1 to its Ballistic Skill Characteristic, and +2 to its Hull Points Characteristic.
+In addition, all friendly models with the Solar Auxilia Sub-faction within 12” of a model with this upgrade automatically pass any Morale or Pinning Tests they are called upon to make.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -12677,13 +12926,6 @@ Tests they are called upon to make.</description>
           </modifiers>
         </infoLink>
       </infoLinks>
-      <modifiers>
-        <modifier type="set" value="1" field="492d-9d4a-13c0-f31f">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="200e-5c8b-4b90-342d" shared="true" includeChildForces="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Stormhammer" hidden="false" id="44d4-6ba-8f2-2861" collective="false">
       <profiles>
@@ -12699,6 +12941,25 @@ Tests they are called upon to make.</description>
             <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">-</characteristic>
             <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">-</characteristic>
           </characteristics>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="increment" value="1" field="51fb-b7d9-aa59-863d"/>
+                <modifier type="increment" value="2" field="a76c-83b1-602f-9e62"/>
+              </modifiers>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="fa92-a6a3-19c-40e0" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifierGroup>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="increment" value="1" field="51fb-b7d9-aa59-863d"/>
+              </modifiers>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="6e41-e4d4-2997-135d" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
         </profile>
       </profiles>
       <categoryLinks>
@@ -12709,7 +12970,7 @@ Tests they are called upon to make.</description>
         <categoryLink targetId="4aca-2849-7f41-0200" id="2314-d250-5f2-fd6e" primary="false" name="SA or IM Unit"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="May exchange all of its Hull (Right) Mounted and Hull (Left)Mounted multi-lasers for the following:" id="6cc0-857a-dbf2-c4a4" hidden="false" collective="false" import="true" defaultSelectionEntryId="2aeb-24b1-5925-0d54" sortIndex="2">
+        <selectionEntryGroup name="May exchange all of its Hull (Right) Mounted and Hull (Left)Mounted multi-lasers for the following:" id="6cc0-857a-dbf2-c4a4" hidden="false" collective="false" import="true" defaultSelectionEntryId="2aeb-24b1-5925-0d54" sortIndex="4">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6dff-4c3e-e87b-b12c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="13ac-295c-fa82-69b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -12743,7 +13004,7 @@ Tests they are called upon to make.</description>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Any model may take one of the following:" id="8255-15ff-81ae-6a1c" hidden="false" collective="false" import="true" sortIndex="4">
+        <selectionEntryGroup name="Any model may take one of the following:" id="8255-15ff-81ae-6a1c" hidden="false" collective="false" import="true" sortIndex="6">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1694-a72f-4c7b-ae8b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
@@ -12774,7 +13035,7 @@ Tests they are called upon to make.</description>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup name="May take any of the following:" id="821-8ba7-fdcf-4f19" hidden="false" collective="false" import="true" sortIndex="3">
+        <selectionEntryGroup name="May take any of the following:" id="821-8ba7-fdcf-4f19" hidden="false" collective="false" import="true" sortIndex="5">
           <entryLinks>
             <entryLink import="true" name="Hunter-Killer Missile" hidden="false" id="afe9-e923-2ecd-8e64" collective="false" targetId="1bf8-72f8-c331-6900" type="selectionEntry">
               <constraints>
@@ -12794,7 +13055,7 @@ Tests they are called upon to make.</description>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Turret Loadout" id="364-80fd-557d-58f3" hidden="false" sortIndex="1">
+        <selectionEntryGroup name="Turret Loadout" id="364-80fd-557d-58f3" hidden="false" sortIndex="3">
           <entryLinks>
             <entryLink import="true" name="Multi-Laser" hidden="false" id="32c1-1b3b-70a-9fe4" collective="false" targetId="003b-af4b-0094-f5c3" type="selectionEntry">
               <modifiers>
@@ -12841,10 +13102,57 @@ Tests they are called upon to make.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7bbc-b89a-6d32-d392-max"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Dictatii Marshal" hidden="false" id="de9d-191-610c-d74c" type="selectionEntry" targetId="fa92-a6a3-19c-40e0" sortIndex="5">
+        <entryLink import="true" name="Warlord" hidden="true" id="e7e7-d900-69be-854d" collective="false" targetId="0176-56a3-d590-b103" type="selectionEntry" sortIndex="1">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="roster" childId="200e-5c8b-4b90-342d" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="1" field="0dff-37d2-448b-45a6">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="roster" childId="200e-5c8b-4b90-342d" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Super-Heavy Armoured Legate" hidden="false" id="ec7f-9b1a-cac1-5fe0" defaultAmount="1">
+              <profiles>
+                <profile name="Super-Heavy Armoured Legate" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait" hidden="false" id="bce0-1f47-4280-b4d8" publicationId="892-6266-f55f-1b9d" page="64">
+                  <characteristics>
+                    <characteristic name="Text" typeId="c68e-2cda-b67b-baca">A Warlord with this Warlord Trait gains the Dictatii Armoured Marshal upgrade at no additional points cost, and also increases its Ballistic Skill
+Characteristic by +1 in addition to any other bonuses.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1f5b-97ae-3249-abde" includeChildForces="false" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f43f-a890-aa29-8e89" includeChildForces="false" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
+        <entryLink import="true" name="Dictatii Marshal" hidden="false" id="098d-1e32-2329-c80e" type="selectionEntry" targetId="fa92-a6a3-19c-40e0" sortIndex="2">
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="100"/>
           </costs>
+          <modifiers>
+            <modifier type="set" value="0" field="d2ee-04cb-5f8a-2642">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="parent" childId="e7e7-d900-69be-854d" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="492d-9d4a-13c0-f31f">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="parent" childId="e7e7-d900-69be-854d" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="1" field="defaultAmount">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="ancestor" childId="ec7f-9b1a-cac1-5fe0" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </entryLink>
       </entryLinks>
       <costs>
@@ -12865,6 +13173,25 @@ Tests they are called upon to make.</description>
             <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">-</characteristic>
             <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">-</characteristic>
           </characteristics>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="increment" value="1" field="51fb-b7d9-aa59-863d"/>
+              </modifiers>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="6e41-e4d4-2997-135d" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifierGroup>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="increment" value="1" field="51fb-b7d9-aa59-863d"/>
+                <modifier type="increment" value="2" field="a76c-83b1-602f-9e62"/>
+              </modifiers>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="fa92-a6a3-19c-40e0" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
         </profile>
       </profiles>
       <categoryLinks>
@@ -12874,7 +13201,7 @@ Tests they are called upon to make.</description>
         <categoryLink targetId="4aca-2849-7f41-0200" id="4fb8-a92a-681e-739d" primary="false" name="SA or IM Unit"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="May take:" id="4b2e-d614-e38f-5ba8" hidden="false" collective="false" import="true" sortIndex="2">
+        <selectionEntryGroup name="May take:" id="4b2e-d614-e38f-5ba8" hidden="false" collective="false" import="true" sortIndex="4">
           <entryLinks>
             <entryLink import="true" name="Searchlights" hidden="false" id="758e-997e-93f9-ecb7" collective="false" targetId="4ae3-79b4-6051-505e" type="selectionEntry">
               <constraints>
@@ -12898,7 +13225,7 @@ Tests they are called upon to make.</description>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Pintle mounted Weapon:" id="98c-4d95-75b5-3f2b" hidden="false" collective="false" import="true" sortIndex="1">
+        <selectionEntryGroup name="Pintle mounted Weapon:" id="98c-4d95-75b5-3f2b" hidden="false" collective="false" import="true" sortIndex="3">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f8fe-5570-5645-6e40" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
@@ -12954,7 +13281,7 @@ Tests they are called upon to make.</description>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Turret Loadout" id="6cc3-4d4c-7cb5-3ba8" hidden="false" sortIndex="5">
+        <selectionEntryGroup name="Turret Loadout" id="6cc3-4d4c-7cb5-3ba8" hidden="false" sortIndex="6">
           <entryLinks>
             <entryLink import="true" name="Baneblade Cannon" hidden="false" id="1333-cf59-f8a8-7e09" collective="false" targetId="0541-5826-5219-c190" type="selectionEntry" defaultAmount="1">
               <modifiers>
@@ -12978,7 +13305,7 @@ Tests they are called upon to make.</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink import="true" name="Demolisher Cannon" hidden="false" id="b9b2-467b-fcd5-514" collective="false" targetId="1d4a-05a3-1589-915d" type="selectionEntry" sortIndex="6" defaultAmount="1">
+        <entryLink import="true" name="Demolisher Cannon" hidden="false" id="b9b2-467b-fcd5-514" collective="false" targetId="1d4a-05a3-1589-915d" type="selectionEntry" sortIndex="7" defaultAmount="1">
           <modifiers>
             <modifier type="set" value="Hull (Front) Mounted Demolisher Cannon" field="name"/>
           </modifiers>
@@ -12987,7 +13314,7 @@ Tests they are called upon to make.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c5a8-4e33-eca9-1de4" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Lascannon" hidden="false" id="12f-4314-55e1-33b2" collective="false" targetId="b252-5a86-6e0f-218b" type="selectionEntry" sortIndex="7" defaultAmount="1">
+        <entryLink import="true" name="Lascannon" hidden="false" id="12f-4314-55e1-33b2" collective="false" targetId="b252-5a86-6e0f-218b" type="selectionEntry" sortIndex="8" defaultAmount="1">
           <modifiers>
             <modifier type="set" value="2x Sponson Mounted Lascannons" field="name"/>
           </modifiers>
@@ -12996,13 +13323,13 @@ Tests they are called upon to make.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9aa-61e5-fb9f-31c2" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Smoke Launchers" hidden="false" id="cd0e-db59-b0c6-3de3" collective="false" targetId="0873-34dd-e52d-d33c" type="selectionEntry" sortIndex="10">
+        <entryLink import="true" name="Smoke Launchers" hidden="false" id="cd0e-db59-b0c6-3de3" collective="false" targetId="0873-34dd-e52d-d33c" type="selectionEntry" sortIndex="11">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8970-71b1-d749-6918" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a48d-14aa-9486-11c6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Twin-linked Heavy Bolter" hidden="false" id="dd9d-1496-559e-1dc7" collective="false" targetId="d03c-9f7e-84fa-d6e8" type="selectionEntry" sortIndex="8" defaultAmount="1">
+        <entryLink import="true" name="Twin-linked Heavy Bolter" hidden="false" id="dd9d-1496-559e-1dc7" collective="false" targetId="d03c-9f7e-84fa-d6e8" type="selectionEntry" sortIndex="9" defaultAmount="1">
           <modifiers>
             <modifier type="set" value="Hull (Front) Mounted Twin-linked Heavy Bolter" field="name"/>
           </modifiers>
@@ -13011,7 +13338,7 @@ Tests they are called upon to make.</description>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e350-f4fd-90bb-6ae3" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Twin-linked Heavy Bolter" hidden="false" id="ede-7875-bdeb-38df" collective="false" targetId="d03c-9f7e-84fa-d6e8" type="selectionEntry" sortIndex="9" defaultAmount="1">
+        <entryLink import="true" name="Twin-linked Heavy Bolter" hidden="false" id="ede-7875-bdeb-38df" collective="false" targetId="d03c-9f7e-84fa-d6e8" type="selectionEntry" sortIndex="10" defaultAmount="1">
           <modifiers>
             <modifier type="set" value="2x Sponson Mounted twin-linked Heavy Bolters" field="name"/>
           </modifiers>
@@ -13020,10 +13347,57 @@ Tests they are called upon to make.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="1860-acc7-a2ea-edcd" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Dictatii Marshal" hidden="false" id="8830-68e2-de4f-4d46" type="selectionEntry" targetId="fa92-a6a3-19c-40e0" sortIndex="3">
+        <entryLink import="true" name="Warlord" hidden="true" id="3a7e-eb35-a98b-7d63" collective="false" targetId="0176-56a3-d590-b103" type="selectionEntry" sortIndex="1">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="roster" childId="200e-5c8b-4b90-342d" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="1" field="0dff-37d2-448b-45a6">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="roster" childId="200e-5c8b-4b90-342d" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Super-Heavy Armoured Legate" hidden="false" id="6e41-e4d4-2997-135d" defaultAmount="1">
+              <profiles>
+                <profile name="Super-Heavy Armoured Legate" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait" hidden="false" id="2313-5b94-4fb1-f8e9" publicationId="892-6266-f55f-1b9d" page="64">
+                  <characteristics>
+                    <characteristic name="Text" typeId="c68e-2cda-b67b-baca">A Warlord with this Warlord Trait gains the Dictatii Armoured Marshal upgrade at no additional points cost, and also increases its Ballistic Skill
+Characteristic by +1 in addition to any other bonuses.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8b5c-d2a1-f5c8-3043" includeChildForces="false" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5ae2-b640-acc9-e4e8" includeChildForces="false" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
+        <entryLink import="true" name="Dictatii Marshal" hidden="false" id="6139-bc77-a1e6-cf8b" type="selectionEntry" targetId="fa92-a6a3-19c-40e0" sortIndex="2" defaultAmount="0">
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="100"/>
           </costs>
+          <modifiers>
+            <modifier type="set" value="0" field="d2ee-04cb-5f8a-2642">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="parent" childId="3a7e-eb35-a98b-7d63" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="492d-9d4a-13c0-f31f">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="parent" childId="3a7e-eb35-a98b-7d63" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="1" field="defaultAmount">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="ancestor" childId="0176-56a3-d590-b103" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </entryLink>
       </entryLinks>
       <costs>
@@ -13044,6 +13418,25 @@ Tests they are called upon to make.</description>
             <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">-</characteristic>
             <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">-</characteristic>
           </characteristics>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="increment" value="1" field="51fb-b7d9-aa59-863d"/>
+                <modifier type="increment" value="2" field="a76c-83b1-602f-9e62"/>
+              </modifiers>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="fa92-a6a3-19c-40e0" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifierGroup>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="increment" value="1" field="51fb-b7d9-aa59-863d"/>
+              </modifiers>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="6e41-e4d4-2997-135d" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
         </profile>
       </profiles>
       <categoryLinks>
@@ -13053,7 +13446,7 @@ Tests they are called upon to make.</description>
         <categoryLink name="LoW &amp; Primarchs (25% Limit)" hidden="false" id="9b76-4c8b-876e-19ae" targetId="2eaf-32d6-9d1d-d906" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="May take:" id="d68c-7b08-50f-12ba" hidden="false" collective="false" import="true" sortIndex="2">
+        <selectionEntryGroup name="May take:" id="d68c-7b08-50f-12ba" hidden="false" collective="false" import="true" sortIndex="4">
           <entryLinks>
             <entryLink import="true" name="Searchlights" hidden="false" id="7680-e483-3c61-c6c4" collective="false" targetId="4ae3-79b4-6051-505e" type="selectionEntry">
               <constraints>
@@ -13077,7 +13470,7 @@ Tests they are called upon to make.</description>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Pintle mounted Weapon:" id="e564-7585-1bc5-1d57" hidden="false" collective="false" import="true" sortIndex="1">
+        <selectionEntryGroup name="Pintle mounted Weapon:" id="e564-7585-1bc5-1d57" hidden="false" collective="false" import="true" sortIndex="3">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ec0c-2181-48-3209" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
@@ -13135,7 +13528,7 @@ Tests they are called upon to make.</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink import="true" name="Lascannon" hidden="false" id="109-611c-2c84-7daa" collective="false" targetId="b252-5a86-6e0f-218b" type="selectionEntry" sortIndex="6">
+        <entryLink import="true" name="Lascannon" hidden="false" id="109-611c-2c84-7daa" collective="false" targetId="b252-5a86-6e0f-218b" type="selectionEntry" sortIndex="7">
           <modifiers>
             <modifier type="set" value="2x Sponson Mounted Lascannons" field="name"/>
           </modifiers>
@@ -13144,7 +13537,7 @@ Tests they are called upon to make.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="76d4-bcb4-44ab-5e51" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Plasma Blastgun" hidden="false" id="6e79-d2bd-deff-8f07" collective="false" targetId="c666-29f6-42da-2e07" type="selectionEntry" sortIndex="7">
+        <entryLink import="true" name="Plasma Blastgun" hidden="false" id="6e79-d2bd-deff-8f07" collective="false" targetId="c666-29f6-42da-2e07" type="selectionEntry" sortIndex="8">
           <modifiers>
             <modifier type="set" value="Turret Mounted Plasma blastgun" field="name"/>
           </modifiers>
@@ -13153,13 +13546,13 @@ Tests they are called upon to make.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c3e2-f0d4-36ab-dbc7" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Smoke Launchers" hidden="false" id="bf57-14b5-d58c-55e9" collective="false" targetId="0873-34dd-e52d-d33c" type="selectionEntry" sortIndex="8">
+        <entryLink import="true" name="Smoke Launchers" hidden="false" id="bf57-14b5-d58c-55e9" collective="false" targetId="0873-34dd-e52d-d33c" type="selectionEntry" sortIndex="9">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="66d6-a70d-640f-46d6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="25f-4d2d-477a-a018" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Twin-linked Heavy Bolter" hidden="false" id="e0c5-e43-b88c-6a" collective="false" targetId="d03c-9f7e-84fa-d6e8" type="selectionEntry" sortIndex="5">
+        <entryLink import="true" name="Twin-linked Heavy Bolter" hidden="false" id="e0c5-e43-b88c-6a" collective="false" targetId="d03c-9f7e-84fa-d6e8" type="selectionEntry" sortIndex="6">
           <modifiers>
             <modifier type="set" value="2x Sponson Mounted twin-linked Heavy Bolter" field="name"/>
           </modifiers>
@@ -13168,7 +13561,7 @@ Tests they are called upon to make.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1d39-4a07-f7d1-44f2" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Heavy Bolter" hidden="false" id="91-b85c-b667-a17" collective="false" targetId="07fd-c24a-9235-4206" type="selectionEntry" sortIndex="4">
+        <entryLink import="true" name="Heavy Bolter" hidden="false" id="91-b85c-b667-a17" collective="false" targetId="07fd-c24a-9235-4206" type="selectionEntry" sortIndex="5">
           <modifiers>
             <modifier type="set" value="Hull (Front) Mounted Heavy Bolter" field="name"/>
           </modifiers>
@@ -13177,10 +13570,57 @@ Tests they are called upon to make.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c9ee-27d1-dfb3-a4cf" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Dictatii Marshal" hidden="false" id="d6a4-897e-847d-35b" type="selectionEntry" targetId="fa92-a6a3-19c-40e0" sortIndex="3">
+        <entryLink import="true" name="Warlord" hidden="true" id="9b12-acdf-5f6c-5b19" collective="false" targetId="0176-56a3-d590-b103" type="selectionEntry" sortIndex="1">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="roster" childId="200e-5c8b-4b90-342d" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="1" field="0dff-37d2-448b-45a6">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="roster" childId="200e-5c8b-4b90-342d" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Super-Heavy Armoured Legate" hidden="false" id="dad3-d627-42e9-fa49" defaultAmount="1">
+              <profiles>
+                <profile name="Super-Heavy Armoured Legate" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait" hidden="false" id="f335-21ac-17de-8f73" publicationId="892-6266-f55f-1b9d" page="64">
+                  <characteristics>
+                    <characteristic name="Text" typeId="c68e-2cda-b67b-baca">A Warlord with this Warlord Trait gains the Dictatii Armoured Marshal upgrade at no additional points cost, and also increases its Ballistic Skill
+Characteristic by +1 in addition to any other bonuses.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c360-ac93-e7e4-a222" includeChildForces="false" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fac4-be9a-de5d-d6b8" includeChildForces="false" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
+        <entryLink import="true" name="Dictatii Marshal" hidden="false" id="a428-746c-c6c1-58fc" type="selectionEntry" targetId="fa92-a6a3-19c-40e0" sortIndex="2">
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="100"/>
           </costs>
+          <modifiers>
+            <modifier type="set" value="0" field="d2ee-04cb-5f8a-2642">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="parent" childId="9b12-acdf-5f6c-5b19" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="492d-9d4a-13c0-f31f">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="parent" childId="9b12-acdf-5f6c-5b19" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="1" field="defaultAmount">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="ancestor" childId="dad3-d627-42e9-fa49" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </entryLink>
       </entryLinks>
       <costs>
@@ -13201,6 +13641,25 @@ Tests they are called upon to make.</description>
             <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">22</characteristic>
             <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">1</characteristic>
           </characteristics>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="increment" value="1" field="51fb-b7d9-aa59-863d"/>
+                <modifier type="increment" value="2" field="a76c-83b1-602f-9e62"/>
+              </modifiers>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="fa92-a6a3-19c-40e0" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifierGroup>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="increment" value="1" field="51fb-b7d9-aa59-863d"/>
+              </modifiers>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="6e41-e4d4-2997-135d" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
         </profile>
       </profiles>
       <categoryLinks>
@@ -13211,7 +13670,7 @@ Tests they are called upon to make.</description>
         <categoryLink name="Transport Sub-type:" hidden="false" id="8a46-59d2-6158-5665" targetId="7b0a-a743-a8da-3a39" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="May take:" id="6cf1-dd6-715f-36d6" hidden="false" collective="false" import="true" sortIndex="2">
+        <selectionEntryGroup name="May take:" id="6cf1-dd6-715f-36d6" hidden="false" collective="false" import="true" sortIndex="4">
           <entryLinks>
             <entryLink import="true" name="Searchlights" hidden="false" id="8a80-6388-372b-847e" collective="false" targetId="4ae3-79b4-6051-505e" type="selectionEntry">
               <constraints>
@@ -13235,7 +13694,7 @@ Tests they are called upon to make.</description>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Pintle mounted Weapon:" id="f9c8-dbd6-fdf3-e198" hidden="false" collective="false" import="true" sortIndex="1">
+        <selectionEntryGroup name="Pintle mounted Weapon:" id="f9c8-dbd6-fdf3-e198" hidden="false" collective="false" import="true" sortIndex="3">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="810-4802-a1ed-9547" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
@@ -13293,7 +13752,7 @@ Tests they are called upon to make.</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink import="true" name="Lascannon" hidden="false" id="5959-fff8-af02-bda1" collective="false" targetId="b252-5a86-6e0f-218b" type="selectionEntry" sortIndex="6">
+        <entryLink import="true" name="Lascannon" hidden="false" id="5959-fff8-af02-bda1" collective="false" targetId="b252-5a86-6e0f-218b" type="selectionEntry" sortIndex="8">
           <modifiers>
             <modifier type="set" value="2x Sponson Mounted Lascannons" field="name"/>
           </modifiers>
@@ -13302,13 +13761,13 @@ Tests they are called upon to make.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e67a-90e-ed5b-d92a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Smoke Launchers" hidden="false" id="d8fd-47ec-d16f-ed9" collective="false" targetId="0873-34dd-e52d-d33c" type="selectionEntry" sortIndex="7">
+        <entryLink import="true" name="Smoke Launchers" hidden="false" id="d8fd-47ec-d16f-ed9" collective="false" targetId="0873-34dd-e52d-d33c" type="selectionEntry" sortIndex="9">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="99cb-eeff-fdcd-b181" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4511-3860-50fa-5ea6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Tremor Cannon" hidden="false" id="9d83-3c1b-72e8-ff23" collective="false" targetId="31be-efe6-23a8-6cb5" type="selectionEntry" sortIndex="4">
+        <entryLink import="true" name="Tremor Cannon" hidden="false" id="9d83-3c1b-72e8-ff23" collective="false" targetId="31be-efe6-23a8-6cb5" type="selectionEntry" sortIndex="6">
           <modifiers>
             <modifier type="set" value="Hull (Front) Mounted tremor cannon" field="name"/>
           </modifiers>
@@ -13317,7 +13776,7 @@ Tests they are called upon to make.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="260c-8fcc-f85d-4df1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Twin-linked Heavy Bolter" hidden="false" id="21e3-bda7-c848-b49a" collective="false" targetId="d03c-9f7e-84fa-d6e8" type="selectionEntry" sortIndex="8">
+        <entryLink import="true" name="Twin-linked Heavy Bolter" hidden="false" id="21e3-bda7-c848-b49a" collective="false" targetId="d03c-9f7e-84fa-d6e8" type="selectionEntry" sortIndex="10">
           <modifiers>
             <modifier type="set" value="2x Sponson Mounted twin-linked Heavy Bolters" field="name"/>
           </modifiers>
@@ -13326,7 +13785,7 @@ Tests they are called upon to make.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="d82e-edaf-45b6-a49d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Heavy Bolter" hidden="false" id="7414-8ef6-3230-43e3" collective="false" targetId="07fd-c24a-9235-4206" type="selectionEntry" sortIndex="5">
+        <entryLink import="true" name="Heavy Bolter" hidden="false" id="7414-8ef6-3230-43e3" collective="false" targetId="07fd-c24a-9235-4206" type="selectionEntry" sortIndex="7">
           <modifiers>
             <modifier type="set" value="Hull (Front) Mounted Heavy Bolter" field="name"/>
           </modifiers>
@@ -13335,10 +13794,57 @@ Tests they are called upon to make.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="691c-cfe8-a60e-3d85" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Dictatii Marshal" hidden="false" id="fe25-889d-ed1b-3a4f" type="selectionEntry" targetId="fa92-a6a3-19c-40e0" sortIndex="3">
+        <entryLink import="true" name="Warlord" hidden="true" id="becf-2c99-4a19-586c" collective="false" targetId="0176-56a3-d590-b103" type="selectionEntry" sortIndex="1">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="roster" childId="200e-5c8b-4b90-342d" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="1" field="0dff-37d2-448b-45a6">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="roster" childId="200e-5c8b-4b90-342d" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Super-Heavy Armoured Legate" hidden="false" id="2494-1363-e18d-5c95" defaultAmount="1">
+              <profiles>
+                <profile name="Super-Heavy Armoured Legate" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait" hidden="false" id="9840-0f1c-1c4c-adf8" publicationId="892-6266-f55f-1b9d" page="64">
+                  <characteristics>
+                    <characteristic name="Text" typeId="c68e-2cda-b67b-baca">A Warlord with this Warlord Trait gains the Dictatii Armoured Marshal upgrade at no additional points cost, and also increases its Ballistic Skill
+Characteristic by +1 in addition to any other bonuses.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ce66-8320-f9dc-e712" includeChildForces="false" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="38f3-9d4b-fac4-6232" includeChildForces="false" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
+        <entryLink import="true" name="Dictatii Marshal" hidden="false" id="1cbf-b1cf-1d08-b5a3" type="selectionEntry" targetId="fa92-a6a3-19c-40e0" sortIndex="2">
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="100"/>
           </costs>
+          <modifiers>
+            <modifier type="set" value="0" field="d2ee-04cb-5f8a-2642">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="parent" childId="becf-2c99-4a19-586c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="492d-9d4a-13c0-f31f">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="parent" childId="becf-2c99-4a19-586c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="1" field="defaultAmount">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="ancestor" childId="2494-1363-e18d-5c95" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </entryLink>
       </entryLinks>
       <costs>
@@ -13363,6 +13869,25 @@ Tests they are called upon to make.</description>
             <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">32</characteristic>
             <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">1</characteristic>
           </characteristics>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="increment" value="1" field="51fb-b7d9-aa59-863d"/>
+                <modifier type="increment" value="2" field="a76c-83b1-602f-9e62"/>
+              </modifiers>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="fa92-a6a3-19c-40e0" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifierGroup>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="increment" value="1" field="51fb-b7d9-aa59-863d"/>
+              </modifiers>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="6e41-e4d4-2997-135d" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
         </profile>
         <profile name="Stormlord Access Ramp" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="37f7-a148-4a13-d118" publicationId="9fab-fea7-a93c-2074" page="151">
           <characteristics>
@@ -13378,7 +13903,7 @@ Tests they are called upon to make.</description>
         <categoryLink name="LoW &amp; Primarchs (25% Limit)" hidden="false" id="9c3e-e666-3ac1-8a7f" targetId="2eaf-32d6-9d1d-d906" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="May take:" id="580c-b274-e818-31c2" hidden="false" collective="false" import="true" sortIndex="2">
+        <selectionEntryGroup name="May take:" id="580c-b274-e818-31c2" hidden="false" collective="false" import="true" sortIndex="4">
           <entryLinks>
             <entryLink import="true" name="Searchlights" hidden="false" id="1466-5f05-2bc-6700" collective="false" targetId="4ae3-79b4-6051-505e" type="selectionEntry">
               <constraints>
@@ -13402,7 +13927,7 @@ Tests they are called upon to make.</description>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Pintle mounted Weapon:" id="379a-3f9f-7937-40cf" hidden="false" collective="false" import="true" sortIndex="1">
+        <selectionEntryGroup name="Pintle mounted Weapon:" id="379a-3f9f-7937-40cf" hidden="false" collective="false" import="true" sortIndex="3">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ffa8-7ca3-b1ff-bcdc" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
@@ -13460,7 +13985,7 @@ Tests they are called upon to make.</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink import="true" name="Lascannon" hidden="false" id="5b8e-cc95-709b-6115" collective="false" targetId="b252-5a86-6e0f-218b" type="selectionEntry" sortIndex="5">
+        <entryLink import="true" name="Lascannon" hidden="false" id="5b8e-cc95-709b-6115" collective="false" targetId="b252-5a86-6e0f-218b" type="selectionEntry" sortIndex="6">
           <modifiers>
             <modifier type="set" value="Sponson Mounted lascannon" field="name"/>
           </modifiers>
@@ -13469,13 +13994,13 @@ Tests they are called upon to make.</description>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="924e-d356-d7a6-a4f8" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Smoke Launchers" hidden="false" id="8ce9-7002-8d22-ad53" collective="false" targetId="0873-34dd-e52d-d33c" type="selectionEntry" sortIndex="6">
+        <entryLink import="true" name="Smoke Launchers" hidden="false" id="8ce9-7002-8d22-ad53" collective="false" targetId="0873-34dd-e52d-d33c" type="selectionEntry" sortIndex="7">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="358a-1ab-f7a6-e772" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fc3-a268-8922-9de6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Twin-linked Heavy Bolter" hidden="false" id="6de4-2fef-c162-1d3b" collective="false" targetId="d03c-9f7e-84fa-d6e8" type="selectionEntry" sortIndex="7">
+        <entryLink import="true" name="Twin-linked Heavy Bolter" hidden="false" id="6de4-2fef-c162-1d3b" collective="false" targetId="d03c-9f7e-84fa-d6e8" type="selectionEntry" sortIndex="8">
           <modifiers>
             <modifier type="set" value="2x Sponson Mounted twin-linked Heavy Bolter" field="name"/>
           </modifiers>
@@ -13484,7 +14009,7 @@ Tests they are called upon to make.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="4cc2-73c6-ac3f-78e0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Twin-linked Heavy Bolter" hidden="false" id="fc87-e050-42a8-276c" collective="false" targetId="d03c-9f7e-84fa-d6e8" type="selectionEntry" sortIndex="8">
+        <entryLink import="true" name="Twin-linked Heavy Bolter" hidden="false" id="fc87-e050-42a8-276c" collective="false" targetId="d03c-9f7e-84fa-d6e8" type="selectionEntry" sortIndex="9">
           <modifiers>
             <modifier type="set" value="Hull (Front) Mounted twin-linked Heavy Bolter" field="name"/>
           </modifiers>
@@ -13493,21 +14018,43 @@ Tests they are called upon to make.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="3e28-7a71-dd2a-c5a5" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Vulcan Mega-Bolter" hidden="false" id="3d9b-4693-6f8f-4974" type="selectionEntry" targetId="b953-83d7-6cc1-5695" sortIndex="4">
+        <entryLink import="true" name="Vulcan Mega-Bolter" hidden="false" id="3d9b-4693-6f8f-4974" type="selectionEntry" targetId="b953-83d7-6cc1-5695" sortIndex="5">
           <modifiers>
             <modifier type="set" value="Turret Mounted Vulcan Mega-Bolter" field="name"/>
           </modifiers>
         </entryLink>
-        <entryLink import="true" name="Dictatii Marshal" hidden="false" id="6294-3925-2009-838d" type="selectionEntry" targetId="fa92-a6a3-19c-40e0" sortIndex="3">
+        <entryLink import="true" name="Dictatii Marshal" hidden="false" id="6294-3925-2009-838d" type="selectionEntry" targetId="fa92-a6a3-19c-40e0" sortIndex="2">
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="100"/>
           </costs>
+          <modifiers>
+            <modifier type="set" value="0" field="d2ee-04cb-5f8a-2642">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="parent" childId="d0e1-827b-70d4-a36d" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="492d-9d4a-13c0-f31f">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="parent" childId="d0e1-827b-70d4-a36d" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="1" field="defaultAmount">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="ancestor" childId="c712-8124-081b-ac96" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </entryLink>
-        <entryLink import="true" name="Warlord" hidden="true" id="d0e1-827b-70d4-a36d" collective="false" targetId="0176-56a3-d590-b103" type="selectionEntry">
+        <entryLink import="true" name="Warlord" hidden="true" id="d0e1-827b-70d4-a36d" collective="false" targetId="0176-56a3-d590-b103" type="selectionEntry" sortIndex="1">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditions>
                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="200e-5c8b-4b90-342d" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="1" field="0dff-37d2-448b-45a6">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="roster" childId="200e-5c8b-4b90-342d" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -13522,8 +14069,8 @@ Characteristic by +1 in addition to any other bonuses.</characteristic>
                 </profile>
               </profiles>
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="force" shared="true" id="8367-a58d-4ef8-cbac-min" includeChildForces="true" includeChildSelections="true"/>
-                <constraint type="max" value="1" field="selections" scope="force" shared="true" id="8367-a58d-4ef8-cbac-max" includeChildForces="true" includeChildSelections="true"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8367-a58d-4ef8-cbac-max-min" includeChildForces="false" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8367-a58d-4ef8-cbac-max-max" includeChildForces="false" includeChildSelections="false"/>
               </constraints>
             </selectionEntry>
           </selectionEntries>
@@ -13551,6 +14098,25 @@ Characteristic by +1 in addition to any other bonuses.</characteristic>
             <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">-</characteristic>
             <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">-</characteristic>
           </characteristics>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="increment" value="1" field="51fb-b7d9-aa59-863d"/>
+                <modifier type="increment" value="2" field="a76c-83b1-602f-9e62"/>
+              </modifiers>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="fa92-a6a3-19c-40e0" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifierGroup>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="increment" value="1" field="51fb-b7d9-aa59-863d"/>
+              </modifiers>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="6e41-e4d4-2997-135d" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
         </profile>
       </profiles>
       <categoryLinks>
@@ -13560,7 +14126,7 @@ Characteristic by +1 in addition to any other bonuses.</characteristic>
         <categoryLink name="LoW &amp; Primarchs (25% Limit)" hidden="false" id="2305-8709-2591-13b" targetId="2eaf-32d6-9d1d-d906" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="May take:" id="9175-8300-2dba-6824" hidden="false" collective="false" import="true" sortIndex="2">
+        <selectionEntryGroup name="May take:" id="9175-8300-2dba-6824" hidden="false" collective="false" import="true" sortIndex="4">
           <entryLinks>
             <entryLink import="true" name="Searchlights" hidden="false" id="4696-a069-d69-c295" collective="false" targetId="4ae3-79b4-6051-505e" type="selectionEntry">
               <constraints>
@@ -13584,7 +14150,7 @@ Characteristic by +1 in addition to any other bonuses.</characteristic>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Pintle mounted Weapon:" id="2a87-2547-3158-3cd7" hidden="false" collective="false" import="true" sortIndex="1">
+        <selectionEntryGroup name="Pintle mounted Weapon:" id="2a87-2547-3158-3cd7" hidden="false" collective="false" import="true" sortIndex="3">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="97b7-a47a-db0f-cc7d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
@@ -13642,7 +14208,7 @@ Characteristic by +1 in addition to any other bonuses.</characteristic>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink import="true" name="Lascannon" hidden="false" id="2876-7a1d-8847-22b5" collective="false" targetId="b252-5a86-6e0f-218b" type="selectionEntry" sortIndex="6">
+        <entryLink import="true" name="Lascannon" hidden="false" id="2876-7a1d-8847-22b5" collective="false" targetId="b252-5a86-6e0f-218b" type="selectionEntry" sortIndex="8">
           <modifiers>
             <modifier type="set" value="2x Sponson Mounted Lascannons" field="name"/>
           </modifiers>
@@ -13651,13 +14217,13 @@ Characteristic by +1 in addition to any other bonuses.</characteristic>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9de9-c47f-d7d3-793" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Smoke Launchers" hidden="false" id="afaa-3721-d552-f445" collective="false" targetId="0873-34dd-e52d-d33c" type="selectionEntry" sortIndex="7">
+        <entryLink import="true" name="Smoke Launchers" hidden="false" id="afaa-3721-d552-f445" collective="false" targetId="0873-34dd-e52d-d33c" type="selectionEntry" sortIndex="9">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2e13-e2ee-576b-c46d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c29f-f20b-2b0d-a222" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Volcano Cannon" hidden="false" id="4f86-d456-beec-4482" collective="false" targetId="c65f-0423-6564-a622" type="selectionEntry" sortIndex="4">
+        <entryLink import="true" name="Volcano Cannon" hidden="false" id="4f86-d456-beec-4482" collective="false" targetId="c65f-0423-6564-a622" type="selectionEntry" sortIndex="6">
           <modifiers>
             <modifier type="set" value="Hull (Front) Mounted Volcano Cannon" field="name"/>
           </modifiers>
@@ -13666,7 +14232,7 @@ Characteristic by +1 in addition to any other bonuses.</characteristic>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1a10-e793-fefb-6245" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Twin-linked Heavy Bolter" hidden="false" id="91f4-6124-2e5d-82a5" collective="false" targetId="d03c-9f7e-84fa-d6e8" type="selectionEntry" sortIndex="8">
+        <entryLink import="true" name="Twin-linked Heavy Bolter" hidden="false" id="91f4-6124-2e5d-82a5" collective="false" targetId="d03c-9f7e-84fa-d6e8" type="selectionEntry" sortIndex="10">
           <modifiers>
             <modifier type="set" value="2x Sponson Mounted twin-linked Heavy Bolter" field="name"/>
           </modifiers>
@@ -13674,7 +14240,7 @@ Characteristic by +1 in addition to any other bonuses.</characteristic>
             <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="4235-6110-f143-5908" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Heavy Bolter" hidden="false" id="9b2b-1f94-3f55-8e1d" collective="false" targetId="07fd-c24a-9235-4206" type="selectionEntry" sortIndex="5">
+        <entryLink import="true" name="Heavy Bolter" hidden="false" id="9b2b-1f94-3f55-8e1d" collective="false" targetId="07fd-c24a-9235-4206" type="selectionEntry" sortIndex="7">
           <modifiers>
             <modifier type="set" value="Hull (Front) Mounted Heavy Bolter" field="name"/>
           </modifiers>
@@ -13683,10 +14249,57 @@ Characteristic by +1 in addition to any other bonuses.</characteristic>
             <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="494c-54aa-15c-dfe1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Dictatii Marshal" hidden="false" id="bbad-5534-b27a-5d64" type="selectionEntry" targetId="fa92-a6a3-19c-40e0" sortIndex="3">
+        <entryLink import="true" name="Warlord" hidden="true" id="5781-ec43-3c61-3bfc" collective="false" targetId="0176-56a3-d590-b103" type="selectionEntry" sortIndex="1">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="roster" childId="200e-5c8b-4b90-342d" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="1" field="0dff-37d2-448b-45a6">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="roster" childId="200e-5c8b-4b90-342d" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Super-Heavy Armoured Legate" hidden="false" id="f9a4-b624-349e-7b2b" defaultAmount="1">
+              <profiles>
+                <profile name="Super-Heavy Armoured Legate" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait" hidden="false" id="7fb1-cbe3-df81-15a9" publicationId="892-6266-f55f-1b9d" page="64">
+                  <characteristics>
+                    <characteristic name="Text" typeId="c68e-2cda-b67b-baca">A Warlord with this Warlord Trait gains the Dictatii Armoured Marshal upgrade at no additional points cost, and also increases its Ballistic Skill
+Characteristic by +1 in addition to any other bonuses.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4f96-94b0-e28c-c42a" includeChildForces="false" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="885f-c4b0-b390-a674" includeChildForces="false" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
+        <entryLink import="true" name="Dictatii Marshal" hidden="false" id="6b4c-6d1a-f401-cfc7" type="selectionEntry" targetId="fa92-a6a3-19c-40e0" sortIndex="2">
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="100"/>
           </costs>
+          <modifiers>
+            <modifier type="set" value="0" field="d2ee-04cb-5f8a-2642">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="parent" childId="5781-ec43-3c61-3bfc" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="492d-9d4a-13c0-f31f">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="parent" childId="5781-ec43-3c61-3bfc" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="1" field="defaultAmount">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="ancestor" childId="f9a4-b624-349e-7b2b" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </entryLink>
       </entryLinks>
       <costs>
@@ -14051,6 +14664,7 @@ Characteristic by +1 in addition to any other bonuses.</characteristic>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Possessed Auxilia" hidden="false" id="aade-bd85-6cb9-99f0" type="selectionEntry" targetId="022e-bce8-4a52-80cb"/>
+    <entryLink import="true" name="Enginseer Auxilia Section" hidden="false" id="28ce-9974-6cb2-6017" type="selectionEntry" targetId="5ec1-ae0c-4644-9810"/>
   </entryLinks>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Warlord Traits" id="2305-2d04-f14e-8b58" hidden="true">
@@ -14201,7 +14815,7 @@ In addition, an army whose Warlord has this Trait may make an additional Reactio
     </selectionEntryGroup>
     <selectionEntryGroup name="Cohort Doctrines" id="d12e-edc2-ad8a-3412" hidden="false" collective="false" import="true" publicationId="892-6266-f55f-1b9d" page="122">
       <constraints>
-        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e680-4d97-b6c3-6aa3" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e680-4d97-b6c3-6aa3" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Apostle Pattern Cohorts" hidden="false" id="140b-6d1a-6cef-1784" publicationId="892-6266-f55f-1b9d" page="122" collective="false">
